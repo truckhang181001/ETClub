@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\User\HomePageController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\User\HomepageController;
 
 
 /*
@@ -15,4 +15,4 @@ use App\Http\Controllers\User\HomepageController;
 |
 */
 
-Route::get('/',[HomepageController::class,'index']);
+Route::get('/',[HomePageController::class,'index']);

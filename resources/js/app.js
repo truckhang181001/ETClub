@@ -1,1 +1,1 @@
-require('./bootstrap');
+require('./HomePage/Header');

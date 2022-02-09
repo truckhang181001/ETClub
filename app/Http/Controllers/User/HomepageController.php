@@ -5,9 +5,9 @@ namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class HomepageController extends Controller
+class HomePageController extends Controller
 {
     function index(){
-        return view('homepage.index');
+        return view('HomePage.Index');
     }
 }
