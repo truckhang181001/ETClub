@@ -1,13 +1,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./resources/js/HomePage/Header.js":
+/***/ "./resources/js/HomePage/Banner.js":
 /*!*****************************************!*\
-  !*** ./resources/js/HomePage/Header.js ***!
+  !*** ./resources/js/HomePage/Banner.js ***!
   \*****************************************/
 /***/ (() => {
 
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-banner').owlCarousel({
   loop: true,
   margin: 10,
   nav: true,
@@ -23,7 +23,6 @@ $('.owl-carousel').owlCarousel({
     }
   }
 });
-alert('Xin chao cac ban');
 
 /***/ }),
 
@@ -33,7 +32,7 @@ alert('Xin chao cac ban');
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-__webpack_require__(/*! ./HomePage/Header */ "./resources/js/HomePage/Header.js");
+__webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
 
 /***/ }),
 

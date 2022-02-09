@@ -1,1 +1,1 @@
-require('./HomePage/Header');
+require('./HomePage/Banner');

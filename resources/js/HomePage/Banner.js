@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-banner').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -14,4 +14,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-alert('Xin chao cac ban');
