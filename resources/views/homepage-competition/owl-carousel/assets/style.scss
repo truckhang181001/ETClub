@@ -1,0 +1,79 @@
+
+.competition-container {
+    display: flex;
+    
+}
+
+.owl-carousel {
+    margin:0 auto;
+    width: 1400px;
+    &:hover {
+        .owl-nav {
+            button.owl-prev, button.owl-next {
+                display: block;
+            }
+        }
+    }
+    .owl-item .item{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        transform: scaleY(0.8);
+        transition: all linear 1s;
+        filter: blur(2px); 
+        img {
+            width: 1000px;
+            height: 500px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    }
+
+    .owl-item.active .item{
+        filter: blur(0px);
+        transform: scaleY(1);
+    }
+
+    .owl-nav {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        
+        button.owl-prev, button.owl-next {
+            display: none;
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+            
+            &:hover {
+                cursor: pointer;
+                background: rgba(255, 255, 255, 0.7);
+            }
+
+            i {
+                font-size: 40px;
+                color: white;
+            }
+        }
+    }
+
+    .owl-dots {
+        .owl-dot {
+            span {
+                background: darkblue;
+                border: 2px solid #7496FF  ;
+            }
+        }
+        .owl-dot.active {
+            span {
+                width: 25px;
+                background-image: linear-gradient(to right, #7496FF, #5DD7D0) !important;
+            }
+           
+        }
+    }
+}
