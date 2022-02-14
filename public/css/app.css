@@ -1,3 +1,65 @@
 * {
   color: red;
 }
+
+.competition-container {
+  display: flex;
+}
+
+.owl-carousel-competition {
+  margin: 0 auto;
+  width: 1400px !important;
+}
+.owl-carousel-competition:hover .owl-nav button.owl-prev, .owl-carousel-competition:hover .owl-nav button.owl-next {
+  display: block;
+}
+.owl-carousel-competition .owl-item .item {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  transform: scaleY(0.8);
+  transition: all linear 1s;
+  filter: blur(2px);
+}
+.owl-carousel-competition .owl-item .item img {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.owl-carousel-competition .owl-item.active .item {
+  filter: blur(0px);
+  transform: scaleY(1);
+}
+.owl-carousel-competition .owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+.owl-carousel-competition .owl-nav button.owl-prev, .owl-carousel-competition .owl-nav button.owl-next {
+  display: none;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+.owl-carousel-competition .owl-nav button.owl-prev:hover, .owl-carousel-competition .owl-nav button.owl-next:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.7);
+}
+.owl-carousel-competition .owl-nav button.owl-prev i, .owl-carousel-competition .owl-nav button.owl-next i {
+  font-size: 40px;
+  color: white;
+}
+.owl-carousel-competition .owl-dots .owl-dot span {
+  background: darkblue;
+  border: 2px solid #7496FF;
+}
+.owl-carousel-competition .owl-dots .owl-dot.active span {
+  width: 25px;
+  background-image: linear-gradient(to right, #7496FF, #5DD7D0) !important;
+}

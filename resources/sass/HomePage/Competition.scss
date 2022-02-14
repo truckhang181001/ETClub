@@ -1,12 +1,12 @@
 
 .competition-container {
     display: flex;
-    
 }
 
-.owl-carousel {
+.owl-carousel-competition {
     margin:0 auto;
-    width: 1400px;
+    width: 1400px !important;
+
     &:hover {
         .owl-nav {
             button.owl-prev, button.owl-next {

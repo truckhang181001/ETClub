@@ -1,4 +1,4 @@
-var owl = $('.owl-carousel');
+var owl = $('.owl-carousel-competition');
 owl.owlCarousel({
    responsive : {
     0 : {
@@ -22,7 +22,7 @@ owl.owlCarousel({
         autoplaySpeed: 2000,
         navSpeed: 2000,
         navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
-       stagePadding: 159
+        stagePadding: 160
     }
 }
 });
