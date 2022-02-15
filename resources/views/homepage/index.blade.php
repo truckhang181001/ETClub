@@ -7,4 +7,5 @@
     @include('HomePage.Banner')
     @include('HomePage.Tech')
     @include('HomePage.Competition')
+    @include('HomePage.Thinking')
 @endsection

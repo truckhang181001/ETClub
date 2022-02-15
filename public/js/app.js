@@ -26,6 +26,32 @@ $('.owl-carousel-banner').owlCarousel({
 
 /***/ }),
 
+/***/ "./resources/js/HomePage/Thinking.js":
+/*!*******************************************!*\
+  !*** ./resources/js/HomePage/Thinking.js ***!
+  \*******************************************/
+/***/ (() => {
+
+$('.owl-carousel').owlCarousel({
+  dotsEach: true,
+  loop: false,
+  nav: false,
+  items: 3,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 2
+    },
+    1000: {
+      items: 3
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -33,6 +59,8 @@ $('.owl-carousel-banner').owlCarousel({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
+
+__webpack_require__(/*! ./HomePage/Thinking */ "./resources/js/HomePage/Thinking.js");
 
 /***/ }),
 
