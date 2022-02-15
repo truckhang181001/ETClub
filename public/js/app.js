@@ -26,6 +26,21 @@ $('.owl-carousel-banner').owlCarousel({
 
 /***/ }),
 
+/***/ "./resources/js/HomePage/Footer.js":
+/*!*****************************************!*\
+  !*** ./resources/js/HomePage/Footer.js ***!
+  \*****************************************/
+/***/ (() => {
+
+$("#btnScrolltoTop").click(function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -33,6 +48,8 @@ $('.owl-carousel-banner').owlCarousel({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
+
+__webpack_require__(/*! ./HomePage/Footer */ "./resources/js/HomePage/Footer.js");
 
 /***/ }),
 

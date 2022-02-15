@@ -1,3 +1,121 @@
-* {
-  color: red;
+.my-footer {
+  background: #15123C;
+  padding: 20px 0;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .my-footer {
+    padding: 30px 0;
+  }
+}
+.my-footer #btnScrolltoTop {
+  display: flex;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #7496ff, #5dd7d0);
+  right: 30px;
+  top: -23px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .my-footer #btnScrolltoTop {
+    width: 70px;
+    height: 70px;
+    right: 100px;
+    top: -35px;
+  }
+}
+.my-footer #btnScrolltoTop i {
+  margin: auto;
+  color: #15123C;
+  font-size: 28px;
+}
+@media (min-width: 768px) {
+  .my-footer #btnScrolltoTop i {
+    font-size: 40px;
+  }
+}
+.my-footer .footer-left__img {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 576px) {
+  .my-footer .footer-left__img {
+    justify-content: unset;
+  }
+}
+.my-footer .footer-left__img img {
+  width: 55px;
+  padding: 15px 0;
+}
+.my-footer .footer-left .footer-left__name {
+  display: inline;
+  background: -webkit-linear-gradient(45deg, #1398e9, #b4f19f, #f5a623);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.my-footer .footer-left h6 {
+  color: white;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.my-footer .footer-left h6 a {
+  color: #f5a623;
+  text-decoration: none;
+}
+.my-footer .footer-left .footer-left__dev {
+  font-style: oblique !important;
+}
+.my-footer .footer-left hr {
+  height: 2px;
+  background: -webkit-linear-gradient(45deg, rgba(128, 148, 255, 0.29), rgba(75, 229, 240, 0.9), rgba(128, 148, 255, 0.29));
+}
+@media (min-width: 992px) {
+  .my-footer .footer-left hr {
+    display: none;
+  }
+}
+.my-footer .footer-right .footer-right__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  .my-footer .footer-right .footer-right__contact {
+    justify-content: unset;
+  }
+}
+@media (min-width: 1200px) {
+  .my-footer .footer-right .footer-right__contact {
+    height: 85px;
+  }
+}
+.my-footer .footer-right .footer-right__contact h4 {
+  margin-bottom: 20px;
+  display: inline;
+  background: -webkit-linear-gradient(45deg, #1398e9, #b4f19f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 1200px) {
+  .my-footer .footer-right .footer-right__contact h4 {
+    margin-bottom: 0;
+  }
+}
+.my-footer .footer-right .footer-right__other {
+  margin-bottom: 15px;
+}
+.my-footer .footer-right .footer-right__other i, .my-footer .footer-right .footer-right__other a {
+  color: white;
+}
+.my-footer .footer-right .footer-right__other i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.my-footer .footer-right .footer-right__other a {
+  font-size: 18px;
+  text-decoration: none;
 }
