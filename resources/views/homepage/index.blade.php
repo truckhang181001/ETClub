@@ -6,5 +6,6 @@
 @section('content')
     @include('HomePage.Banner')
     @include('HomePage.Tech')
+    @include('Homepage.Tech-corner')
     @include('HomePage.Competition')
 @endsection
