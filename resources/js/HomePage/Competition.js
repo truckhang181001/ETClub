@@ -1,4 +1,4 @@
-var owl = $('.owl-carousel');
+var owl = $('.owl-carousel-competition');
 owl.owlCarousel({
     nav: true,
     items:1,

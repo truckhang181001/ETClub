@@ -4,7 +4,7 @@
 @section('title','Trang chủ')
 {{-- Bat buoc co --}}
 @section('content')
-    @include('HomePage.Banner')
     @include('HomePage.Tech')
     @include('HomePage.Competition')
 @endsection
+
