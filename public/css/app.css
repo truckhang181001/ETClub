@@ -2,6 +2,7 @@
   background: #15123C;
   padding: 20px 0;
   position: relative;
+  box-shadow: 0px -5px 36px 25px rgba(255, 255, 255, 0.2);
 }
 @media (min-width: 768px) {
   .my-footer {
@@ -107,13 +108,15 @@
 }
 .my-footer .footer-right .footer-right__other {
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
 }
 .my-footer .footer-right .footer-right__other i, .my-footer .footer-right .footer-right__other a {
   color: white;
 }
 .my-footer .footer-right .footer-right__other i {
   font-size: 24px;
-  margin-right: 10px;
+  min-width: 35px;
 }
 .my-footer .footer-right .footer-right__other a {
   font-size: 18px;
