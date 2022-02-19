@@ -1,3 +1,103 @@
-*{
-    color: red;   
+.owl-carousel {
+    &:hover {
+        cursor: pointer;
+        .owl-nav {
+            button.owl-prev, button.owl-next {
+                display: block;
+            }
+        }
+    }
+    .owl-nav {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-54px);
+        justify-content: space-between;
+        width: 100vw;
+        
+        button.owl-prev, button.owl-next {
+            margin: 0 70px;
+            display: none;
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+            
+            &:hover {
+                cursor: pointer;
+                background: rgba(255, 255, 255, 0.6);
+            }
+
+            i {
+                font-size: 60px;
+                color: rgba(255, 255, 255, 0.4);
+            }
+        }
+        button.owl-prev i {
+            transform: translateX(-3px);
+        }
+        button.owl-next i {
+            transform: translateX(3px);
+        }
+    }
+    .owl-dots {
+        margin-top: 12px !important;
+        button.owl-dot {
+            &:hover {
+                span {
+                    background-image: linear-gradient(to right, #7496FF, #5DD7D0);
+                }
+            }
+        }
+        .owl-dot {
+            span {
+                background: #3F3356;
+                border: 1px solid #7496FF;
+                width: 5px;
+                height: 5px;
+                margin: 0px 3.5px;
+                &:hover {
+                    background-image: linear-gradient(to right, #7496FF, #5DD7D0);
+                }
+            }
+        }
+        .owl-dot.active {
+            span {
+                width: 16px;
+                background-image: linear-gradient(to right, #7496FF, #5DD7D0);
+            }
+        }
+        @media (min-width: 576px) {
+            margin-top: 20px !important;
+            .owl-dot {
+                span {
+                    border: 1.5px solid #7496FF;
+                    width: 5.5px;
+                    height: 5.5px;
+                    margin: 0px 4px;
+                }
+            }
+            .owl-dot.active {
+                span {
+                    width: 19px;
+                }
+            }
+        }
+        @media (min-width: 1200px) {
+            margin-top: 30px  !important;
+            .owl-dot {
+                span {
+                    border: 2px solid #7496FF;
+                    width: 6px;
+                    height: 6px;
+                    margin: 0px 5px;
+                }
+            }
+            .owl-dot.active {
+                span {
+                    width: 21px;
+                }
+            }
+        }
+    }
 }

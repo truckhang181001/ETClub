@@ -1,13 +1,3 @@
-* {
-    margin: 0;
-    background-color: #0E1643;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    /* Link color variable containing RGB value */
-    --link-color: (102, 153, 255)
-}
 .container-fluid {
     h1.text-center.mx-auto {
         font-family: 'K2D', sans-serif;
