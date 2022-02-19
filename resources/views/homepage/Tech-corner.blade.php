@@ -1,4 +1,3 @@
-<body>
     <div class="techconner container">
         <div class="techconner-name">GÓC CÔNG NGHỆ</div>
         <div class="techconner-list">
@@ -43,6 +42,4 @@
                 <a href="#" class="techconner-btn">Xem chi tiết</a>
             </div>
         </div>
-    </div>
-</body>
-</html>                                                                                                        
+    </div>                                                                                                   
