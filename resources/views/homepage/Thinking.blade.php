@@ -1,5 +1,4 @@
 
-<body>
     <div class="thingking container">
         <div class="thingking-name">CẢM NGHĨ</div>
         <div class=" thingking-list owl-carousel owl-theme">
@@ -101,8 +100,3 @@
             </div>
         </div>
     </div>
-    <!-- <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script> -->
-    <script src=""></script>
-</body>
-</html>
