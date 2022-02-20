@@ -49,46 +49,27 @@ $('.nav-link').click(function () {
 
 $('.nav-link .more li').click(function () {
   $('.nav-link').addClass('active').siblings().removeClass('active');
-}); //click vào hamburger icon thì show ra menu
+}); //xử lý bấm nào icon menu
 
-var hamburgerIcon = document.getElementById('menu-list');
+$('#menu-mobile').click(function () {
+  $('.side-bar').toggleClass("show");
+}); // xử lý bấm vào icon close
 
-hamburgerIcon.onclick = function () {
-  // if(hamburgerIcon.classList.contains('open') === false) {
-  //     hamburgerIcon.classList.add('open');
-  // }
-  // if(mobileMenu.style.display == "none") {
-  //     mobileMenu.style.display = "flex"
-  // }
-  hamburgerIcon.classList.toggle('display-block');
-  mobileMenu.classList.toggle('display-block');
-}; // click dấu X thì tắt menu
-
-
-var closeIcon = document.getElementById('close-icon');
-var mobileMenu = document.getElementById('mobile-menu'); // closeIcon.onclick = function() {
-//     mobileMenu.style.display = "none"
-//     // mobileMenu.classList.toggle('display-block');
-// }
-//click vào mũi tên của title-name trên bản mobile thì show ra list
-
-var moreContainer = document.getElementById('more-container');
-var expandMore = document.getElementById('expand-more');
-
-expandMore.onclick = function () {
-  moreContainer.classList.toggle('more-container__active');
-}; //hover vào title name thì đổi màu các phần tử con
-// var titleName = document.getElementById('title-name');
-// titleName.onmouseover = function() {
-//     titleName.classList.add('active-hover');
-// }
-// var divider = document.getElementById('divider');
-// $('.title-name').mouseover(function(){
-//     divider.addClass('active-hover');
-// });
-// $('.title-name').mouseout(function(){
-//     divider.removeClass('active-hover');
-// });
+$('.icon-close').click(function () {
+  $('.side-bar').toggleClass("show");
+});
+$('.intro-btn').click(function () {
+  $('nav ul .intro-show').toggleClass("show1");
+});
+$('.tech-btn').click(function () {
+  $('nav ul .tech-show').toggleClass("show2");
+});
+$('.competition-btn').click(function () {
+  $('nav ul .competition-show').toggleClass("show3");
+});
+$('nav ul li').click(function () {
+  $(this).addClass("active").siblings().removeClass("active");
+});
 
 /***/ }),
 
