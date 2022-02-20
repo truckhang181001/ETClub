@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
+Route::get('/cuoc-thi',[InfoContestPageController::class,'index']);
