@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="col-lg-6 col-12 introduce-content__video">
-            <img src="./img/unsplash_ZPeXrWxOjRQ.png" alt="">
+            <img src="./img/HomePage/VideoIsHere.png" alt="">
         </div>
     </div>
 </div>  
