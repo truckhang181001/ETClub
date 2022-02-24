@@ -1,12 +1,9 @@
 {{-- Bat buoc co --}}
 @extends('layout')
 {{-- Title cua trang --}}
-@section('title','Trang chủ')
+@section('title','CLB')
 {{-- Bat buoc co --}}
 @section('content')
-    @include('HomePage.Banner')
-    @include('HomePage.Tech')
-    @include('HomePage.Competition')
     @include('CLBPage.AboutCLB')
-
+    
 @endsection
