@@ -57,6 +57,9 @@ $('#menu-mobile').click(function () {
 
 $('.icon-close').click(function () {
   $('.side-bar').toggleClass("show");
+});
+$('.background-blur').click(function () {
+  $('.side-bar').toggleClass("show");
 }); //Xử lý show ra danh sách con
 
 $('.intro-btn').click(function () {

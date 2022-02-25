@@ -47,7 +47,7 @@
 
     <div class="cover-nav-mobile">
         <div class="nav-mobile">
-            <div>
+            <div class="logo">
                 <img src="img/Logo ET.png" alt="Logo ET">
                 <a href="#">Economic Technology</a>
             </div>
@@ -95,5 +95,6 @@
                 </li>
             </ul>
         </nav>
+        <div class="background-blur"></div>
     </div>
 </div>

@@ -29,6 +29,7 @@
 .nav-destop .logo {
   display: flex;
   align-items: center;
+  padding-left: 50px;
 }
 .nav-destop .logo .logo_img {
   height: 50px;
@@ -39,6 +40,7 @@
   font-size: 24px;
   font-weight: 600;
   cursor: pointer;
+  margin-left: 15px;
 }
 .nav-destop .nav {
   display: flex;
@@ -113,20 +115,34 @@
   background-image: linear-gradient(to right, #7496ff, #5dd7d0);
 }
 
+.cover-nav-mobile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
 .cover-nav-mobile .nav-mobile {
-  padding: 0 20px;
+  padding: 5px 20px;
   background: #15123c;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.cover-nav-mobile .nav-mobile img {
-  margin: 10px 5px;
+.cover-nav-mobile .nav-mobile .logo {
+  display: flex;
+  align-items: center;
 }
-.cover-nav-mobile .nav-mobile a {
+.cover-nav-mobile .nav-mobile .logo img {
+  margin: 10px 0;
+  height: 35px;
+  width: 35px;
+}
+.cover-nav-mobile .nav-mobile .logo a {
   font-size: 16px;
   text-decoration: none;
   color: #F4F4F4;
+  margin-left: 10px;
 }
 .cover-nav-mobile .nav-mobile #menu-mobile {
   font-size: 18px;
@@ -141,11 +157,11 @@
 .cover-nav-mobile .side-bar {
   display: none;
   flex-direction: column;
-  height: calc(80vh - 50px);
+  height: calc(100vh - 64px);
   z-index: 100;
   background: #15123c;
   position: absolute;
-  top: 70px;
+  top: 64px;
   right: -300px;
   width: 300px;
   box-shadow: -5px 0px 20px rgba(255, 255, 255, 0.2);
@@ -155,6 +171,9 @@
   font-weight: 100;
   margin: 16px 0px 22px 20px;
   color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .cover-nav-mobile .side-bar .icon-close:hover {
   background-image: linear-gradient(to right, #7496ff, #5dd7d0);
@@ -166,7 +185,7 @@
   height: 1px;
   margin-left: -5%;
   opacity: 1;
-  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .cover-nav-mobile .side-bar .intro-btn,
 .cover-nav-mobile .side-bar .tech-btn,
@@ -195,7 +214,7 @@
 .cover-nav-mobile .side-bar li a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 .cover-nav-mobile .side-bar li a:hover {
@@ -207,6 +226,9 @@
   display: flex;
   right: 0px;
 }
+.cover-nav-mobile .side-bar.show + .background-blur {
+  display: block;
+}
 .cover-nav-mobile .intro-show,
 .cover-nav-mobile .tech-show,
 .cover-nav-mobile .competition-show {
@@ -216,7 +238,7 @@
   z-index: 200;
   background: #15123c;
   position: absolute;
-  top: 70px;
+  top: 20px;
   right: -300px;
   width: 300px;
   border-radius: 10px;
@@ -254,4 +276,10 @@
 .cover-nav-mobile .side-bar__menu .divider-4.toggle-color,
 .cover-nav-mobile .side-bar__menu .divider-5.toggle-color {
   background-image: linear-gradient(to right, #7496ff, #5dd7d0);
+}
+.cover-nav-mobile .background-blur {
+  height: calc(100vh - 65px);
+  width: calc(100vw - 300px);
+  background-color: rgba(148, 148, 148, 0.5);
+  display: none;
 }
