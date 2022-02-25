@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\User\AllCompetitionPageController;
 use App\Http\Controllers\User\HomePageController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
+Route::get('/cac-cuoc-thi',[AllCompetitionPageController::class,'index']);
