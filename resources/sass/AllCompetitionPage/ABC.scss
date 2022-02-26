@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #0e1643 !important;
+}
+@mixin word($f-family:K2D, $f-weight:bold, $f-size:45px) {
+    font-family: $f-family;
+    font-weight:$f-weight;
+    font-size:$f-size;
+    color: white;
+}
+.container {
+    width:1440px;
+    margin: 0 auto;
+}
+.competition {
+    margin-top: 17px;
+    height:300px;
+    position:relative;
+
+    &_title {
+        @include word;
+        text-align: center;
+    }
+    &_year {
+        position:relative;
+        
+        &-event {
+            position:relative;
+            top:156px;
+            // left:50%;
+            transform: translateX(-17px);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            .complex {
+                width:160px;
+                height:200px;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                position:relative;
+                img {
+                    width:64.5px;
+                    display:block;
+                   
+                }
+            }
+            .line {
+                width:180px;
+                position:absolute;
+                z-index: -100;
+                background-color: #A1DCFF;
+                border: 1px solid #A1DCFF;
+                left:632px;
+                top:240px;
+            }
+            .bullet {
+                background: #A1DCFF;
+                width: 5px;
+                height: 5px; 
+                position:absolute;
+                left:628px;
+                top:239px;
+            }
+        }
+        &-description {
+            width:360px;
+            height:169px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid #A1DCFF;
+            border-radius: 10px;
+            // margin-right: 30px;
+        }
+       
+    }
+    &_status {
+        @include word(K2D,100,32px);
+    }
+    &_name {
+        @include word(K2D,600,38px);
+        text-transform: uppercase;
+        text-shadow: 0px 4px 25px #00FFF0;
+    }
+    &_time {
+        @include word(K2D,100,32px);
+    }
+    &_picture {
+        width:330px;
+        height:470px;
+        border: 2px solid #A1DCFF;
+        border-radius: 10px;
+        // margin-left:30px;
+        img {
+            object-fit: cover;
+            padding-left:10px;
+            padding-top:10px;
+        }
+    }
+}
+
