@@ -1,4 +1,4 @@
-
+Alo alo alo
 @extends('layout')
 
 @section('title','Cuộc thi')

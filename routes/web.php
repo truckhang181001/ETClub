@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\User\HomePageController;
+use App\Http\Controllers\User\InfoContestPageController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -16,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
-Route::get('/cuoc-thi',[InfoContestPageController::class,'index']);
+Route::get('/thong-tin-cuoc-thi',[InfoContestPageController::class,'index']);
