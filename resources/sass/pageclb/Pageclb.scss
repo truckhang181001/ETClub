@@ -1,0 +1,667 @@
+.container-banner {
+    @media (max-width: 480px) {
+        width: 428px;
+        height: 305.08px;
+        margin: 0;
+    }
+    @media (min-width: 481px) {
+        width: 768px;
+        height: 500px;
+        margin: 0;
+    }
+    @media (min-width: 1023px) {
+        width: 1300px;
+        margin: 0 auto;
+        height: 850px;
+    }
+    .header-name {
+        font-family: K2D;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        @media (max-width:480px) {
+            width: 340px;
+            height: 34.33px;
+            font-size: 28px;
+            line-height: 28px;
+            margin-left: 50px;
+        }
+        @media (min-width: 481px) {
+            width: 450px;
+            height: 34.33px;
+            font-size: 35px;
+            line-height: 28px;
+            margin-left: 170px;
+        }
+        @media (min-width: 1023px) {
+            width: 736px;
+            height: 81px;
+            font-size: 60px;
+            margin-left: 300px;
+        }
+    }
+    .img-banner {
+        img {
+            width: 100%;
+            height: 731.97px;
+            object-fit: cover;
+            border-radius: 10px;
+        @media (max-width : 480px) {
+                width: 100%;
+                height: calc(100% - 60px);
+            }
+            @media (min-width: 481px) {
+                width: 100%;
+                height: calc(100% - 60px);
+            }
+            @media (min-width: 1023px) {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+.container-content {
+    @media (max-width: 480px) {
+        width: 370px;
+        height: 1872px;
+        .history,
+        .vision,
+        .mission {
+            display: none;
+        }
+    }
+    @media (min-width: 481px) {
+        width: 600px;
+        height: 2000px;
+        .history,
+        .vision,
+        .mission {
+            display: none;
+        }
+    }
+    @media (min-width: 1023px) {
+        width: 1274px;
+        height: 2130px;
+        margin: 0 auto;
+        .history-mobile,
+        .mission-mobile,
+        .vision-mobile {
+            display: none;
+        }
+        .history,
+        .mission,
+        .vision {
+            display: block;
+            position: relative;
+            width: 1080px;
+            border-radius: 5px;
+            border: 2px solid #F5A623;
+            margin-top: 30px;
+            height: 618px;
+            display: flex;
+            align-items: center;
+            .border-history,
+            .border-vision,
+            .border-mission {
+                width: 50%;
+                padding: 0 30px;
+                margin-left: 20px;
+                h1 {
+                    font-family: K2D;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    color: #F5A623;
+                    line-height: 28px;
+                    font-size: 45px;
+                }
+     p {
+                    font-family: Open Sans;
+                    line-height: 35px;
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    text-align: justify;
+                    color: #FFFFFF;
+                    margin-top: 30px;
+                }
+            }
+            .img-cover {
+                position: absolute;
+                right: -195px;
+                top: 71px;
+
+                img {
+                    width: 690px;
+                    height: 500px;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .ImgInLeft {
+            @media (min-width: 1023px) {
+                width: 100%;
+                .vision {
+                    float: right;
+                    margin-bottom: 30px;
+
+                    .div-empty {
+                        width: 50%;
+                    }
+
+                    .border-vision {
+                        margin: 0;
+                        padding: 0 30px 0 0;
+
+                        h1 {
+                            width: 210px;
+                            margin-left: 320px;
+                        }
+                    }
+
+                    .img-cover {
+                        width: 690px;
+                        height: 500px;
+                        left: -200px;
+                    }
+                }
+            }
+        }
+    }
+    .content-name {
+        font-family: K2D;
+        font-weight: bold;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        @media (max-width: 480px) {
+            width: 100%;
+            height: 64px;
+            font-size: 28px;
+            line-height: 35px;
+            margin-left: 45px;
+            margin-top: 30px;
+        }
+        @media (min-width: 481px) {
+            width: calc(100% - 60px);
+            height: 80px;
+            font-size: 35px;
+            margin-left: 190px;
+            margin-top: 30px;
+        }
+        @media (min-width: 1023px) {
+            width: calc(100% - 200px);
+            height: 161px;
+            font-size: 60px;
+            line-height: 78px;
+            margin-left: 300px;
+        }
+    }
+    .history-mobile,
+    .vision-mobile,
+    .mission-mobile {
+        .border-history-mobile,
+        .border-vision-mobile,
+        .border-mission-mobile {
+            border-radius: 5px;
+            border: 2px solid #F5A623;
+            margin-top: 30px;
+            h1 {
+                font-family: K2D;
+                font-weight: bold;
+                margin-top: 20px;
+                color: #F5A623;
+                line-height: 28px;
+            }
+            .img-cover-mobile {
+                img {
+                    border-radius: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    object-fit: cover;
+                }
+            }
+            p {
+                font-family: Open Sans;
+                line-height: 25px;
+                display: flex;
+                align-items: center;
+                text-align: justify;
+                color: #FFFFFF;
+            }
+            @media (max-width: 480px) {
+                width: 338px;
+                height: 458px;
+                margin-left: 47px;
+                h1 {
+                    font-size: 20px;
+                    margin-left: 90px;
+                }
+                .img-cover-mobile {
+                    img {
+                        width: 262px;
+                        height: 154px;
+                        margin-left: 40px;
+                    }
+                }
+                    p {
+                    margin-left: 35px;
+                    font-size: 16px;
+                    width: 265px;
+                    height: 161px;
+                }
+            }
+            @media (min-width: 481px) {
+                width: 555px;
+                height: 570px;
+                margin-left: 110px;
+                h1 {
+                    font-size: 30px;
+                    margin-left: 150px;
+                }
+                .img-cover-mobile {
+                    img {
+                        width: 400px;
+                        height: 200px;
+                        margin-left: 85px;
+                    }
+                }
+                p {
+                    width: 365px;
+                    height: 261px;
+                    font-size: 25px;
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+    .vision-mobile,
+    .mission-mobile {
+        .border-vision-mobile,
+        .border-mission-mobile {
+            h1 {
+                @media (max-width:480px) {
+                    margin-left: 130px;
+                }
+            }
+            p {
+                margin-top: 60px;
+            }
+        }
+    }
+    .vision-mobile {
+        .border-vision-mobile {
+            @media (max-width: 480px) {
+                height: 572px;
+            }
+
+            @media (min-width: 480px) {
+                height: 680px;
+
+                h1 {
+                    margin-left: 210px;
+                }
+            }
+        }
+    }
+    .mission-mobile {
+        .border-mission-mobile {
+            @media (max-width: 480px) {
+                height: 688px;
+
+                p {
+                    margin-top: 120px;
+                }
+            }
+            @media (min-width: 481px) {
+                height: 820px;
+
+                h1 {
+                    margin-left: 210px;
+                }
+
+                p {
+                    margin-top: 120px;
+                }
+            }
+        }
+    }
+}
+.container-achievement {
+    height: 700px;
+    @media (min-width: 481px) {
+        margin-top: 270px;
+    }
+    @media (min-width: 1023px) {
+        margin-top: 5px;
+    }
+    .achievement-name {
+        font-family: K2D;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F5A623;
+        line-height: 28px;
+        margin-top: 20px;
+        @media (max-width: 480px) {
+            width: 320px;
+            height: 23px;
+            font-size: 24px;
+            margin-left: 80px;
+        }
+        @media (min-width: 481px) {
+            width: 450px;
+            height: 40px;
+            font-size: 32px;
+            margin-left: 210px;
+        }
+        @media (min-width: 1023px) {
+            width: 708px;
+            height: 48px;
+            font-size: 60px;
+            line-height: 30px;
+            margin-left: 470px;
+        }
+    }
+    .category-achievement {
+        @media (max-width:480px) {
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+        @media (min-width: 481px) {
+            margin-top: 20px;
+            margin-left: 100px;
+            width: 650px;
+        }
+
+        @media (min-width: 1023px) {
+            width: 1125px;
+            height: 550px;
+            margin: 0 auto;
+        }
+        .achievement-year,
+        .achievement-member,
+        .achievement-oldmember,
+        .achievement-competition,
+        .achievement-workshop,
+        .achievement-communication {
+            p {
+                font-family: K2D;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                background: -webkit-linear-gradient(#8093FF, #66FFE5);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h1 {
+                font-family: K2D;
+                font-style: normal;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            @media (max-width:480px) {
+                p {
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin-left: 50px;
+                }
+                h1 {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+                img {
+                    width: 70px;
+                    height: 57.04px;
+                    margin-left: 30px;
+                }
+            }
+            @media (min-width: 481px) {
+                p {
+                    font-size: 25px;
+                    line-height: 28px;
+                    margin-left: 50px;
+                }
+                h1 {
+                    font-size: 25px;
+                    line-height: 28px;
+                }
+                img {
+                    margin-left: 10px;
+                }
+            }
+            @media (min-width: 1023px) {
+                margin-top: 20px;
+              p {
+                    font-size: 55px;
+                    line-height: 28px;
+                    height: 42px;
+                }
+                h1 {
+                    font-size: 38px;
+                    line-height: 22px;
+                }
+                img {
+                    width: 100px;
+                    height: 81.48px;
+                }
+            }
+        }
+        .achievement-workshop {
+            @media (max-width: 480px) {
+                width: 174px;
+                height: 116.96px;
+                margin-left: 10px;
+                p {
+                    margin-left: 60px;
+                }
+
+                h1 {
+                    margin-left: -15px;
+                }
+            }
+            @media (min-width: 481px) {
+                width: 200px;
+                margin-left: 201px;
+
+                h1 {
+                    margin-left: -50px;
+                    margin-top: 23px;
+                }
+            }
+           @media (min-width: 1023px) {
+                width: 382px;
+                height: 193.48px;
+                margin-left: -42px;
+
+                h1 {
+                    width: calc(100% + 30px);
+                    margin-top: 25px;
+                    margin-left: 20px;
+                }
+                img {
+                    margin-left: 124px;
+                }
+                p {
+                    margin-left: 160px;
+                }
+            }
+        }
+        .achievement-competition {
+            @media (max-width: 480px) {
+                width: 147px;
+                height: 112.04px;
+                margin-left: 18px;
+                img {
+                    margin-left: 10px;
+                }
+                h1 {
+                    margin-left: 10px;
+                }
+                p {
+                    margin-left: 40px;
+                }
+            }
+            @media (min-width: 481px) {
+                width: 250px;
+                margin-left: -40px !important;
+                p {
+                    margin-left: 100px !important;
+                }
+                h1 {
+                    margin-left: 50px;
+                }
+            }
+            @media (min-width: 1023px) {
+                margin-left: 103px !important;
+                img {
+                    margin-left: 15px !important;
+                }
+                p {
+                    margin-left: 50px !important;
+                }
+                h1 {
+                    margin-left: -13px;
+                    margin-top: 26px;
+                }
+            }
+        }
+        .achievement-year,
+        .achievement-oldmember {
+            h1 {
+                @media (max-width: 480px) {
+                    margin-left: 6px;
+                }
+            }
+        }
+        .achievement-member,
+        .achievement-communication,
+        .achievement-competition {
+            @media (min-width: 481px) {
+                margin-left: 40px;
+                img {
+                    margin-left: 50px;
+                }
+            p {
+                    margin-left: 90px;
+                }
+            }
+        }
+   .achievement-member {
+            h1 {
+                @media (max-width: 480px) {
+                    margin-left: 20px;
+                }
+            }
+      @media (min-width: 481px) {
+                width: 250px;
+
+                h1 {
+                    margin-left: 40px;
+                }
+            }
+            @media (min-width: 1023px) {
+                width: 202px;
+                height: 189.39px;
+                margin-left: 126px;
+                h1 {
+                    width: calc(100% + 20px);
+                    margin-top: 26px;
+                    height: 25.94px;
+                    margin-left: 5px;
+                }
+                p {
+                    margin-left: 67px;
+                }
+            }
+        }
+        .achievement-year {
+            p {
+                @media (max-width: 480px) {
+                    margin-left: 61px;
+                }
+            }
+            @media (min-width: 481px) {
+                p {
+                    margin-left: 60px;
+                }
+
+                h1 {
+                    margin-left: -12px;
+                }
+            }
+            @media (min-width: 1023px) {
+                margin-left: 60px;
+                width: 253px;
+                height: 190.48px;
+                h1 {
+                    width: calc(100% + 40px);
+                    height: 40px;
+                }
+                p {
+                    margin-left: 85px;
+                }
+               img {
+                    margin-left: 50px;
+                }
+            }
+        }
+        .achievement-oldmember {
+            @media(min-width: 481px) {
+                h1 {
+                    margin-left: -10px;
+                }
+            }
+            @media (min-width: 1023px) {
+                width: 264px;
+                height: 188.48px;
+                margin-left: 101px;
+                h1 {
+                    width: calc(100% + 30px);
+                    height: 27px;
+                    margin-top: 26px;
+                }
+             img {
+                    margin-left: 57px;
+                }
+            }
+        }
+        .achievement-communication {
+            p {
+                @media (max-width: 480px) {
+                    margin-left: 62px;
+                }
+            }
+            @media (min-width: 481px) {
+                width: 250px;
+                img {
+                    width: 110px;
+                }
+
+                p {
+                    margin-left: 98px;
+                }
+            }
+            @media (min-width: 1023px) {
+                width: 329px;
+                height: 196px;
+                h1 {
+                    width: calc(100% + 30px);
+                    margin-top: 25px;
+                    margin-left: -38px;
+                }
+            }
+        }
+    }
+}
