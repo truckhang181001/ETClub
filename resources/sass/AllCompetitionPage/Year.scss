@@ -1,0 +1,21 @@
+.year_number {
+    width:141px;
+    border-radius: 11.5556px;
+    margin:0 auto;
+    background-color: rgba(0, 255, 240, 0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: K2D;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    color:$white;
+    text-align: center;
+}
+.year_line {
+    width:3px;
+    height:28px;
+    background-color: $grey;
+    margin: 0 auto;
+}

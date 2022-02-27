@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
-Route::get('/cac-cuoc-thi',[AllCompetitionPageController::class,'index']);
+Route::get('/tat-ca-cuoc-thi',[AllCompetitionPageController::class,'index']);
