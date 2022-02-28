@@ -2,75 +2,62 @@
     font-family: K2D;
     font-style: normal;
     font-weight: 800;
-    font-size: 4.5rem;
+    font-size: 45px;
     text-align: center;
     color: #FFFFFF;
 }
 .container {
-    width: 140rem;
+    width: 1400px;
     margin:0 auto;
 }
 .thingking {
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
     &-name {
         @include name;
-        margin-top: 8.9rem;
+        margin-top: 89px;
     }
     &-list {
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: center;
-        // margin: 6.2rem 7rem 0 7rem;
-        margin-top: 6.2rem;
+        margin-top: 30px;
     }
     &-item {
         display: flex;
         flex-direction: column;
-        width: 42rem;
-        height:30rem;
+        width: 420px;
+        height:300px;
         border: 3px solid #F5A623;
-        border-radius: 1rem;
-        width: 42rem;
-        height:30rem;
-        margin-left: 0rem;
+        border-radius: 10px;
+        margin-left: 0px;
         background-color: #0E1643;
-        margin-bottom: 3rem;
+        margin-bottom: 30px;
     }
     &-quote {
         position:relative;
-        top:-0.5rem;
-        left:-0.2rem;
-        width:10rem;
+        top:-2%;
+        left:-0.8%;
+        width:20%;
     }
     &-desc {
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.8rem;
+        font-size: 18px;
         color:#FFFFFF;
-        margin-top: 2rem;
-        padding: 0 4.8rem;
+        margin-top: 10px;
+        padding: 0 46px;
     }
     &-detail {
         display: flex;
-        padding: 0 4.8rem;
-        margin-top: 3.7rem;
+        padding: 0 48px;
+        margin-top: 38px;
     }
     &-info {
-        margin-left: 2.5rem;
+        margin-left: 25px;
         .info-name {
-            font-family: K2D;
-            font-style: normal;
             font-weight: 500;
-            font-size: 2.4rem;
+            font-size: 24px;
             display: flex;
             align-items: center;
             text-align: center;
             color: #F5A623;
         }
         .info-where {
-            font-family: K2D;
-            font-style: normal;
             font-weight: 500;
             font-size: 18px;
             color: #FFFFFF;
@@ -78,7 +65,7 @@
         }
     }
     &-item:hover {
-        box-shadow: 1rem 1rem 1rem rgba(245, 166, 35, 0.3);
+        box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.3);
     }
     &-detail img {
         transition: 0.3s ease-in;
@@ -101,15 +88,13 @@
 }
 
 @media screen and (max-width: 600px) {
-    html {
-        font-size: 55%;
-    }
     .container {
         width: 390px;
     }
     .thingking {
         &-item {
-            margin-top: 4rem;
+            margin-top: 30px;
+            width:410px;
         }
         &-detail {
             margin-top: 17px;
