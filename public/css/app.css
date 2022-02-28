@@ -24,10 +24,13 @@ body {
   font-weight: 800;
   font-size: 45px;
   text-align: center;
-  color: #FFFFFF;
+  color: white;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 .techconner-list {
-  margin-top: 60px;
+  margin-top: 55px;
   padding: 0 70px;
   display: flex;
   justify-content: space-between;
