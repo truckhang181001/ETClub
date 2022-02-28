@@ -37,7 +37,7 @@ body {
   font-weight: bold;
   font-size: 60px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -69,7 +69,7 @@ body {
 }
 .container-banner .img-banner img {
   width: 100%;
-  height: 731.97px;
+  height: 730px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
@@ -133,7 +133,7 @@ body {
     position: relative;
     width: 1080px;
     border-radius: 5px;
-    border: 2px solid #F5A623;
+    border: 2px solid #f5a623;
     margin-top: 30px;
     height: 618px;
     display: flex;
@@ -164,7 +164,7 @@ body {
     font-family: K2D;
     font-weight: bold;
     margin-top: 20px;
-    color: #F5A623;
+    color: #f5a623;
     line-height: 28px;
     font-size: 45px;
   }
@@ -183,7 +183,7 @@ body {
     display: flex;
     align-items: center;
     text-align: justify;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 30px;
   }
   .container-content .history .img-cover,
@@ -192,6 +192,7 @@ body {
     position: absolute;
     right: -195px;
     top: 71px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .container-content .history .img-cover img,
 .container-content .mission .img-cover img,
@@ -231,7 +232,7 @@ body {
 .container-content .content-name {
   font-family: K2D;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -274,7 +275,7 @@ body {
 .container-content .mission-mobile .border-vision-mobile,
 .container-content .mission-mobile .border-mission-mobile {
   border-radius: 5px;
-  border: 2px solid #F5A623;
+  border: 2px solid #f5a623;
   margin-top: 30px;
 }
 .container-content .history-mobile .border-history-mobile h1,
@@ -289,7 +290,7 @@ body {
   font-family: K2D;
   font-weight: bold;
   margin-top: 20px;
-  color: #F5A623;
+  color: #f5a623;
   line-height: 28px;
 }
 .container-content .history-mobile .border-history-mobile .img-cover-mobile img,
@@ -321,7 +322,7 @@ body {
   display: flex;
   align-items: center;
   text-align: justify;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media (max-width: 480px) {
   .container-content .history-mobile .border-history-mobile,
@@ -497,7 +498,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #F5A623;
+  color: #f5a623;
   line-height: 28px;
   margin-top: 20px;
 }
@@ -557,7 +558,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  background: -webkit-linear-gradient(#8093FF, #66FFE5);
+  background: -webkit-linear-gradient(#8093ff, #66ffe5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -573,7 +574,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media (max-width: 480px) {
   .container-achievement .category-achievement .achievement-year p,
