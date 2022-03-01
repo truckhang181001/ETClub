@@ -13,4 +13,5 @@
     @include('AllCompetitionPage.Event')
     @include('AllCompetitionPage.Year')
     @include('AllCompetitionPage.Event-reverse')
+    @include('AllCompetitionPage.Responsive')
 @endsection

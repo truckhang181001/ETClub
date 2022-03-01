@@ -275,3 +275,152 @@ body {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .competition {
+    display: none;
+  }
+
+  .year_line {
+    display: none;
+  }
+
+  .year_number {
+    display: none;
+  }
+
+  body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #0e1643 !important;
+  }
+
+  .container {
+    width: 428px;
+    margin: 0 auto;
+  }
+
+  .competition {
+    height: 113px;
+  }
+  .competition_line {
+    position: absolute;
+    width: 2px;
+    height: calc(100% + 50px);
+    top: 12px;
+    left: -40px;
+    background-color: #A6A6A6;
+  }
+  .competition_point {
+    position: absolute;
+    top: 0;
+    left: -58px;
+  }
+  .competition_point-small-1 {
+    position: absolute;
+    top: 380px;
+    left: -50px;
+  }
+  .competition_point-small-2 {
+    position: absolute;
+    top: 950px;
+    left: -50px;
+  }
+  .competition_line-vertical-1 {
+    width: 36px;
+    height: 1px;
+    background-color: #A1DCFF;
+    position: absolute;
+    top: 390px;
+    left: -35px;
+  }
+  .competition_line-vertical-2 {
+    width: 36px;
+    height: 1px;
+    background-color: #A1DCFF;
+    position: absolute;
+    top: 960px;
+    left: -35px;
+  }
+  .competition_timeline {
+    margin-top: 50px;
+  }
+  .competition_title {
+    font-family: K2D;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .competition_year {
+    margin-top: 10px;
+    margin-left: 75px;
+    position: relative;
+  }
+  .competition_year-name {
+    width: 74px;
+    font-family: K2D;
+    font-weight: 700px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 4px 25px #0066FF;
+    margin-bottom: -10px;
+  }
+  .competition_year-event {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin-top: 50px;
+  }
+  .competition_year-description {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    min-width: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .competition_status {
+    font-family: K2D;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .competition_name {
+    font-family: K2D;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 25px #00FFF0;
+    margin-bottom: 5px;
+  }
+  .competition_time {
+    font-family: K2D;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .competition_picture {
+    width: 301px;
+    height: 429px;
+    border: 2px solid #A1DCFF;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .competition_picture img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
