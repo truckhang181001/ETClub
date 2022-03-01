@@ -107,11 +107,30 @@ body {
     width: 390px;
   }
 
+  .thingking-name {
+    font-size: 24px;
+  }
+  .thingking-list {
+    margin-top: 0px;
+  }
   .thingking-item {
     margin-top: 30px;
     width: 410px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .thingking-detail {
     margin-top: 17px;
+  }
+  .thingking-desc {
+    font-size: 20px;
+    padding: 0 22px 0 23px;
+  }
+  .thingking-info .info-name {
+    font-size: 18px;
+  }
+  .thingking-info .info-where {
+    font-size: 16px;
   }
 }

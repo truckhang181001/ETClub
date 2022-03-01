@@ -89,12 +89,33 @@
         width: 390px;
     }
     .thingking {
+        &-name  {
+            font-size:24px;
+        }
+        &-list {
+            margin-top: 0px;
+        }
         &-item {
             margin-top: 30px;
             width:410px;
+            height: 290px;
+            margin-left:auto;
+            margin-right:auto;
         }
         &-detail {
             margin-top: 17px;
+        }
+        &-desc {
+            font-size: 20px;
+            padding: 0 22px 0 23px;
+        }
+        &-info {
+            .info-name {
+                font-size: 18px;
+            }
+            .info-where {
+                font-size: 16px;
+            }
         }
     }
 }
