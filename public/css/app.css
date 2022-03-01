@@ -20,10 +20,8 @@ body {
   margin-bottom: 100px;
 }
 .thingking-name {
-  font-family: K2D;
-  font-style: normal;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 60px;
   text-align: center;
   color: #FFFFFF;
   margin-top: 89px;
@@ -38,7 +36,6 @@ body {
   height: 300px;
   border: 3px solid #F5A623;
   border-radius: 10px;
-  margin-left: 0px;
   background-color: #0E1643;
   margin-bottom: 30px;
 }
@@ -52,11 +49,14 @@ body {
   font-size: 18px;
   color: #FFFFFF;
   margin-top: 10px;
-  padding: 0 46px;
+  padding: 0 46px 0 38px;
+}
+.thingking-desc p {
+  margin: 0;
 }
 .thingking-detail {
   display: flex;
-  padding: 0 48px;
+  padding: 0 38px;
   margin-top: 38px;
 }
 .thingking-info {

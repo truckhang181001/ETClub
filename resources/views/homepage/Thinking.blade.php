@@ -6,7 +6,9 @@
                 <div class="thingking-quote">
                     <img src="/img/Rectangle 2546.png" alt="">
                 </div>
-                <div class="thingking-desc">Bạn có quá nhiều deadline Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.
+                <div class="thingking-desc">
+                    <p>Bạn có quá nhiều deadline? <p>
+                    <p> Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.</p>
                 </div>
                 <div class="thingking-detail">
                     <div class="thingking-avatar">
@@ -22,7 +24,9 @@
                 <div class="thingking-quote">
                     <img src="/img/Rectangle 2546.png" alt="">
                 </div>
-                <div class="thingking-desc">Bạn có quá nhiều deadline Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.
+                <div class="thingking-desc"> 
+                    <p>Bạn có quá nhiều deadline? <p>
+                    <p> Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.</p>
                 </div>
                 <div class="thingking-detail">
                     <div class="thingking-avatar">
@@ -38,7 +42,9 @@
                 <div class="thingking-quote">
                     <img src="/img/Rectangle 2546.png" alt="">
                 </div>
-                <div class="thingking-desc">Bạn có quá nhiều deadline Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.
+                <div class="thingking-desc">
+                    <p>Bạn có quá nhiều deadline? <p>
+                    <p> Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.</p>
                 </div>
                 <div class="thingking-detail">
                     <div class="thingking-avatar">
@@ -54,7 +60,9 @@
                 <div class="thingking-quote">
                     <img src="/img/Rectangle 2546.png" alt="">
                 </div>
-                <div class="thingking-desc">Bạn có quá nhiều deadline Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.
+                <div class="thingking-desc">
+                    <p>Bạn có quá nhiều deadline? <p>
+                    <p> Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.</p>
                 </div>
                 <div class="thingking-detail">
                     <div class="thingking-avatar">
@@ -70,7 +78,9 @@
                 <div class="thingking-quote">
                     <img src="/img/Rectangle 2546.png" alt="">
                 </div>
-                <div class="thingking-desc">Bạn có quá nhiều deadline Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.
+                <div class="thingking-desc">
+                    <p>Bạn có quá nhiều deadline? <p>
+                    <p> Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.</p>
                 </div>
                 <div class="thingking-detail">
                     <div class="thingking-avatar">
@@ -86,7 +96,9 @@
                 <div class="thingking-quote">
                     <img src="/img/Rectangle 2546.png" alt="">
                 </div>
-                <div class="thingking-desc">Bạn có quá nhiều deadline Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.
+                <div class="thingking-desc">
+                    <p>Bạn có quá nhiều deadline? <p>
+                    <p> Hãy tham gia ET CLUB, dù không bớt việc nhưng sẽ có người vừa khóc vừa chạy deadline cùng.</p>
                 </div>
                 <div class="thingking-detail">
                     <div class="thingking-avatar">
