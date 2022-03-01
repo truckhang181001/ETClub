@@ -133,4 +133,8 @@ body {
   .thingking-info .info-where {
     font-size: 16px;
   }
+
+  .thingking-quote {
+    left: -1%;
+  }
 }
