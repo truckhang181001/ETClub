@@ -1,9 +1,16 @@
+// html {
+//     font-size: 62.5%;
+// }
+// body {
+//     background-color: #0E1643;
+//     box-sizing: border-box;
+//     margin: 0 auto;
+// }
 @mixin name() {
-    font-family: K2D;
     font-weight: 800;
     font-size: 45px;
     text-align: center;
-    color:white;
+    color: #FFFFFF;
 }
 .container {
     width: 1440px;
@@ -13,17 +20,17 @@
     margin-top: 50px;
     &-name {
         @include name;
-        height:min-content;
     }
     &-list {
-        margin-top:55px;
+        margin-top:60px;
+        padding: 0 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     &-item {
         background-color: #15123C;
-        width: 30%;
+        width: 375px;
         height:541px;
         display: flex;
         flex-direction: column;
@@ -79,35 +86,42 @@
 
     &-title {
         font-weight: 600;
-        font-size: 32px;
+        font-size: 3.2rem;
         color: #FFFFFF;
         text-align:center;
     }
     &-desc{
         font-family: Open Sans;
-        font-size: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.4rem;
         text-align: justify;
         color: #FFFFFF;
     }
     &-btn {
         background: #F5A623;
-        padding:9px 19px;
+        width: 112px;
+        height: 40px;
         box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
         border-radius: 10px;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 18rem;
         text-decoration: none;
         color: #3F3356;
-        font-family:K2D;
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.3rem;
     }
     &-btn:hover {
         transform: translateY(-3px);
-        box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+        box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
     }
     &-btn:active {
         outline:none;
         transform: translateY(2px);
-        box-shadow: 0 0.5px 10px rgba(0, 0, 0, .2);
+        box-shadow: 0 0.5px 1rem rgba(0, 0, 0, .2);
     }
     &-btn::after {
         content: "";
@@ -117,7 +131,7 @@
         position:absolute;
         top:0;
         left:0;
-        border-radius:10px;
+        border-radius:1rem;
         z-index:-1;
         transition: all 1s;
         background-color: #F5A623;
@@ -128,6 +142,9 @@
     }
 }
 @media screen and (max-width: 428px) {
+    html {
+        font-size: 55%;
+    }
     .container {
         width:428px;
     }
@@ -138,7 +155,7 @@
             padding: 0;
         }
         &-item {
-            margin-top: 30px;
+            margin-top: 4rem;
         }
     }
 }

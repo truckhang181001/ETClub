@@ -3,7 +3,7 @@
     font-weight: 800;
     font-size: 45px;
     text-align: center;
-    color:white;
+    color: #FFFFFF;
 }
 .container {
     width: 1440px;
@@ -13,17 +13,18 @@
     margin-top: 50px;
     &-name {
         @include name;
-        height:min-content;
+        height:m
     }
     &-list {
-        margin-top:55px;
+        margin-top:60px;
+        padding: 0 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     &-item {
         background-color: #15123C;
-        width: 30%;
+        width: 375px;
         height:541px;
         display: flex;
         flex-direction: column;
@@ -91,14 +92,19 @@
     }
     &-btn {
         background: #F5A623;
-        padding:9px 19px;
+        width: 112px;
+        height: 40px;
         box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
         border-radius: 10px;
         font-weight: 500;
         font-size: 18px;
         text-decoration: none;
         color: #3F3356;
-        font-family:K2D;
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3px;
     }
     &-btn:hover {
         transform: translateY(-3px);
