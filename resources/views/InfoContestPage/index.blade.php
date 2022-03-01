@@ -1,9 +1,7 @@
-Alo alo alo
 @extends('layout')
 
 @section('title','Cuộc thi')
 
 @section('content')
-    //nhớ include các file .blade.php ở đây
-
+    @include('InfoContestPage.info-contest--result__individual')
 @endsection
