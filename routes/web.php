@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\User\HomePageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\User\PageAboutClbController;
+
 
 
 /*
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
+Route::get('/trang-ve-clb',[PageAboutClbController::class,'index']);
