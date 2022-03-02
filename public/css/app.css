@@ -10,3 +10,27 @@ body {
   background-color: #0E1643 !important;
   color: #FFFFFF;
 }
+
+.container h1 {
+  color: white;
+  font-family: K2D;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
+}
+.container .timeline .timeline__round {
+  position: relative;
+}
+.container .timeline .timeline__round .line {
+  position: absolute;
+  top: 50%;
+  background: #F5A623;
+  width: 95%;
+  height: 3px;
+}
+.container .timeline .timeline__round--top img {
+  transform: translate(25%, 20%);
+}
+.container .timeline .timeline__round--bottom img {
+  transform: translate(25%, 0%);
+}

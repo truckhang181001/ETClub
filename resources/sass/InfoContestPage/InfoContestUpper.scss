@@ -1,0 +1,45 @@
+.container {
+    h1 {
+        color: white;
+        font-family: K2D;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 800;
+    }
+    .timeline {
+
+        .timeline__round {
+            position: relative;
+
+            .line {
+                position: absolute;
+                top: 50%;
+                background: #F5A623;
+                width: 95%;
+                height: 3px;
+
+                @media (min-width: 576px) {
+
+                }
+                @media (min-width: 768px) {
+                    
+                }
+                @media (min-width: 1200px) {
+                    
+                }
+            }
+           
+        }
+        .timeline__round--top {
+            img {
+                transform: translate(25%, 20%);
+            }
+        }
+        .timeline__round--bottom {
+            img {
+                transform: translate(25%, 0%);
+            }
+        }
+        
+    }
+}
