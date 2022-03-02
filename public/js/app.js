@@ -26,6 +26,16 @@ $('.owl-carousel-banner').owlCarousel({
 
 /***/ }),
 
+/***/ "./resources/js/InfoContestPage/info-contest--result__team.js":
+/*!********************************************************************!*\
+  !*** ./resources/js/InfoContestPage/info-contest--result__team.js ***!
+  \********************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -33,6 +43,8 @@ $('.owl-carousel-banner').owlCarousel({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
+
+__webpack_require__(/*! ./InfoContestPage/info-contest--result__team */ "./resources/js/InfoContestPage/info-contest--result__team.js");
 
 /***/ }),
 
