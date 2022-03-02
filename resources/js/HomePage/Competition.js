@@ -10,17 +10,17 @@ owl.owlCarousel({
     autoplaySpeed: 2000,
     navSpeed: 2000,
     navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+    stagePadding: 0,
    responsive : {
     0 : {
-        stagePadding: 0,
-        margin: 30,
-        dotsEach: false
+        margin: 60,
+        dotsEach: false,
     },
     600:{
-        margin: 50,
+        margin: 150,
     },
-    1024: {
-       stagePadding: 159
+    1200: {
+       stagePadding: 165
     }
 }
 });
