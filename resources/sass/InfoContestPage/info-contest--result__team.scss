@@ -21,10 +21,6 @@ h2{
     }
 }
 
-.fa-solid .fa-play {
-    @include h2_style;
-}
-
 .container-fluid{
     z-index: 2;
     width: 90%;
@@ -35,8 +31,9 @@ h2{
     @media (min-width: 1200px) {
         padding: 0 150px !important;
     }
-    .row{
-        .silver{
+
+    .row {
+        .silver {
             margin-top: 86px;
             @media (min-width: 576px) {
                 margin-top: 120px;
@@ -45,7 +42,12 @@ h2{
                 margin-top: 180px;
             }
         }
-        .gold{
+
+        .silver.blur{
+            filter: blur(10px);
+        }
+
+        .gold {
             margin-top: 30px;
             @media (min-width: 576px) {
                 margin-top: 50px;
@@ -54,7 +56,12 @@ h2{
                 margin-top: 60px;
             }
         }
-        .copper{
+        
+        .gold.blur{
+            filter: blur(10px);
+        }
+
+        .copper {
             margin-top: 120px;
             @media (min-width: 576px) {
                 margin-top: 170px;
@@ -63,6 +70,90 @@ h2{
                 margin-top: 300px;
             }
         }
+        
+        .copper.blur{
+            filter: blur(10px);
+        }
+    }
+}
+
+.avatar.z-index {
+    z-index: 10;
+}
+
+.name.z-index {
+    z-index: 10;
+}
+
+.name {
+    position: relative;
+    z-index: 10;
+    
+    i {
+        transform: rotate(-90deg);
+        color: $white;
+        cursor: pointer;
+    }
+
+    .arrow-1.rotate {
+        transform: rotate(0deg);
+    }
+
+    &-info {
+        display: none;
+        position: absolute;
+        background: #3F3356;
+        border: 3px solid #F5A623;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin-top: 8%;
+        left: -12%;
+        
+        .member {
+            color: $white;
+
+            &-name {
+                font-size: 32px;
+                margin: 36px 0 0 33px;
+            }
+
+            &-majors {
+                font-size: 24px;
+            }
+            
+            &-hyphen {
+                margin: 0 8px;
+                font-size: 24px;
+            }
+            
+            &-year-school {
+                font-size: 24px;
+            }
+        }
+
+        &_detail:nth-child(1) {
+            border-bottom: 2px solid #F5A623;
+        }
+
+        &_detail:nth-child(2) {
+            border-bottom: 2px solid #F5A623;
+        }
+
+        &_detail {
+            flex-direction: column;
+            align-items: flex-start;
+
+            .info {
+                justify-content: flex-start;
+                width: max-content;
+                margin: 30px 60px 30px 33px;
+            }
+        }
+    }
+
+    &-info-1.display {
+        display: block;
     }
 }
 
@@ -80,7 +171,11 @@ h2{
     @media (min-width: 1200px) {
         transform: translate(10px,-220px);
     }
-  }
+}
+
+.center.blur {
+    filter: blur(10px);
+}
 
 .avatar:hover{
     box-shadow: 2px 2px 2px 0px  #00FFFFFC;
