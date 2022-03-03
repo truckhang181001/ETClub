@@ -90,30 +90,30 @@
         THÀNH TỰU ĐẠT ĐƯỢC
     </div>
     <div class="category-achievement row">
-        <div class="achievement-year col-6 col-xxl-4 text-center">
+        <div class="achievement-year col-6 col-xl-4 text-center">
             <img src="/img/year.png" alt="">
             <p>3</p>
             <h1>Năm hoạt động</h1>
         </div>
-        <div class="achievement-member col-6 col-xxl-4 text-center">
+        <div class="achievement-member col-6 col-xl-4 text-center">
             <img src="/img/member.png" alt="">
             <p>25</p>
             <h1>Thành viên</h1>
         </div>
-        <div class="achievement-oldmember col-6 col-xxl-4 text-center">
+        <div class="achievement-oldmember col-6 col-xl-4 text-center">
             <img src="/img/oldmember.png" alt="">
             <p>120+</p>
             <h1>Cựu thành viên</h1>
         </div>
-        <div class="achievement-communication col-6 col-xxl-4 text-center"> <img src="/img/communication.png" alt="">
+        <div class="achievement-communication col-6 col-xl-4 text-center"> <img src="/img/communication.png" alt="">
             <p>6</p>
             <h1>Kênh truyền thông</h1>
         </div>
-        <div class="achievement-competition col-6 col-xxl-4 text-center"> <img src="/img/competition.png" alt="">
+        <div class="achievement-competition col-6 col-xl-4 text-center"> <img src="/img/competition.png" alt="">
             <p>2</p>
             <h1>Cuộc thi</h1>
         </div>
-        <div class="achievement-workshop col-6 col-xxl-4 text-center"> <img src="/img/workshop.png" alt="">
+        <div class="achievement-workshop col-6 col-xl-4 text-center"> <img src="/img/workshop.png" alt="">
             <p>2</p>
             <h1>Workshop-Talkshow</h1>
         </div>

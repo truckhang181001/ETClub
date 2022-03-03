@@ -90,7 +90,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container-content {
-    width: calc(100% - 247px);
+    width: calc(100% - 278px);
   }
   .container-content .history-mobile,
 .container-content .mission-mobile,
@@ -102,7 +102,7 @@ body {
 .container-content .vision {
     position: relative;
     width: calc(100% - 190px);
-    height: 618px;
+    height: 643px;
     border-radius: 5px;
     border: 2px solid #F5A623;
     margin-top: 40px;
@@ -119,7 +119,7 @@ body {
 .container-content .vision .border-vision,
 .container-content .vision .border-mission {
     width: 50%;
-    padding: 0 30px;
+    padding: 0 9px;
   }
   .container-content .history .border-history h1,
 .container-content .history .border-vision h1,
@@ -164,7 +164,7 @@ body {
   .container-content .history .img-cover img,
 .container-content .mission .img-cover img,
 .container-content .vision .img-cover img {
-    width: 690px;
+    width: 586px;
     height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -192,6 +192,27 @@ body {
     width: 690px;
     height: 500px;
     left: -191px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-content {
+    width: calc(100% - 247px);
+  }
+  .container-content .history .border-history,
+.container-content .history .border-vision,
+.container-content .history .border-mission,
+.container-content .mission .border-history,
+.container-content .mission .border-vision,
+.container-content .mission .border-mission,
+.container-content .vision .border-history,
+.container-content .vision .border-vision,
+.container-content .vision .border-mission {
+    padding: 0 30px;
+  }
+  .container-content .history .img-cover img,
+.container-content .mission .img-cover img,
+.container-content .vision .img-cover img {
+    width: 690px;
   }
 }
 .container-content .content-name {
