@@ -437,16 +437,44 @@ h2, .h2-style--yellow {
 .name .arrow-1.rotate {
   transform: rotate(0deg);
 }
+.name .arrow-2.rotate {
+  transform: rotate(0deg);
+}
+.name .arrow-3.rotate {
+  transform: rotate(0deg);
+}
+.name .arrow-4.rotate {
+  transform: rotate(0deg);
+}
+.name .arrow-5.rotate {
+  transform: rotate(0deg);
+}
+.name .arrow-6.rotate {
+  transform: rotate(0deg);
+}
 .name-info {
   display: none;
   position: absolute;
   background: #3F3356;
   border: 3px solid #F5A623;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 10px 0px #F5A62366;
   border-radius: 10px;
-  margin-top: 8%;
-  left: -12%;
+  margin-top: 18px;
+  margin: 0 auto;
+  transform: translate(-50%, 0);
+}
+@media (min-width: 576px) {
+  .name-info {
+    transform: translate(5px, -100px);
+  }
+}
+@media (min-width: 1200px) {
+  .name-info {
+    margin-top: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 .name-info .member {
   color: #FFFFFF;
@@ -485,6 +513,25 @@ h2, .h2-style--yellow {
 .name-info-1.display {
   display: block;
 }
+.name-info-2.display {
+  display: block;
+}
+.name-info-3.display {
+  display: block;
+}
+.name-info-4.display {
+  display: block;
+}
+.name-info-5.display {
+  display: block;
+}
+.name-info-6.display {
+  display: block;
+}
+
+.name:hover {
+  cursor: pointer;
+}
 
 .center {
   display: block;
@@ -515,6 +562,7 @@ h2, .h2-style--yellow {
   box-shadow: 2px 2px 2px 0px #00FFFFFC;
   border-radius: 50%;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .avatar {
@@ -556,4 +604,8 @@ h2, .h2-style--yellow {
 
 a {
   text-decoration: none !important;
+}
+
+.blur {
+  filter: blur(10px);
 }
