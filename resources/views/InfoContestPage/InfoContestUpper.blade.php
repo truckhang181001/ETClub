@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>CUỘC THI ECOMMERCE <br> EXPLORING IN THE TIME OF COVID-19</h1>
+    <h1>CUỘC THI ECOMMERCE <br> EXPLORING IN THE TIME OF COVID</h1>
 
     <div class="timeline row">
         <div class="timeline__round timeline__round--top col">
