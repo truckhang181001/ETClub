@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class PageAboutClbController extends Controller
 {
     function index(){
-        return view('pageaboutclb.Index');
+        return view('AboutCLBPage.Index');
     }
 }
