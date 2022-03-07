@@ -84,7 +84,15 @@ h2{
 .name.z-index {
     z-index: 10;
 }
-
+.name-1, .name-2, .name-3 {
+    width: calc(100% + 12px) !important;
+    @media (max-width: 361px) {
+        width: calc(100% + 24px) !important;
+    }
+    @media (max-width: 400px) and (min-width:362px) {
+        width: calc(100% + 19px) !important;
+    }
+}
 .name {
     position: relative;
     z-index: 10;
@@ -126,10 +134,16 @@ h2{
         margin: 0 auto;
         width: calc(100% + 254px);
         transform: translate(4%, 0);
+        @media (max-width: 400px) {
+            width: calc(100% + 238px);
+            transform: translate(-1%, 0)
+        }
         @media (min-width: 576px) {
-            transform: translate(5px, -100px);
+            width: calc(100% + 151px);
+    transform: translate(-20px, 26px)
         }
         @media (min-width: 1200px) {
+            width: calc(100% + 135px);
             margin-top: 25px;
             left: 50%;
             transform: translate(-50%,0);
@@ -143,22 +157,38 @@ h2{
                 font-size: 20px;
                line-height: 28px;
                margin: 13px 0 0 19px;
+               @media (min-width: 1000px) {
+                font-size: 32px;
+                line-height: 38px;
+               }
             }
 
             &-majors {
                 font-size: 16px;
                line-height: 22px;
+               @media (min-width: 1000px) {
+                font-size: 24px;
+                line-height: 28px;
+               }
             }
             
             &-hyphen {
                 margin: 0 8px;
                 font-size: 16px;
 line-height: 22px;
+@media (min-width: 1000px) {
+    font-size: 24px;
+    line-height: 28px;
+   }
             }
             
             &-year-school {
                 font-size: 16px;
 line-height: 22px;
+@media (min-width: 1000px) {
+    font-size: 24px;
+    line-height: 28px;
+   }
             }
         }
 
@@ -179,28 +209,69 @@ font-style: normal;
             .info {
                 justify-content: flex-start;
                 width: max-content;
-                margin: 16px 60px 13px 20px
+                margin: 16px 60px 13px 20px;
+                @media (min-width: 1200px) {
+                    margin: 16px 60px 20px 20px;
+                }
             }
         }
     }
     &-info-2 {
         transform: translate(-33%, 0);
+        @media (max-width: 400px) {
+            transform: translate(-37%, 0);
+        }
+        @media (min-width: 576px) {
+            transform: translate(-24%, 0);
+        }
+        @media (min-width: 1200px) {
+            transform: translate(-52%, 0);
+        }
     }
     &-info-3 {
         transform: translate(-69%, 0);
         z-index: 999 ;
+        @media (min-width: 576px) {
+            transform: translate(-36%, 2%);
+        }
+        @media (min-width: 1200px) {
+            transform: translate(-52%, 0);
+        }
     }
     &-info-4 {
         width: calc(100% + 186px);
         transform: translate(-1%, 0);
+        @media (min-width: 576px) {
+            width: calc(100% + 63px);
+            transform: translate(-1%, 4%);
+        }
+        @media (min-width: 1200px) {
+            width: calc(100% + -60px);
+    transform: translate(-50%, 0)
+        }
     }
     &-info-5 {
         width: calc(100% + 186px);
         transform: translate(-55%, 0);
+        @media (min-width: 576px) {
+            width: calc(100% + 49px);
+            transform: translate(-7%, 4%)
+        }
+        @media (min-width: 1200px) {
+            width: calc(100% + -59px);
+        }
     }
     &-info-6 {
         width: calc(100% - 18px);
     transform: translate(-1%, 0);
+    @media (min-width: 576px) {
+        width: calc(100% - 274px);
+        transform: translate(34%, 4%)
+    }
+    @media (min-width: 1200px) {
+        transform: translate(-49%, 0);
+    width: calc(100% - 710px);
+    }
     }
     &-info-1.display {
         display: block;
