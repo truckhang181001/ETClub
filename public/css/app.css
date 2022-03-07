@@ -462,7 +462,8 @@ h2, .h2-style--yellow {
   border-radius: 10px;
   margin-top: 18px;
   margin: 0 auto;
-  transform: translate(-50%, 0);
+  width: calc(100% + 254px);
+  transform: translate(4%, 0);
 }
 @media (min-width: 576px) {
   .name-info {
@@ -480,18 +481,22 @@ h2, .h2-style--yellow {
   color: #FFFFFF;
 }
 .name-info .member-name {
-  font-size: 32px;
-  margin: 36px 0 0 33px;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 13px 0 0 19px;
 }
 .name-info .member-majors {
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 22px;
 }
 .name-info .member-hyphen {
   margin: 0 8px;
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 22px;
 }
 .name-info .member-year-school {
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 22px;
 }
 .name-info_detail:nth-child(1) {
   border-bottom: 2px solid #F5A623;
@@ -502,13 +507,34 @@ h2, .h2-style--yellow {
 .name-info_detail {
   flex-direction: column;
   align-items: flex-start;
+  font-family: K2D;
+  font-style: normal;
 }
 .name-info_detail .info {
   justify-content: flex-start;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  margin: 30px 60px 30px 33px;
+  margin: 16px 60px 13px 20px;
+}
+.name-info-2 {
+  transform: translate(-33%, 0);
+}
+.name-info-3 {
+  transform: translate(-69%, 0);
+  z-index: 999;
+}
+.name-info-4 {
+  width: calc(100% + 186px);
+  transform: translate(-1%, 0);
+}
+.name-info-5 {
+  width: calc(100% + 186px);
+  transform: translate(-55%, 0);
+}
+.name-info-6 {
+  width: calc(100% - 18px);
+  transform: translate(-1%, 0);
 }
 .name-info-1.display {
   display: block;

@@ -116,7 +116,7 @@
                     <i class="fas fa-caret-down arrow-4"></i>
                     <div class="name-info name-info-4">
                         <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
+                            <div class="member-name ">Nguyễn Văn A</div>
                             <div class="d-flex info">
                                 <div class="member-majors">Hệ thống thông tin</div>
                                 <span class="member-hyphen"> - </span>
