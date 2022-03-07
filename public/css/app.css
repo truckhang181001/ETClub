@@ -477,7 +477,7 @@ h2, .h2-style--yellow {
   margin-top: 18px;
   margin: 0 auto;
   width: calc(100% + 254px);
-  transform: translate(4%, 0);
+  transform: translate(4%, 4%);
 }
 @media (max-width: 400px) {
   .name-info {
@@ -569,7 +569,7 @@ h2, .h2-style--yellow {
   }
 }
 .name-info-2 {
-  transform: translate(-33%, 0);
+  transform: translate(-33%, 4%);
 }
 @media (max-width: 400px) {
   .name-info-2 {
@@ -587,7 +587,7 @@ h2, .h2-style--yellow {
   }
 }
 .name-info-3 {
-  transform: translate(-69%, 0);
+  transform: translate(-69%, 4%);
   z-index: 999;
 }
 @media (min-width: 576px) {
@@ -602,7 +602,7 @@ h2, .h2-style--yellow {
 }
 .name-info-4 {
   width: calc(100% + 186px);
-  transform: translate(-1%, 0);
+  transform: translate(-1%, 4%);
 }
 @media (min-width: 576px) {
   .name-info-4 {
@@ -618,7 +618,7 @@ h2, .h2-style--yellow {
 }
 .name-info-5 {
   width: calc(100% + 186px);
-  transform: translate(-55%, 0);
+  transform: translate(-55%, 4%);
 }
 @media (min-width: 576px) {
   .name-info-5 {
@@ -628,12 +628,13 @@ h2, .h2-style--yellow {
 }
 @media (min-width: 1200px) {
   .name-info-5 {
+    transform: translate(-48%, 3%);
     width: calc(100% - 59px);
   }
 }
 .name-info-6 {
   width: calc(100% - 18px);
-  transform: translate(-1%, 0);
+  transform: translate(-1%, 4%);
 }
 @media (min-width: 576px) {
   .name-info-6 {
