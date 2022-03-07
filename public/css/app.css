@@ -743,7 +743,7 @@ body {
 }
 @media (min-width: 1300px) {
   .container-allcompetion.row .col-competition .competition-info .box-shadow {
-    right: 16px;
+    right: 12px;
   }
 }
 @media (min-width: 1500px) {
