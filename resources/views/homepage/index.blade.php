@@ -7,5 +7,4 @@
     @include('HomePage.Banner')
     @include('HomePage.Tech')
     @include('HomePage.Competition')
-    @include('CompetitionCompilation.CompetitionCompilation')
 @endsection

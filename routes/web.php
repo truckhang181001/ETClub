@@ -3,6 +3,8 @@
 use App\Http\Controllers\User\HomePageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\User\PageAboutClbController;
+use App\Http\Controllers\User\CompetitionCompilationPageController;
+
 
 
 
@@ -19,3 +21,4 @@ use App\Http\Controllers\User\PageAboutClbController;
 
 Route::get('/',[HomePageController::class,'index']);
 Route::get('/ve-cau-lac-bo',[PageAboutClbController::class,'index']);
+Route::get('/tong-hop-cuoc-thi',[CompetitionCompilationPageController::class,'index']);

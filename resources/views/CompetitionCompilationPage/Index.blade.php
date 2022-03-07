@@ -5,5 +5,5 @@
 @section('title','Về CLB')
 {{-- Bat buoc co --}}
 @section('content')
-    @include('CompetitionCompilation.CompetitionCompilation')
+    @include('CompetitionCompilationPage.CompetitionCompilation')
 @endsections

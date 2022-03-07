@@ -479,10 +479,10 @@ body {
 }
 
 .cc-navbar {
-  width: calc(100% - 30px);
+  width: calc(100% - 18px);
   margin: 40px auto;
   display: flex;
-  background-color: #484040fa;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   justify-content: space-around;
 }
@@ -499,17 +499,29 @@ body {
 }
 @media (min-width: 900px) {
   .cc-navbar {
-    width: calc(100% - 507px);
+    width: calc(100% - 500px);
     transform: translateX(210px);
+  }
+}
+@media (min-width: 1000px) {
+  .cc-navbar {
+    width: calc(100% - 600px);
+    transform: translateX(269px);
   }
 }
 @media (min-width: 1200px) {
   .cc-navbar {
-    width: calc(100% - 900px);
-    transform: translateX(338px);
+    width: calc(100% - 800px);
+    transform: translateX(289px);
   }
 }
 @media (min-width: 1400px) {
+  .cc-navbar {
+    width: calc(100% - 919px);
+    transform: translateX(349px);
+  }
+}
+@media (min-width: 1500px) {
   .cc-navbar {
     width: calc(100% - 1000px);
     transform: translateX(349px);
@@ -526,22 +538,22 @@ body {
   display: flex;
   flex-direction: column;
 }
-.cc-navbar .cc-navbar__item:first-child:hover {
+.cc-navbar .cc-navbar__item:hover {
   box-shadow: 0px 0px 8px 2px rgba(161, 220, 255, 0.8);
 }
-.cc-navbar .cc-navbar__item ~ :hover {
+.cc-navbar .cc-navbar__item:first-child:hover {
   box-shadow: 0px 0px 8px 2px rgba(161, 220, 255, 0.8);
 }
 @media (min-width: 1400px) {
   .cc-navbar .cc-navbar__item {
-    width: calc(100% - 390px);
+    width: calc(100% - 370px);
   }
 }
 .cc-navbar .cc-navbar__item:first-child {
-  background-image: linear-gradient(0deg, #484040fa, #484040fa), radial-gradient(circle at top left, #7496FF, #5DD7D0);
+  background-image: linear-gradient(0deg, #0E1643, #0E1643), radial-gradient(circle at top left, #7496FF, #5DD7D0);
 }
 .cc-navbar .cc-navbar__item:last-child {
-  background-image: linear-gradient(0deg, #484040fa, #484040fa), radial-gradient(circle at top left, #7496FF, #5DD7D0);
+  background-image: linear-gradient(0deg, #0E1643, #0E1643), radial-gradient(circle at top left, #7496FF, #5DD7D0);
 }
 .cc-navbar .cc-navbar__item:nth-child(2) h6 {
   background: black;
@@ -556,11 +568,21 @@ body {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-  padding: 5px 10px;
+  padding: 6px 16px;
   margin-top: 8px;
   background: -webkit-linear-gradient(#7496FF, #5DD7D0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 376px) {
+  .cc-navbar .cc-navbar__item h6 {
+    padding: 6px 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .cc-navbar .cc-navbar__item h6 {
+    padding: 10px 24px;
+  }
 }
 
 .container-allcompetion.row {
@@ -578,20 +600,18 @@ body {
     width: calc(100% - 60px);
   }
 }
-@media (min-width: 900px) {
-  .container-allcompetion.row {
-    justify-content: space-between;
-  }
-}
 @media (min-width: 1200px) {
   .container-allcompetion.row {
-    justify-content: space-between;
     width: calc(100% - 200px);
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   .container-allcompetion.row {
-    justify-content: space-between;
+    width: calc(100% - 200px);
+  }
+}
+@media (min-width: 1500px) {
+  .container-allcompetion.row {
     width: calc(100% - 300px);
   }
 }
@@ -634,7 +654,12 @@ body {
     width: calc(100% - 750px);
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
+  .container-allcompetion.row .col-competition {
+    width: calc(100% - 910px);
+  }
+}
+@media (min-width: 1500px) {
   .container-allcompetion.row .col-competition {
     width: calc(100% - 910px);
     margin-bottom: 70px;
@@ -670,6 +695,11 @@ body {
   }
 }
 @media (min-width: 819px) {
+  .container-allcompetion.row .col-competition .competition-info {
+    background-size: contain;
+  }
+}
+@media (min-width: 1300px) {
   .container-allcompetion.row .col-competition .competition-info {
     background-size: contain;
   }
@@ -711,7 +741,12 @@ body {
     right: 11px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
+  .container-allcompetion.row .col-competition .competition-info .box-shadow {
+    right: 16px;
+  }
+}
+@media (min-width: 1500px) {
   .container-allcompetion.row .col-competition .competition-info .box-shadow {
     right: 21px;
   }
