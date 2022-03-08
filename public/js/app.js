@@ -1,6 +1,18 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./resources/js/CompetitionCompilationPage/CompetitionCompilation.js":
+/*!***************************************************************************!*\
+  !*** ./resources/js/CompetitionCompilationPage/CompetitionCompilation.js ***!
+  \***************************************************************************/
+/***/ (() => {
+
+$('.cc-navbar__item').click(function () {
+  $(this).addClass('active').siblings().removeClass('active');
+});
+
+/***/ }),
+
 /***/ "./resources/js/HomePage/Banner.js":
 /*!*****************************************!*\
   !*** ./resources/js/HomePage/Banner.js ***!
@@ -18,6 +30,8 @@
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
+
+__webpack_require__(/*! ./CompetitionCompilationPage/CompetitionCompilation */ "./resources/js/CompetitionCompilationPage/CompetitionCompilation.js");
 
 /***/ }),
 
