@@ -48,7 +48,11 @@
     }
      .empty {
          display: none;
-         @media(min-width: 576px) {
+         @media (min-width: 576px) {
+            display: flex;
+            width: calc(100% - 430px) !important;
+        }
+         @media(min-width: 1200px) {
             display: flex;
             width: calc(100% - 518px) !important;
          }
@@ -60,8 +64,10 @@
         background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         justify-content: space-around;
-
-    @media (min-width: 576px) {
+        @media (min-width: 576px) {
+            width: 430px !important;
+        }
+    @media (min-width: 1200px) {
         width: 518px !important;
     }
     
