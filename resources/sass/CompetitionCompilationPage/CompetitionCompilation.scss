@@ -39,14 +39,18 @@
      @media(min-width: 576px) {
         width: calc( 100% - 90px) !important;
      }
-     @media (min-width: 1300px) {
-        width: calc( 100% - 324px) !important;
+     @media (min-width: 1300px) and (max-width: 1399px) {
+        width: calc( 100% - 160px) !important;
+    }
+     @media (min-width: 1400px) {
+        width: 1187px !important;
+
     }
      .empty {
          display: none;
          @media(min-width: 576px) {
             display: flex;
-            width: calc(100% - 500px) !important;
+            width: calc(100% - 518px) !important;
          }
         }
      }
@@ -58,7 +62,7 @@
         justify-content: space-around;
 
     @media (min-width: 576px) {
-        width: 500px !important;
+        width: 518px !important;
     }
     
 

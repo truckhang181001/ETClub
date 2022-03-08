@@ -7,15 +7,15 @@
 <div class="container-navbar row">
     <div class="empty"></div>
 <div class="cc-navbar">
-    <div class="cc-navbar__item ">
+    <button class="cc-navbar__item ">
         <h6>Sắp diễn ra</h6>
-    </div>
-    <div class="cc-navbar__item active">
+    </button>
+    <button class="cc-navbar__item active">
         <h6>Đang diễn ra</h6>
-    </div>
-    <div class="cc-navbar__item">
+    </button>
+    <button class="cc-navbar__item">
         <h6>Đã diễn ra</h6>
-    </div>
+    </button>
 </div>
 </div>
 <div class="container-allcompetion row">
