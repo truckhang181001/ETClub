@@ -459,6 +459,13 @@ h2, .h2-style--yellow {
     width: 399px !important;
   }
 }
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .name-1,
+.name-2,
+.name-3 {
+    transform: translateX(-34px);
+  }
+}
 
 @media (min-width: 576px) {
   .name-4,
