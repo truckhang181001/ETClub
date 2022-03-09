@@ -6,29 +6,32 @@
             <div>
                 <h2 class="name name-1">Tên đội thi
                     <i class="fas fa-caret-down arrow-1"></i>
-                    <div class="name-info name-info-1">
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                    <div class="container-info"> 
+
+                        <div class="name-info name-info-1">
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -40,29 +43,32 @@
             <div>
                 <h2 class="name name-2">Tên đội thi
                     <i class="fas fa-caret-down arrow-2"></i>
-                    <div class="name-info name-info-2">
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                    <div class="container-info">
+
+                        <div class="name-info name-info-2">
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -74,29 +80,32 @@
             <div>
                 <h2 class="name name-3">Tên đội thi
                     <i class="fas fa-caret-down arrow-3"></i>
-                    <div class="name-info name-info-3">
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                    <div class="container-info">
+
+                        <div class="name-info name-info-3">
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -114,29 +123,32 @@
             <div>
                 <h2 class="name name-4">Tên đội thi
                     <i class="fas fa-caret-down arrow-4"></i>
-                    <div class="name-info name-info-4">
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name ">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                    <div class="container-info">
+
+                        <div class="name-info name-info-4">
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name ">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -149,29 +161,32 @@
             <div>
                 <h2 class="name name-5">Tên đội thi
                     <i class="fas fa-caret-down arrow-5"></i>
-                    <div class="name-info name-info-5">
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                    <div class="container-info">
+
+                        <div class="name-info name-info-5">
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -186,29 +201,32 @@
             <div>
                 <h2 class="name name-6">Tên đội thi
                     <i class="fas fa-caret-down arrow-6"></i>
-                    <div class="name-info name-info-6">
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                    <div class="container-info">
+
+                        <div class="name-info name-info-6">
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="name-info_detail d-flex">
-                            <div class="member-name">Nguyễn Văn A</div>
-                            <div class="d-flex info">
-                                <div class="member-majors">Hệ thống thông tin</div>
-                                <span class="member-hyphen"> - </span>
-                                <div class="member-year-school">K46 - UEH</div>
+                            <div class="name-info_detail d-flex">
+                                <div class="member-name">Nguyễn Văn A</div>
+                                <div class="d-flex info">
+                                    <div class="member-majors">Hệ thống thông tin</div>
+                                    <span class="member-hyphen"> - </span>
+                                    <div class="member-year-school">K46 - UEH</div>
+                                </div>
                             </div>
                         </div>
                     </div>
