@@ -578,7 +578,7 @@ h2, .h2-style--yellow {
 }
 @media (min-width: 576px) {
   .name-info-2 {
-    transform: translate(-24%, 0);
+    transform: translate(-24%, 4%);
   }
 }
 @media (min-width: 1200px) {
@@ -592,7 +592,7 @@ h2, .h2-style--yellow {
 }
 @media (min-width: 576px) {
   .name-info-3 {
-    transform: translate(-36%, 2%);
+    transform: translate(-36%, 4%);
   }
 }
 @media (min-width: 1200px) {
