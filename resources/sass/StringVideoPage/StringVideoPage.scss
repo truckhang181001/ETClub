@@ -1,0 +1,102 @@
+.videos-page {
+    color:white;
+    font-family: K2D !important;
+    &__container {
+        width: 1300px;
+        margin:0 auto;
+    }
+    &__tittle {
+        p {
+            text-transform: uppercase;
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        margin-bottom: 70px;
+    }
+    &__hot-video {
+        margin-top: 70px;
+        border-bottom: 5px solid #252B50;
+        .hot-video__name {
+            font-size: 45px;
+            font-weight:600;
+            text-transform: uppercase;
+            margin-bottom: 61px;
+        }
+        .hot-video__list {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }    
+    } 
+    &__new-video {
+        margin-top: 70px;
+        border-bottom: 5px solid #252B50;
+        .new-video__name {
+            font-size: 45px;
+            font-weight:600;
+            text-transform: uppercase;
+            margin-bottom: 61px;
+        }
+        .new-video__list {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+        .new-video__all {
+            border:none;
+            font-size:32px;
+            font-weight:800;
+            background-color: #F5A623;
+            padding:10px 24px;
+            border-radius:10px;
+            display:block;
+            margin: 0 auto 60px auto;
+        } 
+    }
+    &__string {
+        margin-top: 60px;
+        .string__head {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+            .string__name {
+                font-size: 45px;
+                font-weight:600;
+                text-transform: uppercase;
+            }
+            .string__option {
+                background-color: #252B50;
+                padding:12px 15px;
+                border-radius:10px;
+                .new {
+                    border:none;
+                    border-radius:10px;
+                    background-color:#F5A623;
+                    font-size:18px;
+                    font-weight:600;
+                    padding:10px 24px;
+                }
+                .popular {
+                    border: 1px solid #F5A623;
+                    border-radius:10px;
+                    color:#F5A623;
+                    font-size:18px;
+                    font-weight:600;
+                    padding:10px 24px;
+                    background-color: transparent;
+                }
+            }
+        }
+        .string__list {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }   
+}
