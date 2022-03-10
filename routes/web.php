@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\User\HomePageController;
+use App\Http\Controllers\User\ETNewsController;
+use App\Http\Controllers\User\ETNewsPageController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -16,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
+Route::get('/ban-tin-et',[ETNewsPageController::class,'index']);
