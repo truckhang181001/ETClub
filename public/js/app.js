@@ -33,6 +33,20 @@ __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js"
 
 __webpack_require__(/*! ./CompetitionCompilationPage/CompetitionCompilation */ "./resources/js/CompetitionCompilationPage/CompetitionCompilation.js");
 
+__webpack_require__(/*! ./pagination/Pagination */ "./resources/js/pagination/Pagination.js");
+
+/***/ }),
+
+/***/ "./resources/js/pagination/Pagination.js":
+/*!***********************************************!*\
+  !*** ./resources/js/pagination/Pagination.js ***!
+  \***********************************************/
+/***/ (() => {
+
+$('.pagination-item').click(function () {
+  $(this).addClass('pagination-item--active').siblings().removeClass('pagination-item--active');
+});
+
 /***/ }),
 
 /***/ "./resources/sass/app.scss":
