@@ -6,4 +6,5 @@
 {{-- Bat buoc co --}}
 @section('content')
     @include('CompetitionCompilationPage.CompetitionCompilation')
+    @include('pagination.Pagination')
 @endsections

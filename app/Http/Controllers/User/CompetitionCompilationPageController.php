@@ -9,5 +9,6 @@ class CompetitionCompilationPageController extends Controller
 {
     function index(){
         return view('CompetitionCompilationPage.Index');
+        return view('pagination.Index');
     }
 }
