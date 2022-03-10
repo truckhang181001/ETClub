@@ -64,12 +64,32 @@ body {
 .videos-page__new-video .new-video__all {
   border: none;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 500;
   background-color: #F5A623;
   padding: 10px 24px;
   border-radius: 10px;
   display: block;
   margin: 0 auto 60px auto;
+  outline: none;
+  transition: 0.3s;
+}
+.videos-page__new-video .new-video__all a {
+  text-decoration: none;
+  color: #0E1643;
+}
+.videos-page__new-video .new-video__all:hover {
+  background-color: #0E1643;
+  box-shadow: 0px 0px 10px 2px #F5A623;
+}
+.videos-page__new-video .new-video__all:hover a {
+  color: #F5A623;
+}
+.videos-page__new-video .new-video__all:active {
+  background-color: #F5A623;
+  box-shadow: none;
+}
+.videos-page__new-video .new-video__all:active a {
+  color: #0E1643;
 }
 .videos-page__string {
   margin-top: 60px;
@@ -97,6 +117,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   padding: 10px 24px;
+  transition: 0.3s;
 }
 .videos-page__string .string__head .string__option .popular {
   border: 1px solid #F5A623;
@@ -106,6 +127,17 @@ body {
   font-weight: 600;
   padding: 10px 24px;
   background-color: transparent;
+  transition: 0.3s;
+}
+.videos-page__string .string__head .string__option .new:hover, .videos-page__string .string__head .string__option .popular:hover {
+  background-color: #0E1643;
+  color: #F5A623;
+  box-shadow: 0px 0px 8px 2px #F5A623;
+}
+.videos-page__string .string__head .string__option .new:active, .videos-page__string .string__head .string__option .popular:active {
+  background-color: #F5A623;
+  color: #0E1643;
+  box-shadow: none;
 }
 .videos-page__string .string__list {
   display: flex;
@@ -152,6 +184,7 @@ body {
   display: flex;
   align-items: center;
   padding: 16px 24px;
+  transition: 0.3s ease-in-out;
 }
 .subcribe-box .box__button .icon {
   width: 33px;
@@ -169,12 +202,17 @@ body {
   margin-bottom: 0;
   margin-left: 8px;
 }
+.subcribe-box .box__button:hover {
+  background-color: #0E1643;
+  box-shadow: 0px 0px 10px 3px white;
+}
 
 .videocard {
   width: 23.8%;
   background-color: #252B50;
   border-radius: 10px;
   position: relative;
+  transition: 0.5s;
 }
 .videocard__image {
   width: 100%;
@@ -237,6 +275,12 @@ body {
   border-radius: 5px;
 }
 
+.videocard:hover {
+  box-shadow: 5px 5px 10px 0 white;
+  transform: scale(105%);
+  cursor: pointer;
+}
+
 .string__card {
   width: 23.8%;
   margin-bottom: 61px;
@@ -248,6 +292,7 @@ body {
   margin-bottom: 32.53px;
   position: relative;
   background-color: #15123C;
+  transition: 0.5s;
 }
 .card__img img {
   padding: 46px 50px 38px 38px;
@@ -266,4 +311,10 @@ body {
   font-size: 24px;
   font-weight: 500;
   text-align: center;
+}
+
+.string__card:hover .card__img {
+  box-shadow: 10px 10px 10px 0 rgba(245, 166, 35, 0.4);
+  cursor: pointer;
+  transform: scale(105%);
 }

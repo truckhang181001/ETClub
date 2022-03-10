@@ -29,7 +29,7 @@
         @include('StringVideoPage.VideoCard')
       </div>
       <button class="new-video__all">
-        Xem tất cả
+        <a href="https://www.youtube.com/channel/UCI3jwuX0dBKc8Iy3VIXZb_Q">Xem tất cả</a>
       </button>
     </div>
     <div class="videos-page__string">
