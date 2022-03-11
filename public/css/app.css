@@ -660,7 +660,7 @@ body {
 }
 @media (min-width: 1300px) {
   .pagination {
-    margin-right: 80px;
+    margin-right: 100px;
   }
 }
 .pagination .pagination-item {
