@@ -13,7 +13,7 @@
             object-fit: cover;
             border-radius: 10px 10px 0 0;
             }
-     }
+    }
     &__desc {
         &-tittle {
             font-size: 24px;
@@ -70,4 +70,13 @@
     box-shadow: 5px 5px 10px 0 white;
     transform: scale(105%);
     cursor: pointer;
+}
+@media only screen and (max-width:500px) {
+    .videocard {
+        width: 60.8%;
+        margin-bottom: 70px;
+    }
+    .videocard:hover {
+        display: none;
+    }
 }

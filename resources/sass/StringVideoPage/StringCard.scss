@@ -3,7 +3,7 @@
     margin-bottom: 61px;
 }
 .card__img {
-    border: 1px solid #F5A623;
+    border: 3px solid #F5A623;
     border-radius:10px;
     margin-bottom: 32.53px;
     position:relative;
@@ -31,4 +31,17 @@
     box-shadow: 10px 10px 10px 0 rgba(245, 166, 35, 0.4);
     cursor: pointer;
     transform: scale(105%);
+}
+@media only screen and (max-width:500px) {
+    .string__card {
+        width: 60.8%;
+        margin-bottom: 42px;
+    }
+    .string__card:hover {
+        display:none;
+    }
+    .card__img {
+        margin-bottom: 18px;
+
+    }
 }
