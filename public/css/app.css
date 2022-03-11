@@ -514,7 +514,7 @@ h2, .h2-style--yellow {
 @media (min-width: 1000px) {
   .container-info .name-info {
     top: 14px;
-    left: -10%;
+    left: -9.5%;
   }
 }
 
