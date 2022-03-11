@@ -349,6 +349,7 @@ h2, .h2-style--yellow {
 }
 @media (min-width: 1200px) {
   .h2-style--yellow {
+    margin-top: 0 !important;
     margin-bottom: 60px;
   }
 }
@@ -492,6 +493,7 @@ h2, .h2-style--yellow {
   .name-6 {
     width: 399px !important;
     margin: 60px auto;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -512,7 +514,7 @@ h2, .h2-style--yellow {
 @media (min-width: 1000px) {
   .container-info .name-info {
     top: 14px;
-    left: -5%;
+    left: -9%;
   }
 }
 
@@ -562,7 +564,7 @@ h2, .h2-style--yellow {
 .name-info .member-name {
   font-size: 20px;
   line-height: 28px;
-  margin: 13px 0 0 19px;
+  margin: 26px 0 0 36px;
   font-family: K2D;
   font-style: normal;
 }
@@ -593,6 +595,7 @@ h2, .h2-style--yellow {
   .name-info .member-majors {
     font-size: 24px;
     line-height: 28px;
+    font-weight: 500;
   }
 }
 .name-info .member-hyphen {
@@ -611,6 +614,7 @@ h2, .h2-style--yellow {
   .name-info .member-hyphen {
     font-size: 24px;
     line-height: 28px;
+    font-weight: 500;
   }
 }
 .name-info .member-year-school {
@@ -628,6 +632,7 @@ h2, .h2-style--yellow {
   .name-info .member-year-school {
     font-size: 24px;
     line-height: 28px;
+    font-weight: 500;
   }
 }
 .name-info_detail:nth-child(1) {
@@ -652,7 +657,7 @@ h2, .h2-style--yellow {
 }
 @media (min-width: 1200px) {
   .name-info_detail .info {
-    margin: 16px 23px 20px 17px;
+    margin: 30px 61px 28.5px 35px;
   }
 }
 @media (min-width: 359px) and (max-width: 450px) {

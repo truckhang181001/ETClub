@@ -21,6 +21,7 @@ h2 {
     }
 
     @media (min-width: 1200px) {
+        margin-top: 0 !important;
         margin-bottom: 60px;
     }
 }
@@ -138,7 +139,8 @@ h2 {
     }
     @media (min-width: 1000px) {
     width: 399px !important;
-    margin: 60px auto; }
+    margin: 60px auto;
+margin-bottom: 0 !important; }
 }
 .container-info {
     position: relative;
@@ -153,7 +155,7 @@ h2 {
         }
         @media (min-width: 1000px) {
             top: 14px;
-            left: -5%;
+            left: -9%;
         }
 
     }
@@ -212,7 +214,7 @@ h2 {
             &-name {
                 font-size: 20px;
                 line-height: 28px;
-                margin: 13px 0 0 19px;
+                margin: 26px 0 0 36px;
                 font-family: K2D;
             font-style: normal;
                 @media (max-width: 450px) {
@@ -236,6 +238,7 @@ h2 {
                 @media (min-width: 1000px) {
                     font-size: 24px;
                     line-height: 28px;
+                    font-weight: 500;
                 }
             }
 
@@ -252,6 +255,7 @@ h2 {
                 @media (min-width: 1000px) {
                     font-size: 24px;
                     line-height: 28px;
+                    font-weight: 500;
                 }
             }
 
@@ -266,6 +270,7 @@ h2 {
                 @media (min-width: 1000px) {
                     font-size: 24px;
                     line-height: 28px;
+                    font-weight: 500;
                 }
             }
         }
@@ -291,7 +296,7 @@ h2 {
                 margin: 16px 19px 9px 22px;
 
                 @media (min-width: 1200px) {
-                    margin: 16px 23px 20px 17px
+                    margin: 30px 61px 28.5px 35px;
                 }
             }
         }
