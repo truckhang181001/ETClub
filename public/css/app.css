@@ -511,6 +511,7 @@ h2, .h2-style--yellow {
 }
 @media (min-width: 1000px) {
   .container-info .name-info {
+    top: 14px;
     left: -5%;
   }
 }
@@ -574,6 +575,7 @@ h2, .h2-style--yellow {
   .name-info .member-name {
     font-size: 32px;
     line-height: 38px;
+    font-weight: 600;
   }
 }
 .name-info .member-majors {
