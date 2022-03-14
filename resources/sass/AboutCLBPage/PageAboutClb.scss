@@ -467,6 +467,9 @@
          .achievement-workshop {
             p {
                 margin-top: 14px;
+                @media (max-width: 450px) {
+                    margin-top: 10px;
+                }
             }
             h1 {
                 @media (max-width: 380px) and (min-width: 363px) {
@@ -480,7 +483,11 @@
                 margin-top: 5px !important;
                 margin-bottom: 15px !important;
             }
-
+            h1 {
+                @media (min-width: 1200px) {
+                    transform: translateX(-5px)
+                }
+            }
             img {
                 margin-top: 8px;
                 width: 108px;

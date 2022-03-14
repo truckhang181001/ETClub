@@ -563,6 +563,11 @@ body {
 .container-achievement .category-achievement .achievement-workshop p {
   margin-top: 14px;
 }
+@media (max-width: 450px) {
+  .container-achievement .category-achievement .achievement-workshop p {
+    margin-top: 10px;
+  }
+}
 @media (max-width: 380px) and (min-width: 363px) {
   .container-achievement .category-achievement .achievement-workshop h1 {
     padding-right: 8px;
@@ -572,6 +577,11 @@ body {
 .container-achievement .category-achievement .achievement-communication p {
   margin-top: 5px !important;
   margin-bottom: 15px !important;
+}
+@media (min-width: 1200px) {
+  .container-achievement .category-achievement .achievement-communication h1 {
+    transform: translateX(-5px);
+  }
 }
 .container-achievement .category-achievement .achievement-communication img {
   margin-top: 8px;
