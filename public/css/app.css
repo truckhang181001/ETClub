@@ -23,7 +23,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container-banner {
-    width: calc(100% - 253px);
+    width: calc(100% - 81px);
     margin: 0 auto;
   }
 }
@@ -90,7 +90,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container-content {
-    width: calc(100% - 278px);
+    width: calc(100% - 82px);
   }
   .container-content .history-mobile,
 .container-content .mission-mobile,
@@ -101,13 +101,18 @@ body {
 .container-content .mission,
 .container-content .vision {
     position: relative;
-    width: calc(100% - 190px);
-    height: 643px;
+    width: calc(100% - 219px);
+    height: 618px;
     border-radius: 5px;
     border: 2px solid #F5A623;
     margin-top: 40px;
     display: flex;
     align-items: center;
+  }
+  .container-content .history:hover,
+.container-content .mission:hover,
+.container-content .vision:hover {
+    box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.4);
   }
   .container-content .history .border-history,
 .container-content .history .border-vision,
@@ -118,8 +123,9 @@ body {
 .container-content .vision .border-history,
 .container-content .vision .border-vision,
 .container-content .vision .border-mission {
-    width: 50%;
-    padding: 0 9px;
+    width: 53%;
+    padding-left: 42px;
+    margin-top: 11px;
   }
   .container-content .history .border-history h1,
 .container-content .history .border-vision h1,
@@ -130,12 +136,13 @@ body {
 .container-content .vision .border-history h1,
 .container-content .vision .border-vision h1,
 .container-content .vision .border-mission h1 {
+    width: 80%;
     font-family: K2D;
     font-weight: bold;
-    margin-top: 20px;
     color: #F5A623;
-    line-height: 28px;
     font-size: 45px;
+    line-height: 60px;
+    font-weight: 600;
   }
   .container-content .history .border-history p,
 .container-content .history .border-vision p,
@@ -146,25 +153,27 @@ body {
 .container-content .vision .border-history p,
 .container-content .vision .border-vision p,
 .container-content .vision .border-mission p {
+    width: 88%;
     font-family: Open Sans;
-    line-height: 35px;
+    font-weight: 400;
     font-size: 20px;
+    line-height: 35px;
     align-items: center;
     text-align: justify;
     color: #FFFFFF;
-    margin-top: 30px;
+    margin-top: 18px;
   }
   .container-content .history .img-cover,
 .container-content .mission .img-cover,
 .container-content .vision .img-cover {
     position: absolute;
-    right: -195px;
+    right: -222px;
     top: 71px;
   }
   .container-content .history .img-cover img,
 .container-content .mission .img-cover img,
 .container-content .vision .img-cover img {
-    width: 586px;
+    width: 690px;
     height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -175,6 +184,7 @@ body {
   }
   .container-content .ImgInLeft .vision {
     float: right;
+    margin-top: 72px;
     margin-bottom: 30px;
   }
   .container-content .ImgInLeft .vision .div-empty {
@@ -182,21 +192,54 @@ body {
   }
   .container-content .ImgInLeft .vision .border-vision {
     margin: 0;
-    padding: 0 30px 0 0;
+    padding-left: 50px;
   }
   .container-content .ImgInLeft .vision .border-vision h1 {
+    width: 88%;
     display: flex;
     justify-content: flex-end;
+  }
+  .container-content .ImgInLeft .vision .border-vision p {
+    width: 89%;
   }
   .container-content .ImgInLeft .vision .img-cover {
     width: 690px;
     height: 500px;
-    left: -191px;
+    left: -221px;
+  }
+  .container-content .ImgInLeft .vision .img-cover img {
+    width: 690px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container-content .mission .border-mission {
+    width: 56%;
+    padding-left: 48px !important;
+  }
+  .container-content .mission .border-mission p {
+    width: 84% !important;
+    margin: 0;
+  }
+  .container-content .mission .img-cover {
+    right: -233px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   .container-content {
-    width: calc(100% - 247px);
+    width: calc(100% - 82px);
+  }
+  .container-content .history-mobile,
+.container-content .mission-mobile,
+.container-content .vision-mobile {
+    display: none;
+  }
+  .container-content .history,
+.container-content .mission,
+.container-content .vision {
+    width: calc(100% - 219px);
+    height: 618px;
+    margin-top: 40px;
   }
   .container-content .history .border-history,
 .container-content .history .border-vision,
@@ -207,15 +250,80 @@ body {
 .container-content .vision .border-history,
 .container-content .vision .border-vision,
 .container-content .vision .border-mission {
-    padding: 0 30px;
+    width: 53%;
+    padding-left: 94px;
+    margin-top: 11px;
   }
-  .container-content .history .img-cover img,
-.container-content .mission .img-cover img,
-.container-content .vision .img-cover img {
-    width: 690px;
+  .container-content .history .border-history h1,
+.container-content .history .border-vision h1,
+.container-content .history .border-mission h1,
+.container-content .mission .border-history h1,
+.container-content .mission .border-vision h1,
+.container-content .mission .border-mission h1,
+.container-content .vision .border-history h1,
+.container-content .vision .border-vision h1,
+.container-content .vision .border-mission h1 {
+    width: 80%;
+  }
+  .container-content .history .border-history p,
+.container-content .history .border-vision p,
+.container-content .history .border-mission p,
+.container-content .mission .border-history p,
+.container-content .mission .border-vision p,
+.container-content .mission .border-mission p,
+.container-content .vision .border-history p,
+.container-content .vision .border-vision p,
+.container-content .vision .border-mission p {
+    width: 88%;
+    margin-top: 18px;
+  }
+  .container-content .history .img-cover,
+.container-content .mission .img-cover,
+.container-content .vision .img-cover {
+    position: absolute;
+    right: -222px;
+    top: 71px;
+  }
+  .container-content .ImgInLeft {
+    width: 100%;
+  }
+  .container-content .ImgInLeft .vision {
+    float: right;
+    margin-top: 72px;
+    margin-bottom: 30px;
+  }
+  .container-content .ImgInLeft .vision .div-empty {
+    width: 50%;
+  }
+  .container-content .ImgInLeft .vision .border-vision {
+    margin: 0;
+    padding-left: 38px;
+  }
+  .container-content .ImgInLeft .vision .border-vision h1 {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .container-content .ImgInLeft .vision .border-vision p {
+    width: 80%;
+  }
+  .container-content .ImgInLeft .vision .img-cover {
+    left: -221px;
+  }
+  .container-content .mission .border-mission {
+    width: 56%;
+    padding-left: 65px !important;
+  }
+  .container-content .mission .border-mission p {
+    width: 91% !important;
+    margin: 0;
+  }
+  .container-content .mission .img-cover {
+    right: -233px;
   }
 }
-.container-content .content-name {
+
+.content-name {
   width: 100%;
   font-family: K2D;
   font-style: normal;
@@ -228,27 +336,28 @@ body {
   margin-bottom: 37px;
 }
 @media (min-width: 576px) {
-  .container-content .content-name {
+  .content-name {
     font-size: 40px;
     margin-bottom: 40px;
     line-height: 40px;
   }
 }
 @media (min-width: 1200px) {
-  .container-content .content-name {
+  .content-name {
     font-size: 60px;
     line-height: 78px;
   }
 }
-.container-content .history-mobile .border-history-mobile,
-.container-content .history-mobile .border-vision-mobile,
-.container-content .history-mobile .border-mission-mobile,
-.container-content .vision-mobile .border-history-mobile,
-.container-content .vision-mobile .border-vision-mobile,
-.container-content .vision-mobile .border-mission-mobile,
-.container-content .mission-mobile .border-history-mobile,
-.container-content .mission-mobile .border-vision-mobile,
-.container-content .mission-mobile .border-mission-mobile {
+
+.history-mobile .border-history-mobile,
+.history-mobile .border-vision-mobile,
+.history-mobile .border-mission-mobile,
+.vision-mobile .border-history-mobile,
+.vision-mobile .border-vision-mobile,
+.vision-mobile .border-mission-mobile,
+.mission-mobile .border-history-mobile,
+.mission-mobile .border-vision-mobile,
+.mission-mobile .border-mission-mobile {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -257,28 +366,39 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+.history-mobile .border-history-mobile:hover,
+.history-mobile .border-vision-mobile:hover,
+.history-mobile .border-mission-mobile:hover,
+.vision-mobile .border-history-mobile:hover,
+.vision-mobile .border-vision-mobile:hover,
+.vision-mobile .border-mission-mobile:hover,
+.mission-mobile .border-history-mobile:hover,
+.mission-mobile .border-vision-mobile:hover,
+.mission-mobile .border-mission-mobile:hover {
+  box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.4);
+}
 @media (min-width: 576px) {
-  .container-content .history-mobile .border-history-mobile,
-.container-content .history-mobile .border-vision-mobile,
-.container-content .history-mobile .border-mission-mobile,
-.container-content .vision-mobile .border-history-mobile,
-.container-content .vision-mobile .border-vision-mobile,
-.container-content .vision-mobile .border-mission-mobile,
-.container-content .mission-mobile .border-history-mobile,
-.container-content .mission-mobile .border-vision-mobile,
-.container-content .mission-mobile .border-mission-mobile {
+  .history-mobile .border-history-mobile,
+.history-mobile .border-vision-mobile,
+.history-mobile .border-mission-mobile,
+.vision-mobile .border-history-mobile,
+.vision-mobile .border-vision-mobile,
+.vision-mobile .border-mission-mobile,
+.mission-mobile .border-history-mobile,
+.mission-mobile .border-vision-mobile,
+.mission-mobile .border-mission-mobile {
     width: calc(100% - 230px);
   }
 }
-.container-content .history-mobile .border-history-mobile h1,
-.container-content .history-mobile .border-vision-mobile h1,
-.container-content .history-mobile .border-mission-mobile h1,
-.container-content .vision-mobile .border-history-mobile h1,
-.container-content .vision-mobile .border-vision-mobile h1,
-.container-content .vision-mobile .border-mission-mobile h1,
-.container-content .mission-mobile .border-history-mobile h1,
-.container-content .mission-mobile .border-vision-mobile h1,
-.container-content .mission-mobile .border-mission-mobile h1 {
+.history-mobile .border-history-mobile h1,
+.history-mobile .border-vision-mobile h1,
+.history-mobile .border-mission-mobile h1,
+.vision-mobile .border-history-mobile h1,
+.vision-mobile .border-vision-mobile h1,
+.vision-mobile .border-mission-mobile h1,
+.mission-mobile .border-history-mobile h1,
+.mission-mobile .border-vision-mobile h1,
+.mission-mobile .border-mission-mobile h1 {
   font-family: K2D;
   font-style: normal;
   font-weight: bold;
@@ -289,27 +409,27 @@ body {
   margin-top: 21px;
 }
 @media (min-width: 576px) {
-  .container-content .history-mobile .border-history-mobile h1,
-.container-content .history-mobile .border-vision-mobile h1,
-.container-content .history-mobile .border-mission-mobile h1,
-.container-content .vision-mobile .border-history-mobile h1,
-.container-content .vision-mobile .border-vision-mobile h1,
-.container-content .vision-mobile .border-mission-mobile h1,
-.container-content .mission-mobile .border-history-mobile h1,
-.container-content .mission-mobile .border-vision-mobile h1,
-.container-content .mission-mobile .border-mission-mobile h1 {
+  .history-mobile .border-history-mobile h1,
+.history-mobile .border-vision-mobile h1,
+.history-mobile .border-mission-mobile h1,
+.vision-mobile .border-history-mobile h1,
+.vision-mobile .border-vision-mobile h1,
+.vision-mobile .border-mission-mobile h1,
+.mission-mobile .border-history-mobile h1,
+.mission-mobile .border-vision-mobile h1,
+.mission-mobile .border-mission-mobile h1 {
     font-size: 25px;
   }
 }
-.container-content .history-mobile .border-history-mobile .img-cover-mobile img,
-.container-content .history-mobile .border-vision-mobile .img-cover-mobile img,
-.container-content .history-mobile .border-mission-mobile .img-cover-mobile img,
-.container-content .vision-mobile .border-history-mobile .img-cover-mobile img,
-.container-content .vision-mobile .border-vision-mobile .img-cover-mobile img,
-.container-content .vision-mobile .border-mission-mobile .img-cover-mobile img,
-.container-content .mission-mobile .border-history-mobile .img-cover-mobile img,
-.container-content .mission-mobile .border-vision-mobile .img-cover-mobile img,
-.container-content .mission-mobile .border-mission-mobile .img-cover-mobile img {
+.history-mobile .border-history-mobile .img-cover-mobile img,
+.history-mobile .border-vision-mobile .img-cover-mobile img,
+.history-mobile .border-mission-mobile .img-cover-mobile img,
+.vision-mobile .border-history-mobile .img-cover-mobile img,
+.vision-mobile .border-vision-mobile .img-cover-mobile img,
+.vision-mobile .border-mission-mobile .img-cover-mobile img,
+.mission-mobile .border-history-mobile .img-cover-mobile img,
+.mission-mobile .border-vision-mobile .img-cover-mobile img,
+.mission-mobile .border-mission-mobile .img-cover-mobile img {
   width: 262px;
   height: 154px;
   border-radius: 10px;
@@ -320,28 +440,28 @@ body {
      object-fit: cover;
 }
 @media (min-width: 576px) {
-  .container-content .history-mobile .border-history-mobile .img-cover-mobile img,
-.container-content .history-mobile .border-vision-mobile .img-cover-mobile img,
-.container-content .history-mobile .border-mission-mobile .img-cover-mobile img,
-.container-content .vision-mobile .border-history-mobile .img-cover-mobile img,
-.container-content .vision-mobile .border-vision-mobile .img-cover-mobile img,
-.container-content .vision-mobile .border-mission-mobile .img-cover-mobile img,
-.container-content .mission-mobile .border-history-mobile .img-cover-mobile img,
-.container-content .mission-mobile .border-vision-mobile .img-cover-mobile img,
-.container-content .mission-mobile .border-mission-mobile .img-cover-mobile img {
+  .history-mobile .border-history-mobile .img-cover-mobile img,
+.history-mobile .border-vision-mobile .img-cover-mobile img,
+.history-mobile .border-mission-mobile .img-cover-mobile img,
+.vision-mobile .border-history-mobile .img-cover-mobile img,
+.vision-mobile .border-vision-mobile .img-cover-mobile img,
+.vision-mobile .border-mission-mobile .img-cover-mobile img,
+.mission-mobile .border-history-mobile .img-cover-mobile img,
+.mission-mobile .border-vision-mobile .img-cover-mobile img,
+.mission-mobile .border-mission-mobile .img-cover-mobile img {
     width: 400px;
     height: 200px;
   }
 }
-.container-content .history-mobile .border-history-mobile p,
-.container-content .history-mobile .border-vision-mobile p,
-.container-content .history-mobile .border-mission-mobile p,
-.container-content .vision-mobile .border-history-mobile p,
-.container-content .vision-mobile .border-vision-mobile p,
-.container-content .vision-mobile .border-mission-mobile p,
-.container-content .mission-mobile .border-history-mobile p,
-.container-content .mission-mobile .border-vision-mobile p,
-.container-content .mission-mobile .border-mission-mobile p {
+.history-mobile .border-history-mobile p,
+.history-mobile .border-vision-mobile p,
+.history-mobile .border-mission-mobile p,
+.vision-mobile .border-history-mobile p,
+.vision-mobile .border-vision-mobile p,
+.vision-mobile .border-mission-mobile p,
+.mission-mobile .border-history-mobile p,
+.mission-mobile .border-vision-mobile p,
+.mission-mobile .border-mission-mobile p {
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -352,22 +472,22 @@ body {
   padding: 0 25px;
 }
 @media (min-width: 576px) {
-  .container-content .history-mobile .border-history-mobile p,
-.container-content .history-mobile .border-vision-mobile p,
-.container-content .history-mobile .border-mission-mobile p,
-.container-content .vision-mobile .border-history-mobile p,
-.container-content .vision-mobile .border-vision-mobile p,
-.container-content .vision-mobile .border-mission-mobile p,
-.container-content .mission-mobile .border-history-mobile p,
-.container-content .mission-mobile .border-vision-mobile p,
-.container-content .mission-mobile .border-mission-mobile p {
+  .history-mobile .border-history-mobile p,
+.history-mobile .border-vision-mobile p,
+.history-mobile .border-mission-mobile p,
+.vision-mobile .border-history-mobile p,
+.vision-mobile .border-vision-mobile p,
+.vision-mobile .border-mission-mobile p,
+.mission-mobile .border-history-mobile p,
+.mission-mobile .border-vision-mobile p,
+.mission-mobile .border-mission-mobile p {
     font-size: 20px;
     padding: 0 70px;
   }
 }
-.container-content .history-mobile .border-vision-mobile,
-.container-content .vision-mobile .border-vision-mobile,
-.container-content .mission-mobile .border-vision-mobile {
+.history-mobile .border-vision-mobile,
+.vision-mobile .border-vision-mobile,
+.mission-mobile .border-vision-mobile {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -428,12 +548,34 @@ body {
   width: calc(100% + 30px);
   padding-right: 15px;
 }
+@media (min-width: 359px) and (max-width: 362px) {
+  .container-achievement .category-achievement .achievement-communication h1,
+.container-achievement .category-achievement .achievement-workshop h1 {
+    padding-right: 0px !important;
+    transform: translateX(-11px);
+  }
+}
 .container-achievement .category-achievement .achievement-communication p,
 .container-achievement .category-achievement .achievement-workshop p {
-  margin-top: 10px;
+  margin-top: 7px;
   margin-bottom: 15px;
 }
+.container-achievement .category-achievement .achievement-workshop p {
+  margin-top: 14px;
+}
+@media (max-width: 380px) and (min-width: 363px) {
+  .container-achievement .category-achievement .achievement-workshop h1 {
+    padding-right: 8px;
+    transform: translateX(-7px);
+  }
+}
+.container-achievement .category-achievement .achievement-communication p {
+  margin-top: 5px !important;
+  margin-bottom: 15px !important;
+}
 .container-achievement .category-achievement .achievement-communication img {
+  margin-top: 8px;
+  width: 108px;
   height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
