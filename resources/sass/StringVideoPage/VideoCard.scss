@@ -1,9 +1,10 @@
 .videocard {
-    width: 23.8%;
+    width: 71%;
     background-color: #252B50;
     border-radius: 10px;
     position:relative;
     transition:0.5s;
+    margin-bottom: 60px;
     &__image { 
         width:100%;
         height:171px;
@@ -66,17 +67,14 @@
         border-radius:5px;
     }
 }
-.videocard:hover {
-    box-shadow: 5px 5px 10px 0 white;
-    transform: scale(105%);
-    cursor: pointer;
-}
-@media only screen and (max-width:500px) {
+@media only screen and (min-width:500px) {
     .videocard {
-        width: 60.8%;
-        margin-bottom: 70px;
+        width: 23.8%;
+        margin-bottom: 0px;
     }
     .videocard:hover {
-        display: none;
+        box-shadow: 5px 5px 10px 0 white;
+        transform: scale(105%);
+        cursor: pointer;
     }
 }
