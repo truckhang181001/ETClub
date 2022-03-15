@@ -118,8 +118,8 @@
                     width: 88%;
                     font-family: Open Sans;
                     font-weight: 400;
-                    font-size: 20px;
-                    line-height: 35px;
+font-size: 20px;
+line-height: 30px;
                     align-items: center;
                     text-align: justify;
                     color: #FFFFFF;
@@ -259,38 +259,50 @@
                     padding-left: 38px;
 
                     h1 {
-                        width: 80%;
+                        width: 82%;
+                        margin-top: 7px;
                         display: flex;
                         justify-content: flex-end;
                     }
 
                     p {
-                        width: 80%;
+                        width: 82%;
+                        margin-top: 15px;
                     }
                 }
 
                 .img-cover {
-
+                    top: 58px;
                     left: -221px;
 
                 }
             }
         }
         .history {
+            .border-history {
+                p {
+line-height: 35px;
+                }
+            }
             .img-cover {
+                top: 57px;
                 width: 690px;
                 height: 500px;
+                overflow: hidden;
                 img {
+                    object-fit: cover;
                     width: 690px;
-                    height: 500px;
+                    height: 525px;
                 }
             }
         }
          .mission {
         .border-mission {
             width: 56%;
-            padding-left: 65px !important;
-
+            padding-left: 53px !important;
+            h1 {
+                margin-bottom: 27px;
+            }
             p {
                 width: 91% !important;
                 margin: 0;
@@ -298,6 +310,7 @@
         }
 
         .img-cover {
+            top: 59px;
             right: -233px;
         }
     }

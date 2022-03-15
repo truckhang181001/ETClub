@@ -157,7 +157,7 @@ body {
     font-family: Open Sans;
     font-weight: 400;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 30px;
     align-items: center;
     text-align: justify;
     color: #FFFFFF;
@@ -302,33 +302,47 @@ body {
     padding-left: 38px;
   }
   .container-content .ImgInLeft .vision .border-vision h1 {
-    width: 80%;
+    width: 82%;
+    margin-top: 7px;
     display: flex;
     justify-content: flex-end;
   }
   .container-content .ImgInLeft .vision .border-vision p {
-    width: 80%;
+    width: 82%;
+    margin-top: 15px;
   }
   .container-content .ImgInLeft .vision .img-cover {
+    top: 58px;
     left: -221px;
   }
+  .container-content .history .border-history p {
+    line-height: 35px;
+  }
   .container-content .history .img-cover {
+    top: 57px;
     width: 690px;
     height: 500px;
+    overflow: hidden;
   }
   .container-content .history .img-cover img {
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 690px;
-    height: 500px;
+    height: 525px;
   }
   .container-content .mission .border-mission {
     width: 56%;
-    padding-left: 65px !important;
+    padding-left: 53px !important;
+  }
+  .container-content .mission .border-mission h1 {
+    margin-bottom: 27px;
   }
   .container-content .mission .border-mission p {
     width: 91% !important;
     margin: 0;
   }
   .container-content .mission .img-cover {
+    top: 59px;
     right: -233px;
   }
 }
