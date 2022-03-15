@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\User\HomePageController;
+use App\Http\Controllers\User\NewsPageController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
+Route::get('/ban-tin-et',[NewsPageController::class,'index']);

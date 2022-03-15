@@ -10,3 +10,95 @@ body {
   background-color: #0E1643 !important;
   color: #FFFFFF;
 }
+
+.border-book {
+  border-radius: 10px;
+  border: 3px solid #7496FF;
+  padding: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+
+.booklet {
+  width: 980px;
+  height: 690px;
+  position: relative;
+  margin: 0 auto 10px;
+  border-radius: 10px;
+  background: transparent !important;
+}
+.booklet .b-load .b-page {
+  border-radius: 10px;
+  width: 50%;
+  width: 100%;
+}
+.booklet .b-load .b-page .b-wrap {
+  width: 490px !important;
+  height: 690px !important;
+}
+.booklet .b-load .b-page .b-wrap-left {
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.booklet .b-load .b-page .b-wrap-left .b-counter {
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.booklet .b-load .b-page .b-wrap-right {
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.booklet .b-load .b-page .b-wrap-right .b-counter {
+  border-bottom-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.book_wrapper {
+  margin: 0 auto;
+  padding: 30px 100px;
+  position: relative;
+  border-radius: 10px;
+  background: rgba(128, 147, 255, 0.25);
+}
+.book_wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 470px;
+  height: 670px;
+  border-radius: 10px;
+  box-shadow: inset 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cover-pagination #next_page_button, .cover-pagination #prev_page_button {
+  display: block;
+  position: absolute;
+  font-size: 55px;
+  color: white;
+  cursor: pointer;
+  margin-top: -20px;
+  top: 50%;
+}
+.cover-pagination a#prev_page_button {
+  left: 30px;
+}
+.cover-pagination a#next_page_button {
+  right: 30px;
+  background-position: -41px -40px;
+}
+.cover-pagination a#next_page_button:hover {
+  background-position: -41px 0px;
+}
+.cover-pagination a#prev_page_button:hover {
+  background-position: 0px 0px;
+}
