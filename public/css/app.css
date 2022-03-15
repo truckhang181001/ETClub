@@ -173,11 +173,11 @@ body {
   .container-content .history .img-cover img,
 .container-content .mission .img-cover img,
 .container-content .vision .img-cover img {
-    width: 690px;
+    width: 700px;
     height: 500px;
+    border-radius: 10px;
     -o-object-fit: cover;
        object-fit: cover;
-    border-radius: 10px;
   }
   .container-content .ImgInLeft {
     width: 100%;
@@ -203,12 +203,12 @@ body {
     width: 89%;
   }
   .container-content .ImgInLeft .vision .img-cover {
-    width: 690px;
+    width: 700px;
     height: 500px;
     left: -221px;
   }
   .container-content .ImgInLeft .vision .img-cover img {
-    width: 690px;
+    width: 700px;
     height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -264,6 +264,8 @@ body {
 .container-content .vision .border-vision h1,
 .container-content .vision .border-mission h1 {
     width: 80%;
+    margin-top: 5px;
+    margin-bottom: 0;
   }
   .container-content .history .border-history p,
 .container-content .history .border-vision p,
@@ -309,6 +311,14 @@ body {
   }
   .container-content .ImgInLeft .vision .img-cover {
     left: -221px;
+  }
+  .container-content .history .img-cover {
+    width: 690px;
+    height: 500px;
+  }
+  .container-content .history .img-cover img {
+    width: 690px;
+    height: 500px;
   }
   .container-content .mission .border-mission {
     width: 56%;
