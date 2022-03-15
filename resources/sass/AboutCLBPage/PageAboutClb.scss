@@ -6,12 +6,13 @@
     @media (min-width: 576px) {
         width: 100%;
     }
-
     @media (min-width: 1200px) {
-        width: calc(100% - 81px);
+        width: 1200px;
         margin: 0 auto;
     }
-
+    @media (min-width: 1300px) {
+        width: 1300px;
+    }
     .header-name {
         font-family: K2D;
         font-style: normal;
@@ -22,7 +23,7 @@
         text-align: center;
         color: #FFFFFF;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
 
         @media (min-width: 576px) {
             font-size: 32px;
@@ -33,7 +34,7 @@
         @media (min-width:1200px) {
             font-size: 60px;
             line-height: 28px;
-            margin-bottom: 61px;
+            margin-bottom: 81px;
         }
     }
 
@@ -43,13 +44,16 @@
             height: 305.08px;
             object-fit: cover;
             border-radius: 10px;
+            margin-bottom: 6px;
 
             @media (min-width: 576px) {
                 height: 400px;
+                margin-bottom: 0px;
             }
 
             @media (min-width: 1200px) {
                 height: 732px;
+                margin-bottom: 5px;
             }
         }
     }
@@ -71,9 +75,9 @@
     .mission {
         display: none;
     }
-
+     
     @media (min-width: 1200px) {
-        width: calc(100% - 82px);
+        width: 1199px;
 
         .history-mobile,
         .mission-mobile,
@@ -91,7 +95,7 @@
             position: relative;
             width: calc(100% - 219px);
             height: 618px;
-            border-radius: 5px;
+            border-radius: 10px;
             border: 2px solid #F5A623;
             margin-top: 40px;
             display: flex;
@@ -201,7 +205,7 @@ line-height: 30px;
     }
 
     @media (min-width: 1300px) {
-        width: calc(100% - 82px);
+        width: 1299px;
 
         .history-mobile,
         .mission-mobile,
@@ -256,7 +260,7 @@ line-height: 30px;
 
                 .border-vision {
                     margin: 0;
-                    padding-left: 38px;
+                    padding-left: 40px;
 
                     h1 {
                         width: 82%;
@@ -280,8 +284,10 @@ line-height: 30px;
         }
         .history {
             .border-history {
+                margin-top: 8px;
                 p {
 line-height: 35px;
+margin-top: 15px;
                 }
             }
             .img-cover {
@@ -300,11 +306,14 @@ line-height: 35px;
         .border-mission {
             width: 56%;
             padding-left: 53px !important;
+            margin-top: -15px;
             h1 {
-                margin-bottom: 27px;
+                margin-top: 7px;
+    margin-bottom: 12px;
             }
             p {
                 width: 91% !important;
+                line-height: 28px;
                 margin: 0;
             }
         }
@@ -328,7 +337,7 @@ line-height: 35px;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 37px;
+    margin-bottom: 60px;
 
     @media (min-width: 576px) {
         font-size: 40px;
@@ -339,6 +348,7 @@ line-height: 35px;
     @media (min-width: 1200px) {
         font-size: 60px;
         line-height: 78px;
+        margin-bottom: 17px;
     }
 }
 
@@ -368,12 +378,12 @@ line-height: 35px;
         h1 {
             font-family: K2D;
             font-style: normal;
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 28px;
+            font-weight: 700;
+font-size: 20px;
+line-height: 28px;
             color: #F5A623;
             margin-bottom: 0;
-            margin-top: 21px;
+            margin-top: 31px;
 
             @media (min-width: 576px) {
                 font-size: 25px;
@@ -383,11 +393,10 @@ line-height: 35px;
         .img-cover-mobile {
             img {
                 width: 262px;
-                height: 154px;
+                height: 189px;
                 border-radius: 10px;
                 margin-top: 30px;
-                margin-bottom: 45px;
-                padding-left: 5px;
+                margin-bottom: 30px;
                 object-fit: cover;
 
                 @media (min-width: 576px) {
@@ -400,12 +409,13 @@ line-height: 35px;
         p {
             font-family: Open Sans;
             font-style: normal;
-            font-weight: normal;
+            font-weight: 400;
             font-size: 16px;
             line-height: 25px;
             text-align: justify;
             color: #FFFFFF;
             padding: 0 25px;
+            margin-bottom: 29px;
 
             @media (min-width: 576px) {
                 font-size: 20px;
@@ -415,8 +425,9 @@ line-height: 35px;
     }
 
     .border-vision-mobile {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
     }
 }
 
@@ -442,6 +453,11 @@ line-height: 35px;
         @media (min-width: 576px) {
             font-size: 30px;
         }
+        @Media (min-width: 1200px) {
+            font-weight: 800;
+font-size: 60px;
+line-height: 30px;
+        }
     }
 
     .category-achievement {
@@ -454,9 +470,22 @@ line-height: 35px;
             background: -webkit-linear-gradient(#8093FF, #66FFE5);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            margin-top: 15px ;
+            margin-bottom: 15px;
 
             @media (min-width: 576px) {
                 font-size: 22px;
+            }
+            @media (min-width: 1300px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 46px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-weight: 700;
+              font-size: 55px;
+            line-height: 28px;
             }
         }
 
@@ -467,10 +496,27 @@ line-height: 35px;
             font-size: 18px;
             line-height: 28px;
             color: #FFFFFF;
+            margin-bottom: 30px;
 
             @media (min-width: 576px) {
                 font-size: 22px;
             }
+            @media (min-width: 1300px) {
+                height: 26px;
+                margin-bottom: 28px;
+                margin-top: -7px;
+                font-weight: 400;
+font-size: 38px;
+line-height: 50px;
+            }
+        }
+        img {
+            width: 70px;
+height: 57.04px;
+@Media (min-width: 1200px) {
+    width: 100px;
+    height: 81.48px;
+}
         }
 
         .achievement-communication,
@@ -485,15 +531,20 @@ line-height: 35px;
             }
 
             p {
-                margin-top: 7px;
-                margin-bottom: 15px;
+                @media (min-width: 1300px) {
+                }
             }
         }
+        .achievement-communication, .achievement-workshop, .achievement-competition {
+            @media (min-width: 1200px) { 
+               margin-top: 52px;
+            }
+                
+            }
          .achievement-workshop {
             p {
-                margin-top: 14px;
-                @media (max-width: 450px) {
-                    margin-top: 10px;
+                @media (min-width: 1300px) {
+
                 }
             }
             h1 {
@@ -502,11 +553,19 @@ line-height: 35px;
                     transform: translateX(-7px);
                 }
             }
+            img {
+                @media (min-width: 1200px) {
+                    transform: translateY(-8spx);
+                    
+                }
+            }
          }
         .achievement-communication {
             p {
-                margin-top: 5px !important;
-                margin-bottom: 15px !important;
+                @media (min-width: 1300px) {
+                    margin-top: 14px;
+                    margin-bottom: 25px;
+                }
             }
             h1 {
                 @media (min-width: 1200px) {
@@ -514,10 +573,11 @@ line-height: 35px;
                 }
             }
             img {
-                margin-top: 8px;
-                width: 108px;
-                height: 80px;
                 object-fit: cover;
+                @media (min-width: 1200px) {
+                    margin-top: 6px;
+                    transform: translateY(-4px);
+                }
             }
         }
     }

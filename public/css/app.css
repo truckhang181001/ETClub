@@ -23,8 +23,13 @@ body {
 }
 @media (min-width: 1200px) {
   .container-banner {
-    width: calc(100% - 81px);
+    width: 1200px;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1300px) {
+  .container-banner {
+    width: 1300px;
   }
 }
 .container-banner .header-name {
@@ -37,7 +42,7 @@ body {
   text-align: center;
   color: #FFFFFF;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 @media (min-width: 576px) {
   .container-banner .header-name {
@@ -50,7 +55,7 @@ body {
   .container-banner .header-name {
     font-size: 60px;
     line-height: 28px;
-    margin-bottom: 61px;
+    margin-bottom: 81px;
   }
 }
 .container-banner .img-banner img {
@@ -59,15 +64,18 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
+  margin-bottom: 6px;
 }
 @media (min-width: 576px) {
   .container-banner .img-banner img {
     height: 400px;
+    margin-bottom: 0px;
   }
 }
 @media (min-width: 1200px) {
   .container-banner .img-banner img {
     height: 732px;
+    margin-bottom: 5px;
   }
 }
 
@@ -90,7 +98,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container-content {
-    width: calc(100% - 82px);
+    width: 1199px;
   }
   .container-content .history-mobile,
 .container-content .mission-mobile,
@@ -103,7 +111,7 @@ body {
     position: relative;
     width: calc(100% - 219px);
     height: 618px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #F5A623;
     margin-top: 40px;
     display: flex;
@@ -227,7 +235,7 @@ body {
 }
 @media (min-width: 1300px) {
   .container-content {
-    width: calc(100% - 82px);
+    width: 1299px;
   }
   .container-content .history-mobile,
 .container-content .mission-mobile,
@@ -299,7 +307,7 @@ body {
   }
   .container-content .ImgInLeft .vision .border-vision {
     margin: 0;
-    padding-left: 38px;
+    padding-left: 40px;
   }
   .container-content .ImgInLeft .vision .border-vision h1 {
     width: 82%;
@@ -315,8 +323,12 @@ body {
     top: 58px;
     left: -221px;
   }
+  .container-content .history .border-history {
+    margin-top: 8px;
+  }
   .container-content .history .border-history p {
     line-height: 35px;
+    margin-top: 15px;
   }
   .container-content .history .img-cover {
     top: 57px;
@@ -333,12 +345,15 @@ body {
   .container-content .mission .border-mission {
     width: 56%;
     padding-left: 53px !important;
+    margin-top: -15px;
   }
   .container-content .mission .border-mission h1 {
-    margin-bottom: 27px;
+    margin-top: 7px;
+    margin-bottom: 12px;
   }
   .container-content .mission .border-mission p {
     width: 91% !important;
+    line-height: 28px;
     margin: 0;
   }
   .container-content .mission .img-cover {
@@ -357,7 +372,7 @@ body {
   align-items: center;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 37px;
+  margin-bottom: 60px;
 }
 @media (min-width: 576px) {
   .content-name {
@@ -370,6 +385,7 @@ body {
   .content-name {
     font-size: 60px;
     line-height: 78px;
+    margin-bottom: 17px;
   }
 }
 
@@ -425,12 +441,12 @@ body {
 .mission-mobile .border-mission-mobile h1 {
   font-family: K2D;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   color: #F5A623;
   margin-bottom: 0;
-  margin-top: 21px;
+  margin-top: 31px;
 }
 @media (min-width: 576px) {
   .history-mobile .border-history-mobile h1,
@@ -455,11 +471,10 @@ body {
 .mission-mobile .border-vision-mobile .img-cover-mobile img,
 .mission-mobile .border-mission-mobile .img-cover-mobile img {
   width: 262px;
-  height: 154px;
+  height: 189px;
   border-radius: 10px;
   margin-top: 30px;
-  margin-bottom: 45px;
-  padding-left: 5px;
+  margin-bottom: 30px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -488,12 +503,13 @@ body {
 .mission-mobile .border-mission-mobile p {
   font-family: Open Sans;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 25px;
   text-align: justify;
   color: #FFFFFF;
   padding: 0 25px;
+  margin-bottom: 29px;
 }
 @media (min-width: 576px) {
   .history-mobile .border-history-mobile p,
@@ -512,8 +528,8 @@ body {
 .history-mobile .border-vision-mobile,
 .vision-mobile .border-vision-mobile,
 .mission-mobile .border-vision-mobile {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .container-achievement {
@@ -539,6 +555,13 @@ body {
     font-size: 30px;
   }
 }
+@Media (min-width: 1200px) {
+  .container-achievement .achievement-name {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 30px;
+  }
+}
 .container-achievement .category-achievement p {
   font-family: K2D;
   font-style: normal;
@@ -548,10 +571,25 @@ body {
   background: -webkit-linear-gradient(#8093FF, #66FFE5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 @media (min-width: 576px) {
   .container-achievement .category-achievement p {
     font-size: 22px;
+  }
+}
+@media (min-width: 1300px) {
+  .container-achievement .category-achievement p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 28px;
   }
 }
 .container-achievement .category-achievement h1 {
@@ -561,10 +599,31 @@ body {
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
+  margin-bottom: 30px;
 }
 @media (min-width: 576px) {
   .container-achievement .category-achievement h1 {
     font-size: 22px;
+  }
+}
+@media (min-width: 1300px) {
+  .container-achievement .category-achievement h1 {
+    height: 26px;
+    margin-bottom: 28px;
+    margin-top: -7px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+  }
+}
+.container-achievement .category-achievement img {
+  width: 70px;
+  height: 57.04px;
+}
+@Media (min-width: 1200px) {
+  .container-achievement .category-achievement img {
+    width: 100px;
+    height: 81.48px;
   }
 }
 .container-achievement .category-achievement .achievement-communication h1,
@@ -579,17 +638,9 @@ body {
     transform: translateX(-11px);
   }
 }
-.container-achievement .category-achievement .achievement-communication p,
-.container-achievement .category-achievement .achievement-workshop p {
-  margin-top: 7px;
-  margin-bottom: 15px;
-}
-.container-achievement .category-achievement .achievement-workshop p {
-  margin-top: 14px;
-}
-@media (max-width: 450px) {
-  .container-achievement .category-achievement .achievement-workshop p {
-    margin-top: 10px;
+@media (min-width: 1200px) {
+  .container-achievement .category-achievement .achievement-communication, .container-achievement .category-achievement .achievement-workshop, .container-achievement .category-achievement .achievement-competition {
+    margin-top: 52px;
   }
 }
 @media (max-width: 380px) and (min-width: 363px) {
@@ -598,9 +649,16 @@ body {
     transform: translateX(-7px);
   }
 }
-.container-achievement .category-achievement .achievement-communication p {
-  margin-top: 5px !important;
-  margin-bottom: 15px !important;
+@media (min-width: 1200px) {
+  .container-achievement .category-achievement .achievement-workshop img {
+    transform: translateY(-8spx);
+  }
+}
+@media (min-width: 1300px) {
+  .container-achievement .category-achievement .achievement-communication p {
+    margin-top: 14px;
+    margin-bottom: 25px;
+  }
 }
 @media (min-width: 1200px) {
   .container-achievement .category-achievement .achievement-communication h1 {
@@ -608,9 +666,12 @@ body {
   }
 }
 .container-achievement .category-achievement .achievement-communication img {
-  margin-top: 8px;
-  width: 108px;
-  height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (min-width: 1200px) {
+  .container-achievement .category-achievement .achievement-communication img {
+    margin-top: 6px;
+    transform: translateY(-4px);
+  }
 }
