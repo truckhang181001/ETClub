@@ -438,6 +438,9 @@ line-height: 28px;
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    @media (min-width: 1200px) {
+        margin-top: 70px;
+    }
 
     .achievement-name {
         font-family: K2D;
@@ -461,6 +464,9 @@ line-height: 30px;
     }
 
     .category-achievement {
+        @media (min-width: 1200px) {
+            margin-top: 60px;
+        }
         p {
             font-family: K2D;
             font-style: normal;
