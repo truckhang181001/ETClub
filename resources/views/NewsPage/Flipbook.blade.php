@@ -1,4 +1,6 @@
-<h1>SỰ PHÁT TRIỂN CỦA CÔNG NGHỆ BLOCKCHAIN</h1>
+<div class="title-cover">
+	<h1 class="news-title">SỰ PHÁT TRIỂN CỦA CÔNG NGHỆ BLOCKCHAIN</h1>
+</div>
 <div class="border-book">
 	<div class="book_wrapper">
 		<div class="cover-pagination">

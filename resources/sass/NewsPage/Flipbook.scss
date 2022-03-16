@@ -1,5 +1,14 @@
 $width: 980px;
 $height: 690px;
+.title-cover {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    .news-title {
+        font-size: 60px;
+        font-family: K2D;
+    }
+}
 
 .border-book {
     border-radius: 10px;
