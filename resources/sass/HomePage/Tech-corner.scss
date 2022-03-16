@@ -5,14 +5,15 @@
     text-align: center;
     color:white;
 }
-.container {
-    width: 1440px;
+.tech-container {
+    width: 1300px;
     margin:0 auto;
 }
 .techconner {
     margin-top: 50px;
     &-name {
         @include name;
+        font-size:60px;
         height:min-content;
     }
     &-list {
@@ -23,7 +24,7 @@
     }
     &-item {
         background-color: #15123C;
-        width: 30%;
+        width: 28.85%;
         height:541px;
         display: flex;
         flex-direction: column;
@@ -32,12 +33,12 @@
         border: 3px solid #F5A623;
         box-sizing: border-box;
         border-radius: 10px;
-        padding: 21px 22px 20px 23px;
+        padding: 21px 23px 20px 24px;
         transition: cubic-bezier(1, 0.82, 0.165, 1);
         position:relative;
         .ellipse {
             position:absolute;
-            background-color: rgba(255, 255, 255, 0.15);
+            background-color: rgba(255, 255, 255, 0.2);
         }
         .ellipse1{
             width:198px;
@@ -74,7 +75,7 @@
         transition: 0.3s ease-in;
     }
     &-item:hover {
-        box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.3);
+        box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.4);
     }
 
     &-title {
@@ -91,7 +92,7 @@
     }
     &-btn {
         background: #F5A623;
-        padding:9px 19px;
+        padding:9px 18px;
         box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
         border-radius: 10px;
         font-weight: 500;
@@ -99,14 +100,16 @@
         text-decoration: none;
         color: #3F3356;
         font-family:K2D;
+        position:relative;
     }
     &-btn:hover {
         transform: translateY(-3px);
         box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+        color: #3F3356;
     }
     &-btn:active {
         outline:none;
-        transform: translateY(2px);
+        transform: translateY(-1px);
         box-shadow: 0 0.5px 10px rgba(0, 0, 0, .2);
     }
     &-btn::after {
@@ -119,7 +122,7 @@
         left:0;
         border-radius:10px;
         z-index:-1;
-        transition: all 1s;
+        transition:  all 1s ;
         background-color: #F5A623;
     }
     &-btn:hover::after{
@@ -127,18 +130,34 @@
         opacity:0;
     }
 }
-@media screen and (max-width: 428px) {
-    .container {
-        width:428px;
+@media screen and (max-width: 500px) {
+    .tech-container {
+        width:100%;
     }
     .techconner {
+        &-name {
+            font-size: 24px;
+        }
         &-list {
             flex-direction: column;
-            margin: 80px auto;
+            margin: 30px auto;
             padding: 0;
         }
         &-item {
-            margin-top: 30px;
+            margin-bottom: 40px;
+            width:69.76%;
+            height:486px;
+        }
+        &-title {
+            font-size:20px;
+        }
+        &-desc {
+            font-size: 16px;
+            text-align: center;
+        }
+        &-btn {
+            font-size: 16px;
+            padding: 9px 22px;
         }
     }
 }
