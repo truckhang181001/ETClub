@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[HomePageController::class,'index']);
 Route::get('/thong-tin-cuoc-thi',[InfoContestPageController::class,'index']);
+

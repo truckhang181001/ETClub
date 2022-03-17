@@ -1,0 +1,86 @@
+.container__contest-timelineunder {
+    width: calc(100% - 24px);
+    margin: 0 auto !important;
+
+    .col-timeline-upper {
+            .timeline-time{
+                h5 {
+                    margin: 0 auto;
+                    width: 142px;
+                    font-family: 'K2D';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                    padding-left: 29px;
+                }
+            }
+        .timeline-center {
+            position: relative;
+            height: 54px;
+            padding-left: 4px;
+            &__border {
+                margin-top: 72px;
+                width: 177.76px;
+                border: 2px solid #F5A623;
+                box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.4);
+            }
+            &__img {
+                position: absolute;
+                top: -54px;
+                right: 67px;
+            }
+        }
+        .timeline-title {
+            h5 {
+                padding-left: 13px;
+                font-family: 'K2D';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+            }
+        }
+    }
+}
+.container__lookback--mobile {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    .lookback__title--mobile {
+        width: calc(100% - 10px) ;
+        margin: 60px auto 30px;
+        
+        h2 {
+            display: flex;
+            justify-content: center;
+            font-family: 'K2D';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+        }
+    }
+    .lookback__img--mobile {
+      width: 100%;
+      margin-bottom: 30px;
+      img {
+          width: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+      }
+    }
+    .lookback__content--mobile{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: justify;
+color: #FFFFFF;
+    }
+}
