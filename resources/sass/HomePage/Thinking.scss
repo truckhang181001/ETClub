@@ -12,7 +12,7 @@
         margin-top: 89px;
     }
     &-list {
-        margin-top: 30px;
+        margin-top: 60px;
     }
     &-item {
         display: flex;
@@ -21,7 +21,7 @@
         height:300px;
         border: 3px solid #F5A623;
         border-radius: 10px;
-        background-color: #0E1643;
+        background-color: #15123C;
         margin-bottom: 30px;
     }
     &-quote {
@@ -43,6 +43,10 @@
         display: flex;
         padding: 0 38px;
         margin-top: 38px;
+        img {
+            width:80px;
+            height:80px;
+        }
     }
     &-info {
         margin-left: 25px;
@@ -56,13 +60,13 @@
         }
         .info-where {
             font-weight: 500;
-            font-size: 18px;
+            font-size: 16px;
             color: #FFFFFF;
             transition:cubic-bezier(1, 0.82, 0.165, 1);
         }
     }
     &-item:hover {
-        box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.3);
+        box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.4);
     }
     &-detail img {
         transition: 0.3s ease-in;
@@ -75,7 +79,8 @@
     background-color: #0E1643;
 }
 .owl-theme .owl-dots .owl-dot span {
-    border: 2px solid #7496FF;
+    border: 0.7px solid #7496FF;
+    background-color: #3F3356 !important;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-image: linear-gradient(to right, #7496FF, #5DD7D0) !important;
@@ -112,9 +117,6 @@
         &-info {
             .info-name {
                 font-size: 18px;
-            }
-            .info-where {
-                font-size: 16px;
             }
         }
     }

@@ -4,7 +4,7 @@
         <div class=" thingking-list owl-carousel owl-theme">
             <div class="thingking-item item">
                 <div class="thingking-quote">
-                    <img src="/img/Rectangle 2546.png" alt="">
+                    <img src="/img/Rectangle 2640.png" alt="">
                 </div>
                 <div class="thingking-desc">
                     <p>Bạn có quá nhiều deadline? <p>
@@ -22,7 +22,7 @@
             </div>
             <div class="thingking-item item">
                 <div class="thingking-quote">
-                    <img src="/img/Rectangle 2546.png" alt="">
+                    <img src="/img/Rectangle 2640.png" alt="">
                 </div>
                 <div class="thingking-desc"> 
                     <p>Bạn có quá nhiều deadline? <p>
@@ -40,7 +40,7 @@
             </div>
             <div class="thingking-item item">
                 <div class="thingking-quote">
-                    <img src="/img/Rectangle 2546.png" alt="">
+                    <img src="/img/Rectangle 2640.png" alt="">
                 </div>
                 <div class="thingking-desc">
                     <p>Bạn có quá nhiều deadline? <p>
@@ -58,7 +58,7 @@
             </div>
             <div class="thingking-item item">
                 <div class="thingking-quote">
-                    <img src="/img/Rectangle 2546.png" alt="">
+                    <img src="/img/Rectangle 2640.png" alt="">
                 </div>
                 <div class="thingking-desc">
                     <p>Bạn có quá nhiều deadline? <p>
@@ -76,7 +76,7 @@
             </div>
             <div class="thingking-item item">
                 <div class="thingking-quote">
-                    <img src="/img/Rectangle 2546.png" alt="">
+                    <img src="/img/Rectangle 2640.png" alt="">
                 </div>
                 <div class="thingking-desc">
                     <p>Bạn có quá nhiều deadline? <p>
@@ -94,7 +94,7 @@
             </div>
             <div class="thingking-item item">
                 <div class="thingking-quote">
-                    <img src="/img/Rectangle 2546.png" alt="">
+                    <img src="/img/Rectangle 2640.png" alt="">
                 </div>
                 <div class="thingking-desc">
                     <p>Bạn có quá nhiều deadline? <p>
