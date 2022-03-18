@@ -3,14 +3,14 @@
             .timeline-time-under{
                 h5 {
                     margin: 0 auto;
-                    width: 142px;
+                    width: 68%;
                     font-family: 'K2D';
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 18px;
-                    line-height: 22px;
+font-size: 16px;
+line-height: 22px;
                     color: #FFFFFF;
-                    padding-left: 29px;
+                    padding-left: 0;
                     @media (min-width: 1200px) {
                         padding-left: 13px;
                         width: 259px;
@@ -21,7 +21,8 @@
                 }
             }
         .timeline-center-under {
-            height: 54px;
+            height: 133px;
+            float: right;
             padding-left: 4px;
             @media (min-width: 1200px) {
                 height: 478px;
@@ -33,6 +34,9 @@
                 width: 177.76px;
                 border: 2px solid #F5A623;
                 box-shadow: 10px 10px 10px rgba(245, 166, 35, 0.4);
+                @media (max-width:392px) {
+                    width: 167.76px;
+                }
                 @media (min-width: 1200px) {
                     width: 600px;
                     margin-top: 281px;
@@ -41,8 +45,8 @@
             }
             &__img--mobile {
                 position: absolute;
-                top: -54px;
-                right: 67px;
+                top: 62px;
+                right: 80px;
                 @media (min-width: 1200px) {
                     display: none;
                 }
@@ -69,7 +73,7 @@
                 font-family: 'K2D';
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 16px;
 line-height: 22px;
 color: #FFFFFF;
 @media (min-width: 1200px) {

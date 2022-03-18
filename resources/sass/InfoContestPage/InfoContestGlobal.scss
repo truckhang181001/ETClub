@@ -3,7 +3,7 @@
     margin: 0 auto;
     margin-bottom: 45px;
     @media (min-width: 1200px) {
-         width: 1440px;
+        width: calc( 100% - 50px);
     }
     h1 {
 
@@ -21,6 +21,8 @@
             font-weight: 700;
              font-size: 60px;
              line-height: 80px;
+             display: flex;
+    justify-content: center;
        }
     }
 }
@@ -126,7 +128,7 @@
     }
 }
 .container__contest-timeline-global {
-    width: calc(100% - 26px);
+    width: calc(100% - 23px);
     margin: 0 auto !important;
     @media (min-width: 1200px) {
         width: 1212px;
@@ -151,6 +153,7 @@
         }
         .timeline-center-up {
             &__border{
+                width: calc(100% - 7px);
                 @media (min-width: 1200px) {
                     width: 283.27px;
                 }
@@ -158,6 +161,7 @@
             &__img--desktop {
                 @media (min-width: 1200px) {
                     right: 42%;
+                    top: 32%;
                     
                     img {
                         width: 77px;
@@ -165,13 +169,22 @@
                     }
                 }
             }
+            &__img--mobile {
+                top: 90px;
+                right: 39%;
+            }
         }
         .timeline-title__up-ecommerce {
             display: none;
         }
         .timeline-title__up-global1, .timeline-title__up-global2 {
+            h5 {
+                width: 107px;
+                padding-left: 0;
+            }
             @media (min-width: 1200px) {
                 h5 {
+                    width: 100%;
                     padding-right: 0px;
                 }
             }
@@ -205,29 +218,42 @@
             }
         }
         .timeline-center-under {
+            height: 47px;
+            float: none;
             @media (min-width: 1200px) {
                 padding-left: 0;
                 float: none;
                 height: 169px;
             }
             &__border{
+                width: calc(100% - 7px);
+                float: none;
                 @media (min-width: 1200px) {
                     width: 283.27px;
                 }
             }
             &__img--desktop {
                 @media (min-width: 1200px) {
+                    top: 16%;
                     img {
                         width: 81px;
                         object-fit: cover;
                     }
                 }
             }
+            &__img--mobile {
+                top: 61px;
+    right: 39px;
+            }
         }
         .timeline-title__under-ecommerce {
             display: none;
         }
         .timeline-title__under-global1, .timeline-title__under-global2 {
+            h5 {
+                width: 107px;
+                padding-left: 0;
+            }
             @media (min-width: 1200px) {
                 margin-left: -76px;
                 h5 {
@@ -262,7 +288,7 @@ color: #FFFFFF;
         }
     }
     .lookback__img-global--mobile {
-      width: 100%;
+        width: calc(100% - -11px);
       margin-bottom: 30px;
       img {
           width: 100%;

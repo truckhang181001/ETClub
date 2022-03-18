@@ -84,16 +84,16 @@ còn là “cánh cửa lớn” dẫn các bạn sinh viên đến với cơ h�
     </div>
 </div>
 <div class="row container__contest-timeline-global">
-        <div class="col-3 px-lg-0 col-timeline-upper-global text-center">
+        <div class="col-3 px-0 col-timeline-upper-global text-center">
             @include('InfoConTestPage.InfoContestUpperTimelineup')
         </div>
-        <div class="col-3 px-lg-0 col-timeline-under-global text-center">
+        <div class="col-3 px-0 col-timeline-under-global text-center">
             @include('InfoConTestPage.InfoContestUpperTimelineunder') </div>
-            <div class="col-3 px-lg-0 col-timeline-upper-global text-center">
+            <div class="col-3 px-0 col-timeline-upper-global text-center">
     @include('InfoConTestPage.InfoContestUpperTimelineup')
          </div>
 
-    <div class="col-3 px-lg-0 col-timeline-under-global text-center">
+    <div class="col-3 px-0 col-timeline-under-global text-center">
     @include('InfoConTestPage.InfoContestUpperTimelineunder') </div>
     </div>
 
@@ -142,7 +142,7 @@ Với những con số ấn tượng <br>
                 </p>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-6 lookback__img-global">
+            <div class="col-lg-6 px-1 lookback__img-global">
                 <img src="./img/InfoContestPage/456.png" alt="">
             </div>
         </div>

@@ -102,10 +102,10 @@
     </div>
 </div>
 <div class="row container__contest-timeline">
-        <div class="col-6 px-lg-0 col-timeline-upper text-center">
+        <div class="col-6 px-0 col-timeline-upper text-center">
             @include('InfoConTestPage.InfoContestUpperTimelineup')
         </div>
-        <div class="col-6 px-lg-0 col-timeline-under text-center">
+        <div class="col-6 px-0 col-timeline-under text-center">
             @include('InfoConTestPage.InfoContestUpperTimelineunder') </div>
     </div>
     <div class="container__lookback--mobile">
@@ -152,7 +152,7 @@
                 </p>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-6 lookback__img">
+            <div class="col-lg-6 px-1 lookback__img">
                 <img src="./img/InfoContestPage/abc.png" alt="">
             </div>
         </div>

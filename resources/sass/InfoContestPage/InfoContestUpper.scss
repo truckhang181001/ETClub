@@ -3,7 +3,7 @@
     margin: 0 auto;
     margin-bottom: 45px;
     @media (min-width: 1200px) {
-         width: 1440px;
+        width: calc( 100% - 50px);
     }
     h1 {
 
@@ -127,6 +127,9 @@
 }
 .container__contest-timeline {
     width: calc(100% - 26px);
+    @media (max-width:390px) {
+        width: calc(100% - 48px);
+    }
     margin: 0 auto !important;
     @media (min-width: 1200px) {
         width: 1257px;
@@ -182,7 +185,7 @@ color: #FFFFFF;
         }
     }
     .lookback__img--mobile {
-      width: 100%;
+        width: calc(100% - -11px);
       margin-bottom: 30px;
       img {
           width: 100%;
