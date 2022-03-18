@@ -5,6 +5,5 @@
 
 @section('content')
     @include('InfoConTestPage.InfoContestUpper')
-    @include('InfoConTestPage.InfoContestUpperTimelineup')
-    @include('InfoConTestPage.InfoContestUpperTimelineunder')
+    @include('InfoContestPage.InfoContestGlobal')
 @endsection

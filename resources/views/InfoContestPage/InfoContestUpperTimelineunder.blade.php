@@ -1,18 +1,28 @@
-<div class="row container__contest-timelineunder">
-    <div class="col-6 col-timeline-upper text-center">
-        <div class="timeline-time">
+
+  
+        <div class="timeline-time-under">
         <h5>01/10 - 15/10/2021</h5>
         </div>
-        <div class="timeline-center">
-            <div class="timeline-center__border">
-              
+        <div class="timeline-center-under">
+            <div class="timeline-center-under__border">
             </div>
-            <div class="timeline-center__img">
-             <img src="./img/InfoContestPage/img3.png" alt="">
+            <div class="timeline-center-under__img--desktop">
+             <img src="./img/InfoContestPage/lol.png" alt="">
+            </div>
+            <div class="timeline-center-under__img--mobile">
+                <img src="./img/InfoContestPage/msi.png" alt="">
+                
             </div>
         </div>
-        <div class="timeline-title">
+        <div class="timeline-title__under-ecommerce">
             <h5>Nghiên cứu đề tài</h5>
         </div>
-    </div>
-</div>
+        <div class="timeline-title__under-global1">
+            <h5>Vòng đấu loại + 
+Training workshop</h5>
+        </div>
+        <div class="timeline-title__under-global2">
+            <h5>Gala chung kết</h5>
+        </div>
+        
+
