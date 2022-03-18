@@ -66,7 +66,15 @@ h2{
         padding: 0 150px !important;
     }
     .row{
+        
         .silver{
+            div {
+                h2 {
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+            }
             margin-top: 86px;
             @media (min-width: 576px) {
                 margin-top: 120px;
@@ -76,6 +84,13 @@ h2{
             }
         }
         .gold{
+            div {
+                h2 {
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+            }
             margin-top: 30px;
             @media (min-width: 576px) {
                 margin-top: 50px;
@@ -85,6 +100,13 @@ h2{
             }
         }
         .copper{
+            div {
+                h2 {
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+            }
             margin-top: 120px;
             @media (min-width: 576px) {
                 margin-top: 170px;
@@ -92,6 +114,11 @@ h2{
             @media (min-width: 1200px) {
                 margin-top: 300px;
             }
+        }
+    }
+    .container-Trophie {
+        @media (min-width: 1200px) {
+            height: 734px;
         }
     }
 }
@@ -113,7 +140,7 @@ h2{
   }
 
 .avatar:hover{
-    box-shadow: 2px 2px 2px 0px  #00FFFFFC;
+    box-shadow: 0px 0px 8px 2px  #00FFFFFC;
     border-radius: 50%;
     transform: scale(1.1);
 }

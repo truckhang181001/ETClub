@@ -367,7 +367,12 @@ margin-bottom: 0 !important; }
 }
 
 }
-
+.row {
+    h2 {
+        font-size: 32px !important;
+line-height: 38px;
+    }
+}
 .name:hover {
     cursor: pointer;
 }

@@ -179,6 +179,11 @@ h2, .h2-style--yellow {
 .container-fluid .row .silver {
   margin-top: 86px;
 }
+.container-fluid .row .silver div h2, .container-fluid .row .silver div .h2-style--yellow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 @media (min-width: 576px) {
   .container-fluid .row .silver {
     margin-top: 120px;
@@ -191,6 +196,11 @@ h2, .h2-style--yellow {
 }
 .container-fluid .row .gold {
   margin-top: 30px;
+}
+.container-fluid .row .gold div h2, .container-fluid .row .gold div .h2-style--yellow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 @media (min-width: 576px) {
   .container-fluid .row .gold {
@@ -205,6 +215,11 @@ h2, .h2-style--yellow {
 .container-fluid .row .copper {
   margin-top: 120px;
 }
+.container-fluid .row .copper div h2, .container-fluid .row .copper div .h2-style--yellow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 @media (min-width: 576px) {
   .container-fluid .row .copper {
     margin-top: 170px;
@@ -213,6 +228,11 @@ h2, .h2-style--yellow {
 @media (min-width: 1200px) {
   .container-fluid .row .copper {
     margin-top: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-fluid .container-Trophie {
+    height: 734px;
   }
 }
 
@@ -238,7 +258,7 @@ h2, .h2-style--yellow {
 }
 
 .avatar:hover {
-  box-shadow: 2px 2px 2px 0px #00FFFFFC;
+  box-shadow: 0px 0px 8px 2px #00FFFFFC;
   border-radius: 50%;
   transform: scale(1.1);
 }
@@ -708,6 +728,11 @@ h2, .h2-style--yellow {
 }
 .name-info-6.display {
   display: block;
+}
+
+.row h2, .row .h2-style--yellow {
+  font-size: 32px !important;
+  line-height: 38px;
 }
 
 .name:hover {

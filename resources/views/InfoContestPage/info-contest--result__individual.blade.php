@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-4 silver upper text-center">
                 <img class="avatar" src="/img/InfoContestPage/Group 1916.png" alt="">
-                <div>
+                <div class="container-info">
                     <h2>Nguyễn Văn A</h2>
                     <div>
                         <div class="majors">Hệ thống thông tin</div>
@@ -14,7 +14,7 @@
         </div>
         <div class="col-4 gold upper text-center">
                 <img class="avatar" src="/img/InfoContestPage/Group 1916.png" alt="">
-                <div>
+                <div>  
                     <h2>Nguyễn Văn A</h2>
                     <div>
                         <div class="majors">Hệ thống thông tin</div>
@@ -32,10 +32,10 @@
                         <span class="hyphen"> - </span>
                         <div class="year-school">K45 - UEH</div>
                     </div>
-                </div>
+</div>
         </div>
     </div>
-    <div class="row">
+    <div class="row container-Trophie">
         <img class="center" src="/img/InfoContestPage/Trophie.png" alt=""> 
     </div>
     <div class="row justify-content-around">
