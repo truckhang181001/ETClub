@@ -5,6 +5,9 @@
     @media (min-width: 1200px) {
         width: calc( 100% - 50px);
     }
+    @media (min-width: 1200px) {
+        width: calc( 100% - 50px);
+    }
     h1 {
 
         font-family: 'K2D';
@@ -16,13 +19,15 @@
         align-items: center;
         text-align: center;
         color: #FFFFFF;
+        @media (min-width: 576px) {
+            display: flex;
+            justify-content: center;
+        }
         @media (min-width: 1200px) {
             // justify-content: center;
             font-weight: 700;
              font-size: 60px;
              line-height: 80px;
-             display: flex;
-    justify-content: center;
        }
     }
 }
@@ -33,6 +38,9 @@
     width: calc(100% - 38px);
     margin: 0 auto;
     margin-bottom: 60px;
+    @media (min-width: 576px) {
+        width: calc(100% - 100px);
+    }
     .content__first-global--mobile {
         width: calc(100% - 15px);
 
@@ -55,6 +63,14 @@
             width: 310px;
             height: 450px;
             margin: 0 auto;
+        }
+        @media (min-width: 576px) {
+            width: 650px; 
+            height: 950px;
+            img {
+                width: 650px;
+                height: 950px;
+            }
         }
     }
 
@@ -161,7 +177,7 @@
             &__img--desktop {
                 @media (min-width: 1200px) {
                     right: 42%;
-                    top: 32%;
+                    top: 35%;
                     
                     img {
                         width: 77px;
@@ -172,6 +188,9 @@
             &__img--mobile {
                 top: 90px;
                 right: 39%;
+                @media (min-width: 576px) {
+                    right: 47%;
+                }
             }
         }
         .timeline-title__up-ecommerce {
@@ -182,6 +201,13 @@
                 width: 107px;
                 padding-left: 0;
             }
+            @media (min-width: 576px) {
+                h5 {
+                    width: 173px;
+                    padding-left: 3px;
+                }
+            }
+            
             @media (min-width: 1200px) {
                 h5 {
                     width: 100%;
@@ -234,7 +260,6 @@
             }
             &__img--desktop {
                 @media (min-width: 1200px) {
-                    top: 16%;
                     img {
                         width: 81px;
                         object-fit: cover;
@@ -244,15 +269,31 @@
             &__img--mobile {
                 top: 61px;
     right: 39px;
+    @media (min-width: 576px) {
+        right: 82px;
+    }
             }
         }
         .timeline-title__under-ecommerce {
             display: none;
+            
         }
         .timeline-title__under-global1, .timeline-title__under-global2 {
             h5 {
                 width: 107px;
                 padding-left: 0;
+            }
+            @media (min-width: 576px) {
+                h5 {
+                    width: 173px;
+                    padding-left: 3px;
+                }
+            }
+            @media (min-width: 819px) {
+                h5 {
+                    width: 173px;
+                    padding-left: 37px;
+                }
             }
             @media (min-width: 1200px) {
                 margin-left: -76px;

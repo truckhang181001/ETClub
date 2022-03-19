@@ -2,6 +2,7 @@
 
             .timeline-time-under{
                 h5 {
+                    transition: transform .2s;
                     margin: 0 auto;
                     width: 68%;
                     font-family: 'K2D';
@@ -11,6 +12,9 @@ font-size: 16px;
 line-height: 22px;
                     color: #FFFFFF;
                     padding-left: 0;
+                    @media (min-width: 576px) {
+                        width: 141px;
+                    }
                     @media (min-width: 1200px) {
                         padding-left: 13px;
                         width: 259px;
@@ -21,6 +25,7 @@ line-height: 22px;
                 }
             }
         .timeline-center-under {
+            transition: transform .2s;
             height: 133px;
             float: right;
             padding-left: 4px;
@@ -37,6 +42,9 @@ line-height: 22px;
                 @media (max-width:392px) {
                     width: 167.76px;
                 }
+                @media (min-width: 576px) {
+                    width: 354px;
+                }
                 @media (min-width: 1200px) {
                     width: 600px;
                     margin-top: 281px;
@@ -47,6 +55,9 @@ line-height: 22px;
                 position: absolute;
                 top: 62px;
                 right: 80px;
+                @media (min-width: 576px) {
+                    right: 174px;
+                }
                 @media (min-width: 1200px) {
                     display: none;
                 }
@@ -69,6 +80,7 @@ line-height: 22px;
         .timeline-title__under-ecommerce, .timeline-title__under-global1 ,.timeline-title__under-global2 {
             align-items: center;
             h5 {
+                transition: transform .2s;
                 padding-left: 13px;
                 font-family: 'K2D';
 font-style: normal;
@@ -86,4 +98,36 @@ margin: 0 auto;
             }
         }
     
-
+        .timeline-time-under:hover {
+            transform: scale(1.2);
+        }
+        .timeline-time-under:hover ~ .timeline-center-under .timeline-center-under__img--desktop {
+            transform: scale(1.2);
+        }
+        .timeline-time-under:hover ~ .timeline-title__under-ecommerce  {
+            transform: scale(1.2);
+        }
+        .timeline-time-under:hover ~ .timeline-title__under-global1  {
+            transform: scale(1.2);
+        }
+        .timeline-time-under:hover ~ .timeline-title__under-global2  {
+            transform: scale(1.2);
+        }
+        .timeline-title__under-ecommerce:hover ~ .timeline-center-under .timeline-center-under__img--desktop {
+            transform: scale(1.2);
+        }
+        .timeline-title__under-ecommerce:hover {
+            transform: scale(1.2);
+        }
+        .timeline-title__under-ecommerce:hover ~ .timeline-time-under {
+            transform: scale(1.2);
+        }
+        .timeline-title__under-global1:hover {
+            transform: scale(1.2);
+        }
+        .timeline-title__under-global2:hover {
+            transform: scale(1.2);
+        }
+        .timeline-center-under__img--desktop:hover {
+            transform: scale(1.2);
+        } 

@@ -7,7 +7,7 @@
             <div class="timeline-center-up__border">
 
             </div>
-            <div class="timeline-center-up__img--desktop">
+            <div class="timeline-center-up__img--desktop" id="timeline-center-up__img--desktop">
                 <img src="./img/InfoContestPage/lol.png" alt="">
             </div>
             <div class="timeline-center-up__img--mobile">

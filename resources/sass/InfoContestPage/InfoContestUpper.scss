@@ -31,6 +31,9 @@
     width: calc(100% - 38px);
     margin: 0 auto;
     margin-bottom: 60px;
+    @media (min-width: 576px) {
+        width: calc(100% - 100px);
+    }
     .content__first--mobile {
         width: calc(100% - 15px);
 
@@ -52,7 +55,16 @@
         img {
             width: 310px;
             height: 450px;
+            object-fit: cover;
             margin: 0 auto;
+        }
+        @media (min-width: 576px) {
+            width: 650px; 
+            height: 950px;
+            img {
+                width: 650px;
+                height: 950px;
+            }
         }
     }
 
@@ -136,6 +148,7 @@
     }
     .col-timeline-upper {
         position: relative;
+        
         .timeline-title__up-ecommerce {
             display: block;
         }
