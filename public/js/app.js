@@ -1,6 +1,42 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./resources/js/ETNewsPage/FilterAndActivitiesCard.js":
+/*!************************************************************!*\
+  !*** ./resources/js/ETNewsPage/FilterAndActivitiesCard.js ***!
+  \************************************************************/
+/***/ (() => {
+
+//Xử lý bấm nút 'Thời gian'
+$('.time-cover__time').click(function () {
+  $('.time-cover__option').toggleClass("display");
+});
+$('.drop-down-1').click(function () {
+  $('.time-cover__option').toggleClass("display");
+}); //Xử lý bấm nút 'Năm' và 'Tháng'
+
+$('.year-cover .year').click(function () {
+  $('.year-cover__option').toggleClass("display");
+});
+$('.drop-down-2').click(function () {
+  $('.year-cover__option').toggleClass("display");
+});
+$('.month-cover .month').click(function () {
+  $('.month-cover__option').toggleClass("display");
+});
+$('.drop-down-3').click(function () {
+  $('.month-cover__option').toggleClass("display");
+}); //Xử lý bấm nút 'Xem thêm'
+
+$('.more-cover .more').click(function () {
+  $('.show-more').addClass("display");
+});
+$('.more-cover .more').click(function () {
+  $('.more-cover').addClass("display");
+});
+
+/***/ }),
+
 /***/ "./resources/js/HomePage/Banner.js":
 /*!*****************************************!*\
   !*** ./resources/js/HomePage/Banner.js ***!
@@ -33,6 +69,8 @@ $('.owl-carousel-banner').owlCarousel({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
+
+__webpack_require__(/*! ./ETNewsPage/FilterAndActivitiesCard */ "./resources/js/ETNewsPage/FilterAndActivitiesCard.js");
 
 /***/ }),
 

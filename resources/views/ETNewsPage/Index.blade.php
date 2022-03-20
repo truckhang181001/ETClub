@@ -5,4 +5,6 @@
 @section('content')
     @include('ETNewsPage.Title')
     @include('ETNewsPage.NewestNews')
+    @include('ETNewsPage.MaybeInterested')
+    @include('ETNewsPage.FilterAndActivitiesCard')
 @endsection
