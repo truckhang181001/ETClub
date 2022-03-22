@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\User\HomePageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\User\OrganizationalStructurePageController;
 
 
 /*
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
+Route::get('/co-cau-nhan-su',[OrganizationalStructurePageController::class,'index']);
+
