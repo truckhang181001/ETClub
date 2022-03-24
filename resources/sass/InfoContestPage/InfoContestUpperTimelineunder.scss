@@ -30,7 +30,7 @@ line-height: 22px;
             float: right;
             padding-left: 4px;
             @media (min-width: 1200px) {
-                height: 478px;
+                height: 0;
                 padding-left: 28px;
                 float: right;
             }
@@ -97,6 +97,12 @@ margin: 0 auto;
 }
             }
         }
+        
+            .timeline-title__under-ecommerce {
+                @media (min-width: 1200px) {
+                    margin-top: 465px ;
+                }
+            }
     
         .timeline-time-under:hover {
             transform: scale(1.2);
