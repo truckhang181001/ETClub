@@ -102,36 +102,4 @@ padding-left: 6px;
 }
             }
         }
-        .timeline-time-up:hover {
-            transform: scale(1.2);
-        }
-        .timeline-time-up:hover ~ .timeline-center-up .timeline-center-up__img--desktop {
-            transform: scale(1.2);
-        }
-        .timeline-time-up:hover ~ .timeline-title__up-ecommerce  {
-            transform: scale(1.2);
-        }
-        .timeline-time-up:hover ~ .timeline-title__up-global1  {
-            transform: scale(1.2);
-        }
-        .timeline-time-up:hover ~ .timeline-title__up-global2  {
-            transform: scale(1.2);
-        }
-        .timeline-title__up-ecommerce:hover ~ .timeline-center-up .timeline-center-up__img--desktop {
-            transform: scale(1.2);
-        }
-        .timeline-title__up-ecommerce:hover {
-            transform: scale(1.2);
-        }
-        .timeline-title__up-ecommerce:hover ~ .timeline-time-up {
-            transform: scale(1.2);
-        }
-        .timeline-title__up-global1:hover {
-            transform: scale(1.2);
-        }
-        .timeline-title__up-global2:hover {
-            transform: scale(1.2);
-        }
-         .timeline-center-up__img--desktop:hover {
-            transform: scale(1.2);
-        } 
+        

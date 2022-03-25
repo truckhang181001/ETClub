@@ -104,36 +104,4 @@ margin: 0 auto;
                 }
             }
     
-        .timeline-time-under:hover {
-            transform: scale(1.2);
-        }
-        .timeline-time-under:hover ~ .timeline-center-under .timeline-center-under__img--desktop {
-            transform: scale(1.2);
-        }
-        .timeline-time-under:hover ~ .timeline-title__under-ecommerce  {
-            transform: scale(1.2);
-        }
-        .timeline-time-under:hover ~ .timeline-title__under-global1  {
-            transform: scale(1.2);
-        }
-        .timeline-time-under:hover ~ .timeline-title__under-global2  {
-            transform: scale(1.2);
-        }
-        .timeline-title__under-ecommerce:hover ~ .timeline-center-under .timeline-center-under__img--desktop {
-            transform: scale(1.2);
-        }
-        .timeline-title__under-ecommerce:hover {
-            transform: scale(1.2);
-        }
-        .timeline-title__under-ecommerce:hover ~ .timeline-time-under {
-            transform: scale(1.2);
-        }
-        .timeline-title__under-global1:hover {
-            transform: scale(1.2);
-        }
-        .timeline-title__under-global2:hover {
-            transform: scale(1.2);
-        }
-        .timeline-center-under__img--desktop:hover {
-            transform: scale(1.2);
-        } 
+       

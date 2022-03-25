@@ -220,7 +220,7 @@ body {
   color: #FFFFFF;
 }
 .container__lookback--mobile .lookback__img--mobile {
-  width: calc(100% + 11px);
+  width: calc(100% - 1px);
   margin-bottom: 30px;
 }
 .container__lookback--mobile .lookback__img--mobile img {
@@ -814,50 +814,6 @@ body {
   }
 }
 
-.timeline-time-up:hover {
-  transform: scale(1.2);
-}
-
-.timeline-time-up:hover ~ .timeline-center-up .timeline-center-up__img--desktop {
-  transform: scale(1.2);
-}
-
-.timeline-time-up:hover ~ .timeline-title__up-ecommerce {
-  transform: scale(1.2);
-}
-
-.timeline-time-up:hover ~ .timeline-title__up-global1 {
-  transform: scale(1.2);
-}
-
-.timeline-time-up:hover ~ .timeline-title__up-global2 {
-  transform: scale(1.2);
-}
-
-.timeline-title__up-ecommerce:hover ~ .timeline-center-up .timeline-center-up__img--desktop {
-  transform: scale(1.2);
-}
-
-.timeline-title__up-ecommerce:hover {
-  transform: scale(1.2);
-}
-
-.timeline-title__up-ecommerce:hover ~ .timeline-time-up {
-  transform: scale(1.2);
-}
-
-.timeline-title__up-global1:hover {
-  transform: scale(1.2);
-}
-
-.timeline-title__up-global2:hover {
-  transform: scale(1.2);
-}
-
-.timeline-center-up__img--desktop:hover {
-  transform: scale(1.2);
-}
-
 .timeline-time-under h5 {
   transition: transform 0.2s;
   margin: 0 auto;
@@ -980,48 +936,4 @@ body {
   .timeline-title__under-ecommerce {
     margin-top: 465px;
   }
-}
-
-.timeline-time-under:hover {
-  transform: scale(1.2);
-}
-
-.timeline-time-under:hover ~ .timeline-center-under .timeline-center-under__img--desktop {
-  transform: scale(1.2);
-}
-
-.timeline-time-under:hover ~ .timeline-title__under-ecommerce {
-  transform: scale(1.2);
-}
-
-.timeline-time-under:hover ~ .timeline-title__under-global1 {
-  transform: scale(1.2);
-}
-
-.timeline-time-under:hover ~ .timeline-title__under-global2 {
-  transform: scale(1.2);
-}
-
-.timeline-title__under-ecommerce:hover ~ .timeline-center-under .timeline-center-under__img--desktop {
-  transform: scale(1.2);
-}
-
-.timeline-title__under-ecommerce:hover {
-  transform: scale(1.2);
-}
-
-.timeline-title__under-ecommerce:hover ~ .timeline-time-under {
-  transform: scale(1.2);
-}
-
-.timeline-title__under-global1:hover {
-  transform: scale(1.2);
-}
-
-.timeline-title__under-global2:hover {
-  transform: scale(1.2);
-}
-
-.timeline-center-under__img--desktop:hover {
-  transform: scale(1.2);
 }
