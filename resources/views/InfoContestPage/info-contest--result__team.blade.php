@@ -113,7 +113,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row container-trophie-team">
         <img class="center" src="/img/InfoContestPage/Trophie.png" alt=""> 
     </div>
     <div class="row onsolationjustify-content-around">
@@ -247,7 +247,7 @@
                     <img class="partners" src="/img/InfoContestPage/shanggri-la.png" alt="">
                 </a> 
                 <a href="#">
-                    <img class="partners" src="/img/InfoContestPage/infinity-blockchain-venture.png" alt="">
+                    <img class="partners partners-blockchain" src="/img/InfoContestPage/infinity-blockchain-venture.png" alt="">
                 </a> 
             </div>
         </div>

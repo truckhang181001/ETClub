@@ -21,7 +21,7 @@ h2 {
     }
 
     @media (min-width: 1200px) {
-        margin-top: 0 !important;
+        margin-top: 68px !important;
         margin-bottom: 60px;
     }
 }
@@ -87,6 +87,11 @@ h2 {
         .copper.blur {
             filter: blur(10px);
         }
+    }
+}
+.container-trophie-team {
+    @media (min-width: 1200px) {
+        height: 685px !important;
     }
 }
 
@@ -215,7 +220,7 @@ margin-bottom: 0 !important; }
             &-name {
                 font-size: 20px;
                 line-height: 28px;
-                margin: 13px 0 0 19px;
+                margin: 23px 0 0 19px;
                 font-family: K2D;
             font-style: normal;
                 @media (max-width: 450px) {
@@ -295,7 +300,7 @@ margin-bottom: 0 !important; }
             .info {
                 justify-content: flex-start;
                 width: max-content;
-                margin: 16px 19px 9px 22px;
+                margin: 15px 30px 18px 19px;
 
                 @media (min-width: 1200px) {
                     margin: 30px 61px 28.5px 35px;
@@ -369,8 +374,12 @@ margin-bottom: 0 !important; }
 }
 .row {
     h2 {
-        font-size: 32px !important;
+        font-size: 20px !important;
+line-height: 28px;
+@media (min-width: 1200px) {
+    font-size: 32px !important;
 line-height: 38px;
+}
     }
 }
 .name:hover {
@@ -421,10 +430,14 @@ line-height: 38px;
     }
 }
 
+.partners-blockchain {
+    width: 190px;
+    margin-left: 61px;
+}
 .partners {
-    object-fit: cover;
+    object-fit: contain;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 9px;
     padding: 0 10px;
 
     @media (min-width: 576px) {
