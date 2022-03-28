@@ -411,17 +411,12 @@ body {
     margin-bottom: 5px;
   }
   .competition_picture {
-    width: 301px;
-    height: 429px;
     border: 2px solid #A1DCFF;
     border-radius: 10px;
     margin-top: 10px;
+    padding: 10px 10px;
   }
   .competition_picture img {
-    -o-object-fit: cover;
-       object-fit: cover;
     width: 100%;
-    padding-left: 10px;
-    padding-top: 10px;
   }
 }
