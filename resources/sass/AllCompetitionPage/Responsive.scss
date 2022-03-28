@@ -1,6 +1,12 @@
+.competition-mobile {
+    display:none;
+}
 @media screen and (max-width:800px) {
     .competition {
         display:none;
+    }
+    .competition-mobile {
+        display:block;
     }
     .year_line {
         display:none;

@@ -22,7 +22,7 @@
     </div>
     <div class="right">
         <div class="competition_image">
-            <img src="/img/AllCompetitionPage/image 861.png" alt="">
+            <img src="/img/AllCompetitionPage/global 2.png" alt="">
         </div>    
     </div>
 </div>

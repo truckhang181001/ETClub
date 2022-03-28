@@ -1,7 +1,7 @@
 <div class="competition">
     <div class="left">
         <div class="competition_image">
-            <img src="/img/AllCompetitionPage/image 861.png" alt="">
+            <img src="/img/AllCompetitionPage/poster 1.png" alt="">
         </div> 
     </div>
     <div class="midle">
@@ -19,8 +19,8 @@
                 <p>ecommerce exploring in the time of covid-19 <p>
             </div>
             <div class="event-reverse_time">
-                <div>10/02/2020</div>
-                <div>24/05/2020</div>
+                <div>15/09/2021</div>
+                <div>15/10/2021</div>
             </div>
         </div>   
     </div>
