@@ -48,7 +48,7 @@
         align-items: center;
         .event-reverse_desc {
             max-width:455px;
-            height:270px;
+            padding:25px 22px;
             border: 2px solid #A1DCFF;
             border-radius: 10px;
             display:flex;
@@ -62,15 +62,11 @@
                 text-transform: uppercase;
                 text-shadow: 0px 4px 25px #00FFF0;
                 text-align:center;
-                padding:0px 40px;
-                line-height:normal;
-                margin-top: 20px;
             }
             .event-reverse_time {
                 font-weight: 700;
                 font-size: 32px;
                 color:$white;
-                margin-bottom: 20px;
             }
         }
     }
