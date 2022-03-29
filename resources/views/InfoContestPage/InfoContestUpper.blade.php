@@ -88,17 +88,17 @@
                     tin phát huy khả năng của bản thân mình.
                 </p>
             </div>
-            <div class="content__second">
-                <p>Trong tương lai, với định hướng phát triển lâu dài, Câu lạc bộ Công nghệ Kinh tế sẽ bám sát với xu
+        </div>
+    </div>
+    <div class="content__img">
+        <img src="./img/InfoContestPage/img2.png" alt="">
+        <div class="content__second">
+                <p> <Br> Trong tương lai, với định hướng phát triển lâu dài, Câu lạc bộ Công nghệ Kinh tế sẽ bám sát với xu
                     hướng
                     của thị trường để triển khai nhiều cuộc thi về lĩnh vực E-Commerce để tạo môi trường trải nghiệm mới
                     mẻ,
                     bổ ích cho sinh viên đam mê về E-Commerce hoặc chính sinh viên chuyên ngành này.</p>
             </div>
-        </div>
-    </div>
-    <div class="content__img">
-        <img src="./img/InfoContestPage/img2.png" alt="">
     </div>
 </div>
 <div class="row container__contest-timeline">
@@ -111,9 +111,6 @@
     <div class="container__lookback--mobile">
         <div class="lookback__title--mobile">
             <h2>NHÌN LẠI HÀNH TRÌNH CUỘC THI</h2>
-        </div>
-        <div class="lookback__img--mobile">
-            <img src="./img/InfoContestPage/abc.png" alt="">
         </div>
         <div class="lookback__content--mobile">
             <p>
@@ -129,6 +126,9 @@
 
 
             </p>
+        </div>
+        <div class="lookback__img--mobile">
+            <img src="./img/InfoContestPage/abc.png" alt="">
         </div>
     </div>
 

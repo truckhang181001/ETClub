@@ -72,15 +72,15 @@ hòa mình với sự phát triển của 4.0. Không những được trang b�
 
                 </p>
             </div>
-            <div class="content__second-global">
-                <p>Ngoài ra, “ GLOBAL TALENT 2020” không chỉ đơn giản là một sân chơi học thuật các bạn thỏa thích sáng tạo và học hỏi mà 
-còn là “cánh cửa lớn” dẫn các bạn sinh viên đến với cơ hội được hướng dẫn bởi những chuyên gia hàng đầu tại Viện Đổi mới
- sáng tạo - Đại học Kinh Tế TP. Hồ Chí Minh.</p>
-            </div>
         </div>
     </div>
     <div class="content__img-global">
         <img src="./img/InfoContestPage/123.png" alt="">
+        <div class="content__second-global">
+                <p>Ngoài ra, “ GLOBAL TALENT 2020” không chỉ đơn giản là một sân chơi học thuật các bạn thỏa thích sáng tạo và học hỏi mà 
+còn là “cánh cửa lớn” dẫn các bạn sinh viên đến với cơ hội được hướng dẫn bởi những chuyên gia hàng đầu tại Viện Đổi mới
+ sáng tạo - Đại học Kinh Tế TP. Hồ Chí Minh.</p>
+            </div>
     </div>
 </div>
 <div class="row container__contest-timeline-global">
@@ -101,9 +101,6 @@ còn là “cánh cửa lớn” dẫn các bạn sinh viên đến với cơ h�
         <div class="lookback__title-global--mobile">
             <h2>NHÌN LẠI HÀNH TRÌNH CUỘC THI</h2>
         </div>
-        <div class="lookback__img-global--mobile">
-            <img src="./img/InfoContestPage/456.png" alt="">
-        </div>
         <div class="lookback__content-global--mobile">
             <p>
             Global Talents 2020 là một cuộc thi học thuật về lĩnh vực công nghệ, mang lại nhiều giá trị 
@@ -118,6 +115,9 @@ Với những con số ấn tượng <br>
 - 16 triệu đồng - tổng giá trị giải thưởng cho vị trí quán quân <br>
 - 11k - view workshop, 1,1k - câu hỏi trong buổi workshop <br>
             </p>
+        </div>
+        <div class="lookback__img-global--mobile">
+            <img src="./img/InfoContestPage/456.png" alt="">
         </div>
     </div>
 

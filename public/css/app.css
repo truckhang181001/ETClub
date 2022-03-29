@@ -60,9 +60,9 @@ body {
 .container__content--mobile .content__first--mobile h6 {
   font-family: "K2D";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 25px;
   display: flex;
   align-items: center;
   text-align: justify;
@@ -125,7 +125,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 35px;
     display: flex;
     align-items: center;
     text-align: justify;
@@ -140,7 +140,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 35px;
     text-align: justify;
     color: #FFFFFF;
   }
@@ -152,9 +152,19 @@ body {
     height: 900px;
     inset: 177px 21px 57px 662px;
   }
+  .container__content .content__img .content__second p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
   .container__content .content__img img {
     width: 620px;
     height: 900px;
+    border-radius: 10px;
   }
 }
 .container__contest-timeline {
@@ -218,6 +228,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 .container__lookback--mobile .lookback__img--mobile {
   width: calc(100% - 1px);
@@ -272,9 +283,9 @@ body {
   .container__lookback .container__content-lookback .lookback__content p {
     font-family: "K2D";
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: justify;
@@ -348,9 +359,9 @@ body {
 .container__content-global--mobile .content__first-global--mobile h6 {
   font-family: "K2D";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 25px;
   display: flex;
   align-items: center;
   text-align: justify;
@@ -411,7 +422,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 35px;
     display: flex;
     align-items: center;
     text-align: justify;
@@ -426,7 +437,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 35px;
     text-align: justify;
     color: #FFFFFF;
   }
@@ -438,9 +449,19 @@ body {
     height: 900px;
     inset: 177px 21px 57px 662px;
   }
+  .container__content-global .content__img-global .content__second-global p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
   .container__content-global .content__img-global img {
     width: 620px;
     height: 900px;
+    border-radius: 10px;
   }
 }
 .container__contest-timeline-global {
@@ -624,6 +645,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 .container__lookback-global--mobile .lookback__img-global--mobile {
   width: calc(100% + 11px);
@@ -678,9 +700,9 @@ body {
   .container__lookback-global .container__content-lookback-global .lookback__content-global p {
     font-family: "K2D";
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: justify;
