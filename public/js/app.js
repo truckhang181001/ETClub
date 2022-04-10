@@ -1,25 +1,35 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./resources/js/HomePage/Banner.js":
-/*!*****************************************!*\
-  !*** ./resources/js/HomePage/Banner.js ***!
-  \*****************************************/
+/***/ "./resources/js/HrDepartmentPage/ActivityPicture.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/HrDepartmentPage/ActivityPicture.js ***!
+  \**********************************************************/
 /***/ (() => {
 
-$('.owl-carousel-banner').owlCarousel({
-  loop: true,
-  margin: 10,
+var owl = $('.owl-carousel-activity-picture');
+owl.owlCarousel({
   nav: true,
+  items: 1,
+  loop: true,
+  margin: 0,
+  autoplay: false,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  autoplaySpeed: 2000,
+  navSpeed: 2000,
+  navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+  stagePadding: 0,
   responsive: {
     0: {
-      items: 1
+      margin: 60,
+      dotsEach: false
     },
     600: {
-      items: 3
+      margin: 150
     },
-    1000: {
-      items: 5
+    1200: {
+      stagePadding: 165
     }
   }
 });
@@ -32,7 +42,7 @@ $('.owl-carousel-banner').owlCarousel({
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-__webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
+__webpack_require__(/*! ./HrDepartmentPage/ActivityPicture */ "./resources/js/HrDepartmentPage/ActivityPicture.js");
 
 /***/ }),
 

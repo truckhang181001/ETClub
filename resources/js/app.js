@@ -1,1 +1,1 @@
-require('./HomePage/Banner');
+require('./HrDepartmentPage/ActivityPicture');

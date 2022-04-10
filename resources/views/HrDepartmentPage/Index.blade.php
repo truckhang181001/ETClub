@@ -5,4 +5,5 @@
 {{-- Bat buoc co --}}
 @section('content')
     @include('HrDepartmentPage.HrDepartment')
+    @include('HrDepartmentPage.ActivityPicture')
 @endsection
