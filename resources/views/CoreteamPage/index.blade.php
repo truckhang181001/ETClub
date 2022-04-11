@@ -4,5 +4,8 @@
 @section('title','Ban chủ nhiệm')
 
 @section('content')
-    @include('CoreteamPage.Coreteam')
+    <!--mobile-->
+    @include('CoreteamPage.Header')
+    @include('CoreteamPage.Content')
+    @include('CoreteamPage.Intro')
 @endsection

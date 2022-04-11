@@ -1,0 +1,55 @@
+.intro__container {
+    max-width:500px;
+    margin: 70px 16px 0 16px;
+}
+.intro {
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        color:#F5A623;
+        text-align: center;
+    }
+    &__decs {
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: justify;
+    }
+}
+.mission {
+    margin-top: 60px;
+    padding-top:63px;
+    padding-right:33px;
+    position: relative;
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        color:#F5A623;
+    }
+    li {
+        font-size: 16px;
+        font-weight: 400;
+        color:#ffffff;
+        line-height: 30px;
+        margin-left: 12.38%;
+    }
+    &__img {
+        position:absolute;
+        top:0;
+        width:100%;
+        height: fit-content;
+        img {
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.robot {
+    margin-top:40px;
+    img {
+        display: block;
+        margin:0 auto;
+    }
+}
