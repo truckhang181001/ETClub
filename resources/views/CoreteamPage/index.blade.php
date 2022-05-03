@@ -5,7 +5,11 @@
 
 @section('content')
     <!--mobile-->
-    @include('CoreteamPage.Header')
-    @include('CoreteamPage.Content')
-    @include('CoreteamPage.Intro')
+    @include('CoreteamPage.mobileHeader')
+    @include('CoreteamPage.mobileContent')
+    @include('CoreteamPage.mobileIntro')
+    <!--desktop-->
+    @include('CoreteamPage.deskHeader')
+    @include('CoreteamPage.deskContent')
+    @include('CoreteamPage.deskIntro')
 @endsection

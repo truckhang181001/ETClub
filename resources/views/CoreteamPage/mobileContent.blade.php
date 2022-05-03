@@ -1,5 +1,5 @@
 <div class="content">
-    <div class="content-container">
+    < class="content-container">
     <div class="chairman">
         <div class="chairman__img">
             <img src="/img/Circle - M.png" alt="">
@@ -48,5 +48,5 @@
     <div class="bar">
         <img src="/img/Group 2295.png">
     </div>
-    <div>
+</div>
 </div>
