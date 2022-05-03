@@ -1,4 +1,4 @@
-<div class="Desk__Intro">
+<div class="desk__intro">
     <div class="container">
         <div class="desk__title">
         Giới thiệu cơ bản về ban
