@@ -67,11 +67,12 @@ body {
 
 .content {
   margin-top: 30px;
-  position: relative;
 }
 
 .content-container {
   max-width: 500px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .chairman {
@@ -140,7 +141,7 @@ body {
 
 .intro__container {
   max-width: 500px;
-  margin: 70px 16px 0 16px;
+  margin: 70px auto;
 }
 
 .intro__title {
@@ -155,6 +156,8 @@ body {
   font-weight: 400;
   color: #ffffff;
   text-align: justify;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 .mission {
@@ -202,7 +205,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1440px) {
   .intro, .content, .bcn__container {
     display: none;
   }
@@ -260,11 +263,7 @@ body {
     margin-right: 4px;
   }
 }
-@media screen and (min-width: 480px) {
-  .intro, .content, .bcn__container {
-    display: none;
-  }
-
+@media screen and (min-width: 1440px) {
   .desk__chairman {
     margin-top: 140px;
   }
@@ -277,8 +276,8 @@ body {
     padding: 7px 7px;
   }
   .desk__chairman .img img {
-    width: 280px;
-    height: 280px;
+    width: 100%;
+    height: 100%;
   }
   .desk__chairman .svg {
     position: absolute;
@@ -340,11 +339,7 @@ body {
     height: 280px;
   }
 }
-@media screen and (min-width: 480px) {
-  .intro, .content, .bcn__container {
-    display: none;
-  }
-
+@media screen and (min-width: 1440px) {
   .desk__title {
     color: #F5A623;
     font-weight: 600;

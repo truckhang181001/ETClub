@@ -34,6 +34,8 @@ $('.owl-carousel-banner').owlCarousel({
 
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
 
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './HomePage/Header'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
 /***/ }),
 
 /***/ "./resources/sass/app.scss":

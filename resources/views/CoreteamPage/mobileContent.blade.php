@@ -1,5 +1,5 @@
 <div class="content">
-    < class="content-container">
+    <div class="content-container">
     <div class="chairman">
         <div class="chairman__img">
             <img src="/img/Circle - M.png" alt="">
