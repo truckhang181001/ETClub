@@ -36,6 +36,51 @@ owl.owlCarousel({
 
 /***/ }),
 
+/***/ "./resources/js/HrDepartmentPage/HrDepartment.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/HrDepartmentPage/HrDepartment.js ***!
+  \*******************************************************/
+/***/ (() => {
+
+$(document).ready(function () {
+  $(".container-term").click(function () {
+    $(".term-category").toggle();
+  });
+});
+$(function () {
+  $(".term-item").on("click", function (e) {
+    $('.term-item').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+
+/***/ }),
+
+/***/ "./resources/js/HrDepartmentPage/NavbarCarousel.js":
+/*!*********************************************************!*\
+  !*** ./resources/js/HrDepartmentPage/NavbarCarousel.js ***!
+  \*********************************************************/
+/***/ (() => {
+
+var owl = $('.owl-carousel-navbar');
+owl.owlCarousel({
+  items: 3,
+  loop: false,
+  margin: 10,
+  autoplay: false,
+  autoplayTimeout: 1000,
+  autoplayHoverPause: false,
+  dots: false
+});
+$(function () {
+  $(".cc-navbar__item").on("click", function (e) {
+    $('.cc-navbar__item').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -43,6 +88,10 @@ owl.owlCarousel({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./HrDepartmentPage/ActivityPicture */ "./resources/js/HrDepartmentPage/ActivityPicture.js");
+
+__webpack_require__(/*! ./HrDepartmentPage/HrDepartment */ "./resources/js/HrDepartmentPage/HrDepartment.js");
+
+__webpack_require__(/*! ./HrDepartmentPage/NavbarCarousel */ "./resources/js/HrDepartmentPage/NavbarCarousel.js");
 
 /***/ }),
 
