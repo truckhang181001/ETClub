@@ -9,4 +9,5 @@
     @include('HomePage.Introduction')
     @include('HomePage.Tech')
     @include('HomePage.Competition')
+    @include('HomePage.Footer')
 @endsection
