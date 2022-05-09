@@ -32,31 +32,6 @@ owl.owlCarousel({
 
 /***/ }),
 
-
-/***/ "./resources/js/HomePage/Thinking.js":
-/*!*******************************************!*\
-  !*** ./resources/js/HomePage/Thinking.js ***!
-  \*******************************************/
-/***/ (() => {
-
-$('.owl-carousel').owlCarousel({
-  dotsEach: true,
-  loop: false,
-  nav: false,
-  items: 3,
-  responsive: {
-    0: {
-      items: 1,
-      dots: false
-    },
-    600: {
-      items: 2
-    },
-    1000: {
-      items: 3
-    }
-  }
-
 /***/ "./resources/js/HomePage/Footer.js":
 /*!*****************************************!*\
   !*** ./resources/js/HomePage/Footer.js ***!
@@ -184,7 +159,33 @@ $('.CTV-btn').click(function () {
   $('nav ul .divider-2').removeClass("toggle-color");
   $('nav ul .divider-3').removeClass("toggle-color");
   $('nav ul .divider-4').removeClass("toggle-color");
+});
 
+/***/ }),
+
+/***/ "./resources/js/HomePage/Thinking.js":
+/*!*******************************************!*\
+  !*** ./resources/js/HomePage/Thinking.js ***!
+  \*******************************************/
+/***/ (() => {
+
+$('.owl-carousel').owlCarousel({
+  dotsEach: true,
+  loop: false,
+  nav: false,
+  items: 3,
+  responsive: {
+    0: {
+      items: 1,
+      dots: false
+    },
+    600: {
+      items: 2
+    },
+    1000: {
+      items: 3
+    }
+  }
 });
 
 /***/ }),
@@ -197,13 +198,11 @@ $('.CTV-btn').click(function () {
 
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
 
-
 __webpack_require__(/*! ./HomePage/Thinking */ "./resources/js/HomePage/Thinking.js");
 
 __webpack_require__(/*! ./HomePage/Footer */ "./resources/js/HomePage/Footer.js");
 
 __webpack_require__(/*! ./HomePage/Navbar */ "./resources/js/HomePage/Navbar.js");
-
 
 /***/ }),
 
