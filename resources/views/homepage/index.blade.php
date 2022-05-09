@@ -10,5 +10,6 @@
     @include('HomePage.Tech')
     @include('Homepage.Tech-corner')
     @include('HomePage.Competition')
+    @include('HomePage.Thinking')
     @include('HomePage.Footer')
 @endsection
