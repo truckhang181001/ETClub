@@ -32,7 +32,6 @@ owl.owlCarousel({
 
 /***/ }),
 
-
 /***/ "./resources/js/HomePage/Footer.js":
 /*!*****************************************!*\
   !*** ./resources/js/HomePage/Footer.js ***!
@@ -44,6 +43,9 @@ $("#btnScrolltoTop").click(function () {
     top: 0,
     behavior: 'smooth'
   });
+});
+
+/***/ }),
 
 /***/ "./resources/js/HomePage/Navbar.js":
 /*!*****************************************!*\
@@ -157,7 +159,6 @@ $('.CTV-btn').click(function () {
   $('nav ul .divider-2').removeClass("toggle-color");
   $('nav ul .divider-3').removeClass("toggle-color");
   $('nav ul .divider-4').removeClass("toggle-color");
-
 });
 
 /***/ }),
@@ -168,11 +169,11 @@ $('.CTV-btn').click(function () {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-__webpack_require__(/*! ./HomePage/Navbar */ "./resources/js/HomePage/Navbar.js");
-
 __webpack_require__(/*! ./HomePage/Banner */ "./resources/js/HomePage/Banner.js");
 
 __webpack_require__(/*! ./HomePage/Footer */ "./resources/js/HomePage/Footer.js");
+
+__webpack_require__(/*! ./HomePage/Navbar */ "./resources/js/HomePage/Navbar.js");
 
 /***/ }),
 
