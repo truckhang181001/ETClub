@@ -496,7 +496,7 @@ body {
 }
 
 .tech-container {
-  width: 1300px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -518,12 +518,15 @@ body {
   margin-top: 55px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 .techconner-item {
   background-color: #15123C;
   width: 28.85%;
-  height: 541px;
+  min-height: 541px;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -627,6 +630,28 @@ body {
   opacity: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .techconner-name {
+    font-size: 32px;
+  }
+  .techconner-title {
+    font-size: 24px;
+  }
+  .techconner-desc {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .techconner-list {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .techconner-item {
+    margin-bottom: 20px;
+    width: 69.76%;
+  }
+}
 @media screen and (max-width: 500px) {
   .tech-container {
     width: 100%;

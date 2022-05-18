@@ -6,7 +6,7 @@
     color:white;
 }
 .tech-container {
-    width: 1300px;
+    width: 80%;
     margin:0 auto;
 }
 .techconner {
@@ -20,12 +20,13 @@
         margin-top:55px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
     }
     &-item {
         background-color: #15123C;
         width: 28.85%;
-        height:541px;
+        min-height:541px;
+        max-height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -128,6 +129,34 @@
     &-btn:hover::after{
         transform: scaleX(1.4) scaleY(1.5);
         opacity:0;
+    }
+}
+//responsive for 1024px - tablet nằm ngang, chỉ thay đổi kích thước chữ, không thay đổi cấu trúc
+@media screen and (max-width:1024px) {
+    .techconner {
+        &-name {
+            font-size:32px;
+        }
+        &-title {
+            font-size:24px;
+        }
+        &-desc{
+            font-size: 18px;
+        }
+    }
+}
+//reponsive for 992 px - tablet
+@media screen and (max-width:992px) {
+    .techconner {
+        &-list {
+            margin-top:20px;
+            flex-direction: column;
+            align-items:center;
+        }
+        &-item {
+            margin-bottom: 20px;
+            width:69.76%;
+        }
     }
 }
 @media screen and (max-width: 500px) {
