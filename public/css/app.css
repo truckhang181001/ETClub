@@ -713,7 +713,7 @@ body {
 .thingking-quote {
   position: relative;
   top: -2%;
-  left: -0.8%;
+  left: -0.9%;
   width: 20%;
 }
 .thingking-desc {
@@ -778,11 +778,28 @@ body {
   width: 25px !important;
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    width: 390px;
+@media screen and (max-width: 992px) {
+  .thingking-name {
+    font-size: 32px;
   }
-
+  .thingking-list {
+    margin-top: 20px;
+  }
+  .thingking-item {
+    margin-top: 10px;
+    width: 410px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thingking-desc {
+    font-size: 18px;
+  }
+  .thingking-info .info-name {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
   .thingking-name {
     font-size: 24px;
   }
@@ -791,10 +808,11 @@ body {
   }
   .thingking-item {
     margin-top: 30px;
-    width: 410px;
-    height: 290px;
+    width: 90%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
   }
   .thingking-detail {
     margin-top: 17px;
@@ -806,9 +824,10 @@ body {
   .thingking-info .info-name {
     font-size: 18px;
   }
-
   .thingking-quote {
-    left: -1%;
+    top: -10px;
+    left: -10px;
+    width: 20%;
   }
 }
 .my-footer {

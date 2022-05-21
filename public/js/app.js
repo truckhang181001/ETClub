@@ -179,10 +179,14 @@ $('.owl-carousel').owlCarousel({
       items: 1,
       dots: false
     },
-    600: {
+    768: {
+      items: 1,
+      dots: false
+    },
+    1024: {
       items: 2
     },
-    1000: {
+    1440: {
       items: 3
     }
   }
