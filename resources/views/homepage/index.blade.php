@@ -4,5 +4,11 @@
 @section('title','Trang chủ')
 {{-- Bat buoc co --}}
 @section('content')
-    @include('HrDepartmentPage.HrDepartment')
+    @include('HomePage.NavBar')
+    @include('HomePage.Banner')
+    @include('HomePage.Introduction')
+    @include('Homepage.Tech-corner')
+    @include('HomePage.Competition')
+    @include('HomePage.Thinking')
+    @include('HomePage.Footer')
 @endsection

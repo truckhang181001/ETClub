@@ -1,0 +1,1 @@
+<h1>GOC CONG NGHE</h1><?php /**PATH C:\Users\OS\Desktop\ET\ETClub\resources\views/HomePage/Tech.blade.php ENDPATH**/ ?>

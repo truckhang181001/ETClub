@@ -1,9 +1,8 @@
 {{-- Bat buoc co --}}
 @extends('layout')
 {{-- Title cua trang --}}
-@section('title','Trang chủ')
+@section('title','Nhân sự')
 {{-- Bat buoc co --}}
 @section('content')
     @include('HrDepartmentPage.HrDepartment')
-    @include('HrDepartmentPage.ActivityPicture')
 @endsection
