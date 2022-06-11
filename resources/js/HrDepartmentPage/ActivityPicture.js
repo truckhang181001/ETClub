@@ -1,4 +1,4 @@
-var owl = $('.owl-carousel-banner');
+var owl = $('.owl-carousel-activity-picture');
 owl.owlCarousel({
     nav: true,
     items:1,
@@ -11,12 +11,16 @@ owl.owlCarousel({
     navSpeed: 2000,
     navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
     stagePadding: 0,
-    responsive:{
-        0:{
-            nav:false
-        },
-        1000:{
-            nav:true
-        }
+   responsive : {
+    0 : {
+        margin: 60,
+        dotsEach: false,
+    },
+    600:{
+        margin: 150,
+    },
+    1200: {
+       stagePadding: 165
     }
+}
 });
