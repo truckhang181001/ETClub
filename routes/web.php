@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
-Route::get('/ban-tin-et',[NewsPageController::class,'index']);
+Route::get('/ban-tin-et/{id}',[NewsPageController::class,'index']);

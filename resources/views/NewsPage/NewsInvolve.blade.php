@@ -20,7 +20,7 @@
         <div class="col-12 col-lg-6 column">
             <div class="right-nav ">
                 <div class="right-nav-img col-5">
-                    <img  src="./img/NewsPage/minhhoa2.PNG"  >
+                    <img  src="/img/NewsPage/minhhoa2.PNG"  >
                 </div>
                 <div class="right-nav-content">
                     <p><b>NFT và những cơ hội mới</b></p>
@@ -30,7 +30,7 @@
             </div>
             <div class="right-nav ">
                 <div class="right-nav-img col-5" >
-                    <img src="./img/NewsPage/minhhoa2.PNG"  >
+                    <img src="/img/NewsPage/minhhoa2.PNG"  >
                 </div>
                 <div class="right-nav-content">
                     <p><b>NFT và những cơ hội mới</b></p>
@@ -40,7 +40,7 @@
             </div>
             <div class="right-nav ">
                 <div class="right-nav-img col-5">
-                    <img src="./img/NewsPage/minhhoa2.PNG" >
+                    <img src="/img/NewsPage/minhhoa2.PNG" >
                 </div>
                 <div class="right-nav-content">
                     <p><b>NFT và những cơ hội mới</b></p>

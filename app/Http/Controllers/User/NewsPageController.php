@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class NewsPageController extends Controller
 {
-    function index(){
+    function index($id){
         return view('NewsPage.Index');
     }
 }
