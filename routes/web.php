@@ -3,6 +3,8 @@
 use App\Http\Controllers\User\HomePageController;
 use App\Http\Controllers\User\HrController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\User\PageAboutClbController;
+
 
 
 /*
@@ -17,4 +19,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
+Route::get('/ve-cau-lac-bo',[PageAboutClbController::class,'index']);
 Route::get('/nhan-su',[HrController::class,'index']);
