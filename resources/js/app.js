@@ -1,3 +1,4 @@
+require('./InfoContestPage/info-contest--result__team');
 require('./ETNewsPage/FilterAndActivitiesCard');
 require('./HrDepartmentPage/ActivityPicture');
 require('./HrDepartmentPage/HrDepartment');
