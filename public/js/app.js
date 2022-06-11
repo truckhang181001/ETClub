@@ -306,11 +306,54 @@ $(function () {
 
 /***/ }),
 
+/***/ "./resources/js/NewsPage/Flipbook.js":
+/*!*******************************************!*\
+  !*** ./resources/js/NewsPage/Flipbook.js ***!
+  \*******************************************/
+/***/ (() => {
+
+$(function () {
+  var $mybook = $('#mybook');
+  var $bttn_next = $('#next_page_button');
+  var $bttn_prev = $('#prev_page_button');
+  var $loading = $('#loading');
+  var $mybook_images = $mybook.find('img');
+  var cnt_images = $mybook_images.length;
+  var loaded = 0;
+  $mybook_images.each(function () {
+    var $img = $(this);
+    var source = $img.attr('src');
+    $('<img/>').load(function () {
+      ++loaded;
+
+      if (loaded == cnt_images) {
+        $loading.hide();
+        $bttn_next.show();
+        $bttn_prev.show();
+        $mybook.show().booklet({
+          name: null,
+          width: 980,
+          height: 690,
+          speed: 700,
+          direction: 'LTR',
+          next: $bttn_next,
+          prev: $bttn_prev
+        });
+        Cufon.refresh();
+      }
+    }).attr('src', source);
+  });
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(/*! ./NewsPage/Flipbook */ "./resources/js/NewsPage/Flipbook.js");
 
 __webpack_require__(/*! ./ETNewsPage/FilterAndActivitiesCard */ "./resources/js/ETNewsPage/FilterAndActivitiesCard.js");
 

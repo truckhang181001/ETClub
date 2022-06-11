@@ -1,3 +1,4 @@
+require('./NewsPage/Flipbook');
 require('./ETNewsPage/FilterAndActivitiesCard');
 require('./HrDepartmentPage/ActivityPicture');
 require('./HrDepartmentPage/HrDepartment');

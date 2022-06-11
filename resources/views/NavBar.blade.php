@@ -2,7 +2,7 @@
     <div class="cover-nav-destop">
         <nav class="nav-destop nav-container row p-0">
             <div class="logo col-4">
-                <img class="logo_img" src="img/Logo ET.png" alt="Logo ET">
+                <img class="logo_img" src="/img/Logo ET.png" alt="Logo ET">
                 <a href="#" class="logo_text">Economic Technology</a>
             </div>
             <div class="nav col-8">
