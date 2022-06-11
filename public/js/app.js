@@ -312,6 +312,8 @@ $(function () {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+__webpack_require__(/*! ./ETNewsPage/FilterAndActivitiesCard */ "./resources/js/ETNewsPage/FilterAndActivitiesCard.js");
+
 __webpack_require__(/*! ./HrDepartmentPage/ActivityPicture */ "./resources/js/HrDepartmentPage/ActivityPicture.js");
 
 __webpack_require__(/*! ./HrDepartmentPage/HrDepartment */ "./resources/js/HrDepartmentPage/HrDepartment.js");
