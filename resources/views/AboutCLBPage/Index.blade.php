@@ -6,4 +6,4 @@
 {{-- Bat buoc co --}}
 @section('content')
     @include('AboutCLBPage.PageAboutClb')
-@endsections
+@endsection
