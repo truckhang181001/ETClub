@@ -1,3 +1,5 @@
+require('./CompetitionCompilationPage/CompetitionCompilation');
+require('./pagination/Pagination');
 require('./HrDepartmentPage/ActivityPicture');
 require('./HrDepartmentPage/HrDepartment');
 require('./HrDepartmentPage/NavbarCarousel');
