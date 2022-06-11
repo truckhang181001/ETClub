@@ -11,6 +11,415 @@ body {
   color: #FFFFFF;
 }
 
+.competition {
+  display: flex;
+}
+.competition .left {
+  height: 550px;
+  width: calc(50vw - 63px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.competition .left .competition_desc {
+  padding: 25px 22px;
+  border: 2px solid #A1DCFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.competition .left .competition_desc .competition_status {
+  font-weight: 300;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.competition .left .competition_desc .competition_name {
+  font-weight: 600;
+  font-size: 38px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 25px #00FFF0;
+}
+.competition .left .competition_desc .competition_time {
+  font-weight: 300;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.competition .midle {
+  width: 126px;
+  height: 550px;
+  position: relative;
+}
+.competition .midle .truckX {
+  width: 120%;
+  height: 2px;
+  background-color: #A1DCFF;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.competition .midle .truckY {
+  width: 3px;
+  height: 100%;
+  background-color: #A6A6A6;
+  position: absolute;
+  right: 48.8%;
+}
+.competition .midle .round {
+  position: absolute;
+  top: 43%;
+  left: 20%;
+}
+.competition .right {
+  height: 550px;
+  width: calc(50vw - 63px);
+  display: flex;
+  align-items: center;
+}
+.competition .right .competition_image {
+  border: 2px solid #A1DCFF;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-left: 8px;
+  width: 330px;
+  height: 470px;
+}
+
+.competition_title {
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-family: K2D;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.year_number {
+  width: 141px;
+  border-radius: 11.5556px;
+  margin: 0 auto;
+  background-color: rgba(0, 255, 240, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: K2D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.year_line {
+  width: 3px;
+  height: 28px;
+  background-color: #A6A6A6;
+  margin: 0 auto;
+}
+
+.competition {
+  display: flex;
+}
+.competition .left {
+  height: 550px;
+  width: calc(50vw - 63px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.competition .left .event_desc {
+  max-width: 455px;
+  padding: 25px 22px;
+  border: 2px solid #A1DCFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.competition .left .event_desc .event_name {
+  font-weight: 600;
+  font-size: 38px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 25px #00FFF0;
+  text-align: center;
+  line-height: normal;
+  margin-top: 10px;
+}
+.competition .left .event_desc .event_time {
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.competition .midle {
+  width: 126px;
+  height: 550px;
+  position: relative;
+}
+.competition .midle .truckX {
+  width: 120%;
+  height: 2px;
+  background-color: #A1DCFF;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.competition .midle .truckY {
+  width: 3px;
+  height: 100%;
+  background-color: #A6A6A6;
+  position: absolute;
+  right: 48.8%;
+}
+.competition .midle .round {
+  position: absolute;
+  top: 43%;
+  left: 20%;
+}
+.competition .right {
+  height: 550px;
+  width: calc(50vw - 63px);
+  display: flex;
+  align-items: center;
+}
+.competition .right .competition_image {
+  border: 2px solid #A1DCFF;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-left: 8px;
+  width: 330px;
+  height: 470px;
+}
+
+.competition {
+  display: flex;
+}
+.competition .left {
+  height: 550px;
+  width: calc(50vw - 63px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.competition .left .competition_image {
+  border: 2px solid #A1DCFF;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-left: 8px;
+  width: 330px;
+  height: 470px;
+}
+.competition .midle {
+  width: 126px;
+  height: 550px;
+  position: relative;
+}
+.competition .midle .truckX-reverse {
+  width: 120%;
+  height: 2px;
+  background-color: #A1DCFF;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+.competition .midle .truckY {
+  width: 3px;
+  height: 100%;
+  background-color: #A6A6A6;
+  position: absolute;
+  right: 48.8%;
+}
+.competition .midle .round {
+  position: absolute;
+  top: 43%;
+  left: 20%;
+}
+.competition .right {
+  height: 550px;
+  width: calc(50vw - 63px);
+  display: flex;
+  align-items: center;
+}
+.competition .right .event-reverse_desc {
+  max-width: 455px;
+  padding: 25px 22px;
+  border: 2px solid #A1DCFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.competition .right .event-reverse_desc .event-reverse_name {
+  font-weight: 600;
+  font-size: 38px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 25px #00FFF0;
+  text-align: center;
+}
+.competition .right .event-reverse_desc .event-reverse_time {
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.competition-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .competition {
+    display: none;
+  }
+
+  .competition-mobile {
+    display: block;
+  }
+
+  .year_line {
+    display: none;
+  }
+
+  .year_number {
+    display: none;
+  }
+
+  body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #0e1643 !important;
+  }
+
+  .container {
+    width: 428px;
+    margin: 0 auto;
+  }
+
+  .competition {
+    height: 113px;
+  }
+  .competition_line {
+    position: absolute;
+    width: 2px;
+    height: calc(100% + 50px);
+    top: 12px;
+    left: -40px;
+    background-color: #A6A6A6;
+  }
+  .competition_point {
+    position: absolute;
+    top: 0;
+    left: -58px;
+  }
+  .competition_point-small-1 {
+    position: absolute;
+    top: 380px;
+    left: -50px;
+  }
+  .competition_point-small-2 {
+    position: absolute;
+    top: 950px;
+    left: -50px;
+  }
+  .competition_line-vertical-1 {
+    width: 36px;
+    height: 1px;
+    background-color: #A1DCFF;
+    position: absolute;
+    top: 390px;
+    left: -35px;
+  }
+  .competition_line-vertical-2 {
+    width: 36px;
+    height: 1px;
+    background-color: #A1DCFF;
+    position: absolute;
+    top: 960px;
+    left: -35px;
+  }
+  .competition_timeline {
+    margin-top: 50px;
+  }
+  .competition_title {
+    font-family: K2D;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .competition_year {
+    margin-top: 10px;
+    margin-left: 75px;
+    position: relative;
+  }
+  .competition_year-name {
+    width: 74px;
+    font-family: K2D;
+    font-weight: 700px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 4px 25px #0066FF;
+    margin-bottom: -10px;
+  }
+  .competition_year-event {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin-top: 50px;
+  }
+  .competition_year-description {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    min-width: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .competition_status {
+    font-family: K2D;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .competition_name {
+    font-family: K2D;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 25px #00FFF0;
+    margin-bottom: 5px;
+  }
+  .competition_time {
+    font-family: K2D;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .competition_picture {
+    border: 2px solid #A1DCFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+  }
+  .competition_picture img {
+    width: 100%;
+  }
+}
 .title {
   text-align: center;
   font-size: 28px;

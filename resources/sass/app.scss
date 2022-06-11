@@ -1,6 +1,13 @@
 @import './variable.scss';
 @import './base.scss';
 
+@import './AllCompetitionPage/Upcomming.scss';
+@import './AllCompetitionPage/Tittle.scss';
+@import './AllCompetitionPage/Year.scss';
+@import './AllCompetitionPage/Event.scss';
+@import './AllCompetitionPage/Event-reverse.scss';
+@import './AllCompetitionPage/Responsive.scss';
+
 @import './ETNewsPage/Title.scss';
 @import './ETNewsPage/NewestNews.scss';
 @import './ETNewsPage/MaybeInterested.scss';
@@ -19,3 +26,4 @@
 
 @import './HomePage/Thinking.scss';
 @import './HomePage/Footer.scss';
+
