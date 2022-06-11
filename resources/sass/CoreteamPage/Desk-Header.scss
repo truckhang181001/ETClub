@@ -1,0 +1,57 @@
+.header__container, .desk__container, .desk__intro {
+   display:none;
+}
+@media screen  and (min-width:1440px) {
+    .intro, .content, .bcn__container {
+        display:none;
+    }
+    .header__container, .desk__container, .desk__intro {
+        max-width: 1440px;
+        margin:0 auto;
+        position:relative;
+        display:block;
+    }
+    .header{
+        &__title {
+            font-size: 60px;
+            font-weight: 700;
+            text-align:center;
+            color:white;
+        }
+    }
+    .header__time {
+        position:relative;
+        .time__card{
+        width:13%;
+        padding:6px 16px;
+        border-radius: 10px;
+        position:absolute;
+        right:70px;
+        border: solid 4px transparent;
+        background: rgb(14,22,67);
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            z-index: -1;
+            margin: -5px;
+            border-radius: inherit;
+            background: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
+            }
+        p,i {
+            font-size: 20px;
+            font-weight: 700;
+            background: -webkit-linear-gradient(#7496FF 0%, #5DD7D0 99.81%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0;
+        }
+        p {
+            margin-right: 4px;
+        }
+    }
+}
+}

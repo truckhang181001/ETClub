@@ -1,6 +1,13 @@
 @import './variable.scss';
 @import './base.scss';
 
+@import './CoreteamPage/Mobile-Header.scss';
+@import './CoreteamPage/Mobile-Content.scss';
+@import './CoreteamPage/Mobile-Intro.scss';
+@import './CoreteamPage/Desk-Header.scss';
+@import './CoreteamPage/Desk-Content.scss';
+@import './CoreteamPage/Desk-Intro.scss';
+
 @import './ETNewsPage/Title.scss';
 @import './ETNewsPage/NewestNews.scss';
 @import './ETNewsPage/MaybeInterested.scss';
