@@ -1,0 +1,1 @@
+<h1>CUOC THI</h1><?php /**PATH C:\Users\OS\Desktop\ET\ETClub\resources\views/HomePage/Competition.blade.php ENDPATH**/ ?>

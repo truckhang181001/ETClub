@@ -77,7 +77,7 @@
     <div class="mission">
         <div class="border-mission">
             <h1> Sứ mệnh</h1>
-            <p>Tổ chức các cuộc thi học thuật liên quan đến việc áp dụng công nghệ vào lĩnh vực kinh tế. <br> <br> Tổ chức các buổi talkshow, workshop với chủ đề xoay quanh về công nghệ, kinh tế nhằm tạo điều kiện để sinh viên có cơ hội được định hướng nghề nghiệp rõ ràng, hiểu rõ hơn về chuyên ngành mình đang theo học. <br> <br> Kết nối doanh nghiệp và sinh viên bằng cách hỗ trợ tuyển dụng. <br> <br> Cập nhật kiến thức về Công Nghệ - Kinh Tế cho sinh viên.</p>
+            <p>Tổ chức các cuộc thi học thuật liên quan đến việc áp dụng công nghệ vào lĩnh vực kinh tế. <br>   <br>      Tổ chức các buổi talkshow, workshop với chủ đề xoay quanh về công nghệ, kinh tế nhằm tạo điều kiện để sinh viên có cơ hội được định hướng nghề nghiệp rõ ràng, hiểu rõ hơn về chuyên ngành mình đang theo học. <br>    <br>   Kết nối doanh nghiệp và sinh viên bằng cách hỗ trợ tuyển dụng. <br> <br> Cập nhật kiến thức về Công Nghệ - Kinh Tế cho sinh viên.</p>
         </div>
         <div class="img-cover">
             <img src="/img/anh3.png" alt="">

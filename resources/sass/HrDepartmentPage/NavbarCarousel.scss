@@ -1,0 +1,42 @@
+.owl-carousel-navbar {
+    .owl-stage-outer {
+        .owl-stage {
+            .owl-item {
+                width: 115px !important;
+                &:first-child {
+                    margin-left: 5px;
+                }
+            }
+            
+        }
+    }
+}
+h6 {
+    margin: 0;
+    font-size: 16px;
+  background: -webkit-linear-gradient(#7496FF, #5DD7D0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cc-navbar-mobile {
+    margin-top: 32px;
+    margin-bottom: 28px;
+    background: rgb(122, 118, 118);
+    border-radius: 10px;
+    .cc-navbar__item {
+        background: linear-gradient(#0E1643, #0E1643) padding-box,
+    linear-gradient(45deg, #7496FF, #5DD7D0) border-box;
+    border: 3px solid transparent;
+    border-radius: 14px;
+    padding: 7px 10px;
+      }
+    .cc-navbar__item.active{
+        background: linear-gradient(#7496FF, #5DD7D0) padding-box,
+    linear-gradient(45deg, #7496FF, #5DD7D0) border-box;
+    h6 {
+        background: -webkit-linear-gradient(#0E1643, #0E1643);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    }
+}
