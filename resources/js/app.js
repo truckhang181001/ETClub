@@ -1,2 +1,9 @@
-require('./HomePage/Banner');
 require('./NewsPage/Flipbook');
+require('./ETNewsPage/FilterAndActivitiesCard');
+require('./HrDepartmentPage/ActivityPicture');
+require('./HrDepartmentPage/HrDepartment');
+require('./HrDepartmentPage/NavbarCarousel');
+require('./HomePage/Banner');
+require('./HomePage/Thinking')
+require('./HomePage/Footer');
+require('./HomePage/Navbar');

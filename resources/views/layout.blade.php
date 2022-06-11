@@ -21,7 +21,9 @@
     <title>ET Club | @yield('title')</title>
 </head>
 <body>
+    @include('NavBar')
     @yield('content')
+    @include('Footer')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     <script src="/js/booklet/jquery.easing.1.3.js" type="text/javascript"></script>
