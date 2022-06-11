@@ -288,6 +288,10 @@ $(function () {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+__webpack_require__(/*! ./CompetitionCompilationPage/CompetitionCompilation */ "./resources/js/CompetitionCompilationPage/CompetitionCompilation.js");
+
+__webpack_require__(/*! ./pagination/Pagination */ "./resources/js/pagination/Pagination.js");
+
 __webpack_require__(/*! ./HrDepartmentPage/ActivityPicture */ "./resources/js/HrDepartmentPage/ActivityPicture.js");
 
 __webpack_require__(/*! ./HrDepartmentPage/HrDepartment */ "./resources/js/HrDepartmentPage/HrDepartment.js");
@@ -301,6 +305,18 @@ __webpack_require__(/*! ./HomePage/Thinking */ "./resources/js/HomePage/Thinking
 __webpack_require__(/*! ./HomePage/Footer */ "./resources/js/HomePage/Footer.js");
 
 __webpack_require__(/*! ./HomePage/Navbar */ "./resources/js/HomePage/Navbar.js");
+
+/***/ }),
+
+/***/ "./resources/js/pagination/Pagination.js":
+/*!***********************************************!*\
+  !*** ./resources/js/pagination/Pagination.js ***!
+  \***********************************************/
+/***/ (() => {
+
+$('.pagination-item').click(function () {
+  $(this).addClass('pagination-item--active').siblings().removeClass('pagination-item--active');
+});
 
 /***/ }),
 

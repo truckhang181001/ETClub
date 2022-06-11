@@ -7,4 +7,4 @@
 @section('content')
     @include('CompetitionCompilationPage.CompetitionCompilation')
     @include('pagination.Pagination')
-@endsections
+@endsection
