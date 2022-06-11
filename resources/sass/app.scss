@@ -1,10 +1,28 @@
 @import './variable.scss';
 @import './base.scss';
-@import './HomePage/Banner.scss';
-@import './HomePage/Tech.scss';
+
 @import './CoreteamPage/Mobile-Header.scss';
 @import './CoreteamPage/Mobile-Content.scss';
 @import './CoreteamPage/Mobile-Intro.scss';
 @import './CoreteamPage/Desk-Header.scss';
 @import './CoreteamPage/Desk-Content.scss';
 @import './CoreteamPage/Desk-Intro.scss';
+
+@import './ETNewsPage/Title.scss';
+@import './ETNewsPage/NewestNews.scss';
+@import './ETNewsPage/MaybeInterested.scss';
+@import './ETNewsPage/FilterAndActivitiesCard.scss';
+
+@import './AboutCLBPage/PageAboutClb.scss';
+
+@import './HrDepartmentPage/HrDepartment.scss';
+@import './HrDepartmentPage/ActivityPicture.scss';
+@import './HrDepartmentPage/NavbarCarousel.scss';
+
+@import './HomePage/NavBar.scss';
+@import './HomePage/Banner.scss';
+@import './HomePage/Introduction.scss';
+@import './HomePage/Tech-corner.scss';
+
+@import './HomePage/Thinking.scss';
+@import './HomePage/Footer.scss';

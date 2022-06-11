@@ -1,0 +1,223 @@
+.activity-picture-container {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    @media (min-width:576px) {
+        width: calc(100% - 50px);
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    @media (min-width: 1200px) {
+        width: calc(100% - 200px);
+        display: flex;
+    flex-wrap: wrap;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    }
+
+    .activity-picture-name {
+        margin-top: 50px;
+        width: 100%;
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-family: 'K2D', sans-serif;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+                font-size: 32px;
+                margin-top: 8px;
+                margin-bottom: 30px;
+        }
+        @media (min-width: 1200px) {
+        margin-top: 84px;
+        padding-left: auto;
+        padding-left: 0;
+        padding-right: 0;
+        h1 {
+            font-size: 45px;
+                line-height: 28px;
+        }
+        }
+    }
+
+
+    .owl-carousel {
+        margin: 0 auto;
+        width: 100%;
+        @media (min-width: 576px) {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+        @media (min-width: 1200px) {
+            width: 100% !important;
+            margin: 0 auto;
+        }
+       
+        .owl-stage-outer {
+            width: 100%;
+
+            @media (min-width: 576px) {
+                width: 100%;
+            }
+            @media (min-width: 1200px) {
+                width: 100%; 
+            }
+        }
+
+    }
+
+
+
+
+    .owl-carousel-activity-picture {
+        margin: 0 auto;
+        width: 100% !important;
+
+        &:hover {
+            .owl-nav {
+
+                button.owl-prev,
+                button.owl-next {
+                    display: block;
+                }
+            }
+
+        }
+
+        .owl-item .item {
+
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+            transition: all linear 1s;
+            filter: blur(1px);
+                transform: scaleY(1);
+                width: 100%;
+
+            @media (min-width: 576px) {
+                transform: scaleY(1);
+                filter: blur(1px);
+                 width: 100%;
+            }
+            @media (min-width: 1200px) {
+                transform: scaleY(0.8);
+                filter: blur(2px);
+                 width: 100%;
+                width: 1000px;
+            }
+            
+
+            img {
+                width: 396px;
+                    height: 222px;
+                    border-top-right-radius: 10px;
+                border-radius: 10px;
+                object-fit: cover;
+
+                @media (min-width: 576px) {
+                    width: 700px !important;
+                    height: 400px;
+                }
+                @media (min-width:1200px) {
+                    width: 1000px !important;
+                    height: 500px;
+                }
+            }
+        }
+
+        .owl-item.active .item {
+            filter: blur(0px);
+            transform: scaleY(1);
+        }
+
+        .owl-nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            transform: translateX(20px);
+            transform: translateY(-130px);
+            @media (min-width: 576px ) {
+                width: 98%;
+                transform: translateY(-230px);
+
+            }
+            @media (min-width: 1200px) {
+                position: absolute;
+                width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+                
+            }
+
+            button.owl-prev,
+            button.owl-next {
+                width: 20px;
+                height: 20px;
+                background: rgba(255, 255, 255, 0.4);
+                border-radius: 50%;
+                @media (min-width: 576px) {
+                    width: 40px;
+                height: 40px;
+                }
+                @media (min-width: 1200px) {
+                    display: none;
+                width: 60px;
+                height: 60px;
+                }
+                &:hover {
+                    cursor: pointer;
+                    background: rgba(255, 255, 255, 0.7);
+                }
+
+                i {
+                    font-size: 10px;
+                    color: white;
+                    @media (min-width: 576px) {
+                        font-size: 25px;
+                    }
+                    @media (min-width: 1200px) {
+                        font-size: 40px;
+                        
+                    }
+                }
+            }
+        }
+
+        .owl-dots {
+            .owl-dot {
+                margin-top: -40px;
+                @media (min-width: 1200px) {
+                    margin-top: 20px;
+                }
+                span {
+                    background: #3F3356;
+                    border: 2px solid #7496FF;
+                    margin: 34px 6.98px 0 0;
+
+                    @media (min-width: 1200px) {
+                        margin-top: 30px;
+                        
+                    }
+                }
+            }
+
+            .owl-dot.active {
+                span {
+                    width: 17.44px;
+                        margin: 0px;
+                        margin-right: 6.98px;
+                    background-image: linear-gradient(to right, #7496FF, #5DD7D0) !important;
+
+                    @media (min-width: 1200px) {
+                        width: 25px;
+                    }
+
+                }
+            }
+        }
+    }
+}

@@ -2,7 +2,12 @@
 
 use App\Http\Controllers\User\CoreteamPageController;
 use App\Http\Controllers\User\HomePageController;
+use App\Http\Controllers\User\ETNewsController;
+use App\Http\Controllers\User\ETNewsPageController;
+use App\Http\Controllers\User\HrController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\User\PageAboutClbController;
+
 
 
 /*
@@ -17,4 +22,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomePageController::class,'index']);
-Route::get('/ban-dieu-hanh',[CoreteamPageController::class,'index']);
+Route::get('/ban-chu-nhiem',[CoreteamPageController::class,'index']);
+Route::get('/ban-tin-et',[ETNewsPageController::class,'index']);
+Route::get('/ve-cau-lac-bo',[PageAboutClbController::class,'index']);
+Route::get('/nhan-su',[HrController::class,'index']);
