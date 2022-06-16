@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminCompetitionController;
+use App\Http\Controllers\Admin\AdminDashBoardController;
 use App\Http\Controllers\User\HomePageController;
 use App\Http\Controllers\User\ETNewsController;
 use App\Http\Controllers\User\ETNewsPageController;
@@ -24,3 +26,7 @@ Route::get('/',[HomePageController::class,'index']);
 Route::get('/ban-tin-et',[ETNewsPageController::class,'index']);
 Route::get('/ve-cau-lac-bo',[PageAboutClbController::class,'index']);
 Route::get('/nhan-su',[HrController::class,'index']);
+
+Route::get('admin',[AdminDashBoardController::class,'index']);
+Route::get('admin/competition',[AdminCompetitionController::class,'index']);
+Route::get('admin/competition/{id}',[AdminCompetitionController::class,'view']);

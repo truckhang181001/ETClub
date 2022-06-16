@@ -3664,3 +3664,14 @@ h6 {
   font-size: 18px;
   text-decoration: none;
 }
+
+.ad-nav-item {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.ad-nav-active {
+  font-weight: bold;
+  background-color: wheat;
+}
