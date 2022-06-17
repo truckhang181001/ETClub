@@ -8,6 +8,7 @@ use App\Http\Controllers\User\ETNewsPageController;
 use App\Http\Controllers\User\HrController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\User\PageAboutClbController;
+use App\Http\Controllers\User\HomepageCompetitionController;
 
 
 
@@ -26,6 +27,7 @@ Route::get('/',[HomePageController::class,'index']);
 Route::get('/ban-tin-et',[ETNewsPageController::class,'index']);
 Route::get('/ve-cau-lac-bo',[PageAboutClbController::class,'index']);
 Route::get('/nhan-su',[HrController::class,'index']);
+Route::get('/cuoc-thi-trang-chu',[HomepageCompetitionController::class,'index']);
 
 Route::get('admin',[AdminDashBoardController::class,'index']);
 Route::get('admin/competition',[AdminCompetitionController::class,'index']);

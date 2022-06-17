@@ -1,1 +1,0 @@
-<div class="title">BẢN TIN ET</div>
