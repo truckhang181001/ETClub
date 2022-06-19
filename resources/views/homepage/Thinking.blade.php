@@ -1,7 +1,7 @@
 
     <div class="thingking container">
         <div class="thingking-name">CẢM NGHĨ</div>
-        <div class=" thingking-list owl-carousel owl-theme">
+        <div class=" thingking-list owl-carousel__thinking owl-carousel owl-theme">
             <div class="thingking-item item">
                 <div class="thingking-quote">
                     <img src="/img/Rectangle 2640.png" alt="">

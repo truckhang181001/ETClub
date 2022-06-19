@@ -1,7 +1,7 @@
 .box-container {
     margin: 0 auto;
     width: 85%;
-    
+
     @media only screen and (min-width: 992px) {
         width: 78.5%;
     }
@@ -19,15 +19,20 @@
 
     &__highlight {
         display: none;
-        
+
         @media only screen and (min-width: 992px) {
             display: inline;
             width: 5px;
             height: 45px;
             margin-right: 10px;
-            border-left: 2.5px solid #7496FF;
-            border-right: 2.5px solid #5DD7D0;
-            background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
+            border-left: 2.5px solid #7496ff;
+            border-right: 2.5px solid #5dd7d0;
+            background-image: linear-gradient(
+                    to right,
+                    #7496ff 0%,
+                    #5dd7d0 99.81%
+                ),
+                linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%);
         }
     }
 
@@ -35,7 +40,7 @@
         font-family: K2D;
         font-weight: bold;
         font-size: $mobile_h3;
-        color: $white;
+        color: white;
 
         @media only screen and (min-width: 1200px) {
             font-size: 45px;
@@ -51,22 +56,26 @@
     @media only screen and (min-width: 992px) {
         flex-direction: row;
     }
-    
+
     &:hover {
         transform: scale(0.95);
     }
 
     &-image {
-
         &:hover {
             border-width: 3px;
-            border-left: 3px solid #7496FF;
-            border-right: 3px solid #5DD7D0;
+            border-left: 3px solid #7496ff;
+            border-right: 3px solid #5dd7d0;
             box-sizing: border-box;
             background-position: left bottom, 100% 0%;
             background-repeat: no-repeat;
             background-size: 100% 3px;
-            background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
+            background-image: linear-gradient(
+                    to right,
+                    #7496ff 0%,
+                    #5dd7d0 99.81%
+                ),
+                linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%);
             border-radius: 10px;
             box-shadow: 0px 0px 8px 2px rgb(161 220 255 / 80%);
         }
@@ -75,7 +84,7 @@
             width: 368px;
             height: 368px;
             object-fit: cover;
-            border: 1px solid #15123C;
+            border: 1px solid #15123c;
             filter: drop-shadow(-5px 0px 20px rgba(255, 255, 255, 0.2));
             border-radius: 10px;
             cursor: pointer;
@@ -101,7 +110,6 @@
             @media only screen and (min-width: 992px) {
                 display: inline;
             }
-            
         }
         &__datetime-2 {
             display: inline;
@@ -134,11 +142,11 @@
             font-family: K2D;
             font-weight: bold;
             font-size: 22px;
-            color: $white;
+            color: white;
             cursor: pointer;
-            
+
             &:hover {
-                color: $white;
+                color: white;
             }
 
             @media only screen and (min-width: 1200px) {
@@ -151,11 +159,11 @@
             text-decoration: none;
             font-family: Open Sans;
             font-size: 13px;
-            color: $white;
+            color: white;
             cursor: pointer;
-            
+
             &:hover {
-                color: $white;
+                color: white;
             }
 
             @media only screen and (min-width: 1200px) {
