@@ -55,7 +55,9 @@
                 <img src="img/Logo ET.png" alt="Logo ET">
                 <a href="#">Economic Technology</a>
             </div>
-            <i id ="menu-mobile" class="fas fa-bars"></i>
+            <span id ="menu-mobile" class="material-symbols-outlined">
+                menu
+            </span>
         </div>
 
         <nav class="side-bar">

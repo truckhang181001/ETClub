@@ -1,6 +1,10 @@
 
 .owl-carousel-banner {
-    margin-top: 80px;
+    margin-top: 65px;
+
+    @media (min-width:576px) {
+        margin-top: 80px;
+    }
     
     &:hover {
         cursor: pointer;

@@ -1,7 +1,7 @@
-<div class="my-footer">
+<footer class="my-footer">
 
     <div id=btnScrolltoTop>
-        <i class="far fa-arrow-up"></i>
+        <i class="fa-solid fa-arrow-up"></i>
     </div>
 
     <div class="container">
@@ -11,34 +11,38 @@
                 <div class="footer-left__img">
                     <img src="/img/ET 1.png" alt="Logo ET"> <br>
                 </div>
-                <h4 class="footer-left__name">CLB CÔNG NGHỆ KINH TẾ - ET CLUB</h4>
-                <h6 class="footer-left__info">Trực thuộc Liên Chi hội Sinh viên khoa Công nghệ thông tin kinh doanh</h6>
-                <h6 class="footer-left__info">Trực thuộc Hội Sinh viên trường Đại học Kinh tế TP. Hồ Chí Minh</h6>
-                <h6 class="footer-left__dev">Trang web được phát triển bởi Hội Sinh viên UEH và <a href="" target="_blank">Nhóm phát triển web</a></h6>
+                <span class="footer-left__name">CLB CÔNG NGHỆ KINH TẾ - ET CLUB</span>
+                <span class="footer-left__info">Trực thuộc Liên Chi hội Sinh viên khoa Công nghệ thông tin kinh doanh</span>
+                <span class="footer-left__info">Trực thuộc Hội Sinh viên trường Đại học Kinh tế TP. Hồ Chí Minh</span>
+                <span class="footer-left__dev">Trang web được phát triển bởi Hội Sinh viên UEH và <a href="" target="_blank">Nhóm phát triển web</a></span>
                 <hr>
             </div>
 
-            <div class="footer-right col-12 col-lg-5">
+            <div class="row footer-right col-12 col-lg-5">
                 <div class="col-12 footer-right__contact">
-                    <h4>LIÊN HỆ</h4>
+                    <span>LIÊN HỆ</span>
                 </div>
-                <div class="footer-right__other">
+                <div class="col-6 col-sm-12 footer-right__other">
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:etclub.ueh@gmail.com">etclub.ueh@gmail.com</a>
+                    <a class="footer__mobile" href="mailto:etclub.ueh@gmail.com">Email</a>
+                    <a class="footer__tablet" href="mailto:etclub.ueh@gmail.com">etclub.ueh@gmail.com</a>
                 </div>
-                <div class="footer-right__other">
+                <div class="col-6 col-sm-12 footer-right__other">
                     <i class="fab fa-facebook"></i>
-                    <a href="">Câu lạc bộ Công Nghệ Kinh Tế - ET Club</a>
+                    <a class="footer__mobile" href="https://www.facebook.com/ETClub.UEH" target="_blank">Fanpage</a>
+                    <a class="footer__tablet" href="https://www.facebook.com/ETClub.UEH" target="_blank">Câu lạc bộ Công Nghệ Kinh Tế - ET Club</a>
                 </div>
-                <div class="footer-right__other">
+                <div class="col-6 col-sm-12 footer-right__other">
                     <i class="fab fa-tiktok"></i>
-                   <a href="">etclub.ueh</a>
+                    <a class="footer__mobile" target="_blank" href="https://www.tiktok.com/@etclub_ueh">Tiktok</a>
+                    <a class="footer__tablet" target="_blank" href="https://www.tiktok.com/@etclub_ueh">etclub.ueh</a>
                 </div>
-                <div class="footer-right__other">
+                <div class="col-6 col-sm-12 footer-right__other">
                     <i class="fab fa-youtube"></i>
-                    <a href="">Câu lạc bộ Công Nghệ Kinh Tế</a>
+                    <a class="footer__mobile" target="_blank" href="https://www.youtube.com/c/C%C3%A2ul%E1%BA%A1cb%E1%BB%99C%C3%B4ngNgh%E1%BB%87KinhT%E1%BA%BF">Youtube</a>
+                    <a class="footer__tablet" target="_blank" href="https://www.youtube.com/c/C%C3%A2ul%E1%BA%A1cb%E1%BB%99C%C3%B4ngNgh%E1%BB%87KinhT%E1%BA%BF">Câu lạc bộ Công Nghệ Kinh Tế</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</footer>

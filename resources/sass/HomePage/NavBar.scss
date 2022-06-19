@@ -142,11 +142,15 @@
     z-index: 100;
 
     .nav-mobile {
-        padding: 5px 20px;
+        padding: 5px 12px;
         background: $background-dark;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @media (min-width:576px) {
+            padding: 5px 20px;
+        }
         
         .logo {
             display: flex;
@@ -160,6 +164,7 @@
     
             a {
                 font-size: 16px;
+                margin-left: 5px;
                 text-decoration: none;
                 color: #F4F4F4;
             }
