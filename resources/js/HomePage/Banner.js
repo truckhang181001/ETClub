@@ -1,5 +1,5 @@
-var owl = $('.owl-carousel-banner');
-owl.owlCarousel({
+var owl_banner = $('.owl-carousel-banner');
+owl_banner.owlCarousel({
     nav: true,
     items:1,
     loop:true,
