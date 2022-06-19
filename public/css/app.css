@@ -8,15 +8,15 @@
 
 body {
   background-color: #0E1643 !important;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .title {
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   font-family: K2D;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #fff;
   margin: 26px 0 30px 0;
 }
 @media only screen and (min-width: 1200px) {
@@ -63,8 +63,8 @@ body {
 .news-title__name {
   font-family: K2D;
   font-weight: bold;
-  font-size: 24px;
-  color: #FFFFFF;
+  font-size: 20px;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .news-title__name {
@@ -161,11 +161,11 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-info__title:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-info__title {
@@ -177,11 +177,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-info__content {
@@ -234,8 +234,8 @@ body {
 .news-title__name {
   font-family: K2D;
   font-weight: bold;
-  font-size: 24px;
-  color: #FFFFFF;
+  font-size: 20px;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .news-title__name {
@@ -300,11 +300,11 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2-info__title:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2-info__title {
@@ -316,11 +316,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2-info__content {
@@ -378,11 +378,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2 .left-side .body-2-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2 .left-side .body-2-info__content {
@@ -438,11 +438,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2 .right-side .body-2-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2 .right-side .body-2-info__content {
