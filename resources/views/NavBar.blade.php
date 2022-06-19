@@ -1,16 +1,19 @@
 <div class="menu-area">
     <div class="cover-nav-destop">
-        <nav class="nav-destop nav-container row p-0">
+
+        <div class="nav-destop nav-container row p-0 m-auto">
+
             <div class="logo col-4">
                 <img class="logo_img" src="img/Logo ET.png" alt="Logo ET">
                 <a href="#" class="logo_text">Economic Technology</a>
             </div>
-            <div class="nav col-8">
+
+            <nav class="nav col-8">
                 <a class="nav-link active"> <span>Trang chủ</span></a>
                 <div class="nav-link nav-link__introduce">
                     <span>Giới thiệu <i class="fas fa-angle-down"></i></span>
                     
-                    <div class="more">
+                    <div class="more-link">
                         <div class="more__border"></div>
                         <li><a href="#">Về CLB</a></li>
                         <hr>
@@ -20,7 +23,7 @@
                 <div class="nav-link nav-link__grTechnology">
                     <span>Góc công nghệ <i class="fas fa-angle-down"></i></span>
                     
-                    <div class="more">
+                    <div class="more-link">
                         <div class="more__border"></div>
                         <li><a href="#">Bản tin ET</a></li>
                         <hr>
@@ -32,7 +35,7 @@
                 <div class="nav-link nav-link__contest">
                     <span>Cuộc thi <i class="fas fa-angle-down"></i></span>
                     
-                    <div class="more">
+                    <div class="more-link">
                         <div class="more__border"></div>
                         <li><a href="#">Techconomy</a></li>
                         <hr>
@@ -40,9 +43,10 @@
                     </div>
                 </div>
                 <a class="nav-link"><span>Tuyển CTV</span></a>
-            </div>
+            </nav>
 
-        </nav>
+        </div>
+
     </div>
 
     <div class="cover-nav-mobile">

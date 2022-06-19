@@ -17,9 +17,11 @@
     <script src="https://kit.fontawesome.com/a143d0a742.js" crossorigin="anonymous"></script>
     <title>ET Club | @yield('title')</title>
 </head>
-<body class="container">
+<body>
     @include('NavBar')
-    @yield('content')
+    <div class="container">
+        @yield('content')
+    </div>
     @include('Footer')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

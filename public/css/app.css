@@ -8,15 +8,15 @@
 
 body {
   background-color: #0E1643 !important;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .title {
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   font-family: K2D;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #fff;
   margin: 26px 0 30px 0;
 }
 @media only screen and (min-width: 1200px) {
@@ -63,8 +63,8 @@ body {
 .news-title__name {
   font-family: K2D;
   font-weight: bold;
-  font-size: 24px;
-  color: #FFFFFF;
+  font-size: 20px;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .news-title__name {
@@ -161,11 +161,11 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-info__title:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-info__title {
@@ -177,11 +177,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-info__content {
@@ -234,8 +234,8 @@ body {
 .news-title__name {
   font-family: K2D;
   font-weight: bold;
-  font-size: 24px;
-  color: #FFFFFF;
+  font-size: 20px;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .news-title__name {
@@ -300,11 +300,11 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2-info__title:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2-info__title {
@@ -316,11 +316,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2-info__content {
@@ -378,11 +378,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2 .left-side .body-2-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2 .left-side .body-2-info__content {
@@ -438,11 +438,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 .body-2 .right-side .body-2-info__content:hover {
-  color: #FFFFFF;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2 .right-side .body-2-info__content {
@@ -714,11 +714,11 @@ body {
   transform: scale(0.95);
 }
 
-.row {
+.cover-card {
   justify-content: space-between;
   margin-top: 70px !important;
 }
-.row .card {
+.cover-card .card {
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -728,24 +728,24 @@ body {
   border-radius: 0px 0px 10px 10px;
   cursor: pointer;
 }
-.row .card:hover {
+.cover-card .card:hover {
   box-shadow: 0px 0px 8px 2px rgba(161, 220, 255, 0.8);
   border-radius: 10px;
 }
-.row .card-image {
+.cover-card .card-image {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px 10px 0px 0px;
 }
-.row .card-time {
+.cover-card .card-time {
   font-family: "K2D";
   font-weight: 500;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.7);
   margin: 7px 0px 0px 20px;
 }
-.row .card-heading {
+.cover-card .card-heading {
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2767,6 +2767,7 @@ h6 {
 
 .menu-area {
   z-index: 100;
+  background: #15123c;
 }
 .menu-area .cover-nav-destop {
   display: none;
@@ -2786,17 +2787,18 @@ h6 {
 }
 
 .nav-destop {
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  z-index: 100;
   background: #15123c;
-  display: flex;
   padding: 15px;
+  max-width: 1440px;
 }
 .nav-destop .logo {
   display: flex;
   align-items: center;
-  padding-left: 50px;
 }
 .nav-destop .logo .logo_img {
   height: 50px;
@@ -2823,10 +2825,10 @@ h6 {
 .nav-destop .nav .nav-link span {
   color: white;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
 }
-.nav-destop .nav .nav-link .more {
+.nav-destop .nav .nav-link .more-link {
   z-index: 10;
   min-width: 150px;
   position: absolute;
@@ -2835,26 +2837,26 @@ h6 {
   background: #15123c;
   display: none;
 }
-.nav-destop .nav .nav-link .more .more__border {
+.nav-destop .nav .nav-link .more-link .more__border {
   height: 3px;
   width: 100%;
   background-image: linear-gradient(to right, #7496ff, #5dd7d0);
 }
-.nav-destop .nav .nav-link .more li {
+.nav-destop .nav .nav-link .more-link li {
   padding: 10px;
 }
-.nav-destop .nav .nav-link .more li a {
+.nav-destop .nav .nav-link .more-link li a {
   color: white;
   font-size: 16px;
   text-decoration: none;
   cursor: pointer;
 }
-.nav-destop .nav .nav-link .more li:hover a {
+.nav-destop .nav .nav-link .more-link li:hover a {
   background: -webkit-linear-gradient(45deg, #7496ff, #5dd7d0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.nav-destop .nav .nav-link .more hr {
+.nav-destop .nav .nav-link .more-link hr {
   margin: 0;
   height: 1.5px;
   background-image: linear-gradient(to right, #7496ff, #5dd7d0);
@@ -2864,7 +2866,7 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.nav-destop .nav .nav-link:hover .more {
+.nav-destop .nav .nav-link:hover .more-link {
   display: block;
 }
 .nav-destop .nav .nav-link.active span {
@@ -2909,7 +2911,6 @@ h6 {
   font-size: 16px;
   text-decoration: none;
   color: #F4F4F4;
-  margin-left: 10px;
 }
 .cover-nav-mobile .nav-mobile #menu-mobile {
   font-size: 18px;
@@ -3052,7 +3053,7 @@ h6 {
 }
 
 .owl-carousel-banner {
-  margin-top: 65px;
+  margin-top: 80px;
 }
 .owl-carousel-banner:hover {
   cursor: pointer;
@@ -3150,27 +3151,20 @@ h6 {
 }
 @media (min-width: 576px) {
   .container-fluid h1.text-center.mx-auto {
-    margin-top: 65px;
+    margin-top: 60px;
     font-size: 32px;
     font-weight: 800;
   }
 }
 @media (min-width: 1200px) {
   .container-fluid h1.text-center.mx-auto {
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 45px;
     font-weight: 800;
   }
 }
-.container-fluid .introduce-content {
-  margin-top: 15px;
-}
-@media (min-width: 1400px) {
-  .container-fluid .introduce-content-left {
-    padding: 0 60px;
-  }
-}
-.container-fluid .introduce-content__content {
+.container-fluid .introduction-content__content {
   padding: 0 17px;
   font-size: 16px;
   font-weight: 400;
@@ -3180,11 +3174,11 @@ h6 {
   color: #FFFFFF;
 }
 @media (min-width: 576px) {
-  .container-fluid .introduce-content__content {
+  .container-fluid .introduction-content__content {
     font-size: 18px;
   }
 }
-.container-fluid .introduce-content__learn-more {
+.container-fluid .introduction-content__learn-more {
   padding-right: 17px;
   justify-content: flex-end;
   margin-top: 10px;
@@ -3198,11 +3192,11 @@ h6 {
   /* Fade-in animation */
 }
 @media (min-width: 576px) {
-  .container-fluid .introduce-content__learn-more {
+  .container-fluid .introduction-content__learn-more {
     font-size: 18px;
   }
 }
-.container-fluid .introduce-content__learn-more a {
+.container-fluid .introduction-content__learn-more a {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -3211,14 +3205,13 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.container-fluid .introduce-content__learn-more a:hover::after {
+.container-fluid .introduction-content__learn-more a:hover::after {
   content: "";
   display: block;
   width: 100%;
   /* Adjust height and bottom values to work with selected font */
   height: 0.1em;
   bottom: 0.1em;
-  /* Create gradient */
   /* Set-up fade-in animation */
   opacity: 0;
   -webkit-animation: fadeIn 400ms ease-out forwards;
@@ -3234,19 +3227,10 @@ h6 {
     opacity: 1;
   }
 }
-.container-fluid .introduce-content__video {
-  padding: 0 16px;
-}
-.container-fluid .introduce-content__video img {
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-@media (min-width: 992px) {
-  .container-fluid .introduce-content__video img {
-    margin-top: 0;
-  }
+.container-fluid .introduction-content__video iframe {
+  border-radius: 10px;
+  width: 595px;
+  height: 335px;
 }
 
 .tech-container {

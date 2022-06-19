@@ -1,8 +1,10 @@
 .menu-area {
     z-index: 100;
+    background: $background-dark;
 
     .cover-nav-destop {
         display: none;
+
         @media (min-width: 1200px) {
             display: block;
         }
@@ -18,17 +20,18 @@
 
 //Css nav destop
 .nav-destop {
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    background: #15123c;
-    display: flex;
+    z-index: 100;
+    background: $background-dark;
     padding: 15px;
+    max-width: 1440px;
 
     .logo {
         display: flex;
         align-items: center;
-        padding-left: 50px;
 
         .logo_img {
             height: 50px;
@@ -57,11 +60,11 @@
             span {
                 color: white;
                 font-size: 20px;
-                font-weight: 500;
+                font-weight: 600;
                 cursor: pointer;
             }
 
-            .more {
+            .more-link {
                 z-index: 10;
                 min-width: 150px;
                 position: absolute;
@@ -69,6 +72,7 @@
                 left: 0;
                 background: #15123c;
                 display: none;
+
                 .more__border {
                     height: 3px;
                     width: 100%;
@@ -104,7 +108,7 @@
                     -webkit-text-fill-color: transparent;
                 }
 
-                .more {
+                .more-link {
                     display: block;
                 }
             }    
@@ -139,13 +143,12 @@
 
     .nav-mobile {
         padding: 5px 20px;
-        background: #15123c;
+        background: $background-dark;
         display: flex;
         align-items: center;
         justify-content: space-between;
         
         .logo {
-
             display: flex;
             align-items: center;
 
@@ -159,7 +162,6 @@
                 font-size: 16px;
                 text-decoration: none;
                 color: #F4F4F4;
-                margin-left: 10px;
             }
         }
 
