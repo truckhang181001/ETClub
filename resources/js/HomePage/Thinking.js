@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel__thinking').owlCarousel({
     dotsEach:true,
     loop:false,
     nav:false,

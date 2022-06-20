@@ -43,8 +43,8 @@ $('.more-cover .more').click(function () {
   \*****************************************/
 /***/ (() => {
 
-var owl = $('.owl-carousel-banner');
-owl.owlCarousel({
+var owl_banner = $('.owl-carousel-banner');
+owl_banner.owlCarousel({
   nav: true,
   items: 1,
   loop: true,
@@ -248,7 +248,7 @@ $('.CTV-btn').click(function () {
   \*******************************************/
 /***/ (() => {
 
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel__thinking').owlCarousel({
   dotsEach: true,
   loop: false,
   nav: false,

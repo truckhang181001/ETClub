@@ -1,5 +1,5 @@
-var owl_competition = $(".owl-carousel__competition");
-owl_competition.owlCarousel({
+var owl = $(".owl-carousel__competition");
+owl.owlCarousel({
     nav: true,
     items: 1,
     loop: true,
