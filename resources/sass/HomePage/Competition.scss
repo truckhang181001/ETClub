@@ -1,8 +1,8 @@
 .competition-container {
-    width: 396px;
+    width: 100%;
     margin: 0 auto !important;
 
-    @media (min-width: 576px) {
+    @media (min-width: 992px) {
         width: 700px;
         padding-left: 25px;
         padding-right: 25px;
@@ -88,7 +88,7 @@
             filter: blur(1px);
             transform: scaleY(1);
             width: 100%;
-            z-index: -1;
+            z-index: 1;
 
             @media (min-width: 576px) {
                 transform: scaleY(1);
@@ -104,21 +104,23 @@
             }
 
             img {
-                width: 396px;
+                width: 100%;
                 height: 222px;
-                border-top-right-radius: 10px;
                 border-radius: 10px;
                 object-fit: cover;
 
                 @media (min-width: 576px) {
-                    width: 700px !important;
-                    height: 400px;
+                    width: 530px !important;
+                    height: 300px;
+                }
+
+                @media (min-width: 992px) {
+                    width: 710px !important;
+                    height: 350px;
                 }
                 @media (min-width: 1200px) {
                     width: 960px !important;
                     height: 400px;
-                    border-top-right-radius: 31px;
-                    border-bottom-right-radius: 31px;
                 }
             }
         }
@@ -128,6 +130,10 @@
             transform: scaleY(1);
             z-index: 9999;
             overflow: hidden;
+        }
+
+        .owl-item.active {
+            z-index: 2;
         }
 
         .owl-nav {
@@ -181,38 +187,58 @@
         }
 
         .owl-dots {
-            .owl-dot {
-                margin-top: -40px;
-                @media (min-width: 1200px) {
-                    margin-top: 20px;
-                }
-                span {
-                    background: #3f3356;
-                    border: 2px solid #7496ff;
-                    margin: 34px 6.98px 0 0;
-
-                    @media (min-width: 1200px) {
-                        margin-top: 30px;
+            margin-top: 12px !important;
+    
+            @media (min-width: 576px) {
+                margin-top: 20px !important;
+    
+            }
+    
+            @media (min-width: 1200px) {
+                margin-top: 30px  !important;
+            }
+    
+            button.owl-dot {
+                &:hover {
+                    span {
+                        background-image: linear-gradient(to right, #7496FF, #5DD7D0);
                     }
                 }
             }
-
+            .owl-dot {
+                span {
+                    background: #3F3356 !important;
+                    border: 1px solid #7496FF;
+                    width: 7px !important;
+                    height: 7px !important;
+                    margin: 5px 4px !important;
+    
+                    @media (min-width: 576px) {
+                        width: 10px !important;
+                        height: 10px !important;
+                        margin: 5px 7px !important;
+                    }
+    
+                    &:hover {
+                        background-image: linear-gradient(to right, #7496FF, #5DD7D0);
+                    }
+                }
+            }
             .owl-dot.active {
                 span {
-                    width: 17.44px;
-                    margin: 0px;
-                    margin-right: 6.98px;
-                    background-image: linear-gradient(
-                        to right,
-                        #7496ff,
-                        #5dd7d0
-                    ) !important;
-
+                    width: 17px !important;
+                    background-image: linear-gradient(to right, #7496FF, #5DD7D0) !important;
+    
+                    @media (min-width: 576px) {
+                        width: 20px !important;
+                    }
+    
                     @media (min-width: 1200px) {
-                        width: 25px;
+                        width: 25px !important;
                     }
                 }
             }
+            
         }
     }
 }

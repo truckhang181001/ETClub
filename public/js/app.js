@@ -82,7 +82,7 @@ owl.owlCarousel({
   margin: 0,
   dotsEach: true,
   dot: true,
-  autoplay: false,
+  autoplay: true,
   autoplayTimeout: 3000,
   autoplayHoverPause: true,
   autoplaySpeed: 2000,
@@ -93,18 +93,16 @@ owl.owlCarousel({
     0: {
       margin: 30,
       dotsEach: false,
-      loop: false,
       nav: false
     },
     600: {
       margin: 30,
-      loop: false,
       stagePadding: 0,
       nav: false
     },
     1200: {
-      stagePadding: 175,
-      margin: -1
+      stagePadding: 175 // margin: -1,
+
     }
   }
 });

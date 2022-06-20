@@ -3,11 +3,11 @@
         <h1>CUỘC THI</h1>
     </div>
     <div class="owl-carousel owl-theme owl-carousel__competition">
-        <div class="item"><img src="./img/HomePage/competition-2.png" alt=""></div>
-        <div class="item"><img src="./img/HomePage/competition-1.png" alt=""></div>
-        <div class="item"><img src="./img/HomePage/competition-3.png" alt=""></div>
-        <div class="item"><img src="./img/HomePage/competition-2.png" alt=""></div>
-        <div class="item"><img src="./img/HomePage/competition-1.png" alt=""></div>
-        <div class="item"><img src="./img/HomePage/competition-3.png" alt=""></div>
+        <div class="item"><img src="./img/anh2.jpg" alt=""></div>
+        <div class="item"><img src="./img/anh1.jpg" alt=""></div>
+        <div class="item"><img src="./img/anh3.jpg" alt=""></div>
+        <div class="item"><img src="./img/anh2.jpg" alt=""></div>
+        <div class="item"><img src="./img/anh1.jpg" alt=""></div>
+        <div class="item"><img src="./img/anh3.jpg" alt=""></div>
     </div>
 </div>
