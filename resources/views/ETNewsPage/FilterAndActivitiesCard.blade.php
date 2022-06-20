@@ -51,7 +51,7 @@
     </div>
     
     <div class="body-3">
-        <div class="row row-1">
+        <div class="cover-card row row-1">
             <a href="#" class="card card-1">
                 <img class="card-image" src="/img/card-Image.png" alt="Image">
                 <span class="card-time"><i id="card-calendar" class="far fa-calendar-alt"></i> 02/2022</span>

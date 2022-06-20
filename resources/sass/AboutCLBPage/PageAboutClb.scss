@@ -122,8 +122,8 @@
                     width: 88%;
                     font-family: Open Sans;
                     font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+                    font-size: 20px;
+                    line-height: 30px;
                     align-items: center;
                     text-align: justify;
                     color: #FFFFFF;
@@ -286,8 +286,8 @@ line-height: 30px;
             .border-history {
                 margin-top: 8px;
                 p {
-line-height: 35px;
-margin-top: 15px;
+                line-height: 35px;
+                margin-top: 15px;
                 }
             }
             .img-cover {
@@ -379,8 +379,8 @@ margin-top: 15px;
             font-family: K2D;
             font-style: normal;
             font-weight: 700;
-font-size: 20px;
-line-height: 28px;
+            font-size: 20px;
+            line-height: 28px;
             color: #F5A623;
             margin-bottom: 0;
             margin-top: 31px;
@@ -438,6 +438,7 @@ line-height: 28px;
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+
     @media (min-width: 1200px) {
         margin-top: 70px;
     }
@@ -458,8 +459,8 @@ line-height: 28px;
         }
         @Media (min-width: 1200px) {
             font-weight: 800;
-font-size: 60px;
-line-height: 30px;
+            font-size: 60px;
+            line-height: 30px;
         }
     }
 
