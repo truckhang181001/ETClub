@@ -3,6 +3,11 @@
 }
 .techCorner {
     margin-top: 30px;
+
+    @media (min-width: 1200px) {
+        margin-top: 70px;
+    }
+
     &__title {
         font-family: "K2D";
         font-weight: 700;

@@ -35,7 +35,7 @@
                 </div>
                 <div class="techCorner__card">
                     <div class="card__image">
-                        <img src="/img/HomePage/Tech-Corner2.png" alt="">
+                        <img src="/img/HomePage/Tech-Corner3.png" alt="">
                     </div>
                     <div class="card__name">
                         Tổng hợp các cuộc thi công nghệ

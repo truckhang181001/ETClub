@@ -8,7 +8,7 @@
 
 body {
   background-color: #0E1643 !important;
-  color: #ffffff;
+  color: #fff;
 }
 
 .title {
@@ -16,7 +16,7 @@ body {
   font-size: 22px;
   font-family: K2D;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
   margin: 26px 0 30px 0;
 }
 @media only screen and (min-width: 1200px) {
@@ -64,7 +64,7 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .news-title__name {
@@ -161,11 +161,11 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 22px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 .body-info__title:hover {
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-info__title {
@@ -177,11 +177,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 .body-info__content:hover {
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-info__content {
@@ -235,7 +235,7 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .news-title__name {
@@ -300,11 +300,11 @@ body {
   font-family: K2D;
   font-weight: bold;
   font-size: 22px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 .body-2-info__title:hover {
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2-info__title {
@@ -316,11 +316,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 .body-2-info__content:hover {
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2-info__content {
@@ -378,11 +378,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 .body-2 .left-side .body-2-info__content:hover {
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2 .left-side .body-2-info__content {
@@ -438,11 +438,11 @@ body {
   text-decoration: none;
   font-family: Open Sans;
   font-size: 13px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 .body-2 .right-side .body-2-info__content:hover {
-  color: #ffffff;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) {
   .body-2 .right-side .body-2-info__content {
@@ -3264,6 +3264,7 @@ h6 {
 @media (min-width: 992px) {
   .container-fluid .introduction-content__video {
     justify-content: flex-end;
+    margin-top: 0;
   }
 }
 .container-fluid .introduction-content__video iframe {
@@ -3285,11 +3286,16 @@ h6 {
 .techCorner {
   margin-top: 30px;
 }
+@media (min-width: 1200px) {
+  .techCorner {
+    margin-top: 70px;
+  }
+}
 .techCorner__title {
   font-family: "K2D";
   font-weight: 700;
   font-size: 24px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 @media only screen and (min-width: 642px) and (max-width: 1024px) {
@@ -3387,7 +3393,7 @@ h6 {
 .techCorner__card .card__name {
   font-family: "K2D";
   font-size: 24px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   margin-top: 20px;
   padding: 0 29px;
@@ -3405,7 +3411,7 @@ h6 {
 }
 .techCorner__card .card__desc {
   font-size: 14px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   margin: 24px 29px;
   line-height: 25px;
