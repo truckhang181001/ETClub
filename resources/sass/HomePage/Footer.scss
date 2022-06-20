@@ -31,6 +31,10 @@
             top: -35px;
         }
 
+        @media (min-width: 1400px) {
+            right: calc(calc(100% - 1340px)/2);
+        }
+
         i {
             margin: auto;
             color: #15123C;
