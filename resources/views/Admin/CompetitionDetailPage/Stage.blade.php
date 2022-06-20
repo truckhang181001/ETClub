@@ -3,7 +3,7 @@
         <h3>CÁC VÒNG THI</h3>
     </div>
     <div class="col my-3">
-        <button class="btn btn-success fw-bold">
+        <button class="btn btn-success fw-bold" data-bs-toggle="modal" data-bs-target="#competitionStageModal">
             <i class="fas fa-plus"></i>
             Thêm vòng thi</button>
     </div>
