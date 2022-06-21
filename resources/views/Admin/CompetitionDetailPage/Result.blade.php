@@ -3,7 +3,7 @@
         <h3>KẾT QUẢ CUỘC THI</h3>
     </div>
     <div class="col my-3">
-        <button class="btn btn-success fw-bold">
+        <button class="btn btn-success fw-bold" data-bs-toggle="modal" data-bs-target="#competitionResultModal">
             <i class="fas fa-plus"></i>
             Thêm thí sinh</button>
     </div>
