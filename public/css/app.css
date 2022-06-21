@@ -3597,39 +3597,52 @@ h6 {
   }
 }
 
-.owl-carousel-thinking .owl-dots .owl-dot {
-  zoom: 1.5 !important;
-  position: relative;
+.owl-carousel-thinking .owl-dots {
+  margin-top: 12px !important;
 }
-
+@media (min-width: 576px) {
+  .owl-carousel-thinking .owl-dots {
+    margin-top: 20px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .owl-carousel-thinking .owl-dots {
+    margin-top: 30px !important;
+  }
+}
+.owl-carousel-thinking .owl-dots button.owl-dot:hover span {
+  background-image: linear-gradient(to right, #7496FF, #5DD7D0);
+}
 .owl-carousel-thinking .owl-dots .owl-dot span {
   background: #3F3356 !important;
+  border: 1px solid #7496FF;
+  width: 7px !important;
+  height: 7px !important;
+  margin: 5px 4px !important;
 }
-
-.owl-carousel-thinking .owl-dots .owl-dot span::before {
-  content: "";
-  position: absolute;
-  top: 4px;
-  right: 0;
-  bottom: 0;
-  left: 6px;
-  z-index: -1;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: linear-gradient(to right, #7496FF, #5DD7D0);
-  transition: all 0.25s linear;
+@media (min-width: 576px) {
+  .owl-carousel-thinking .owl-dots .owl-dot span {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px 7px !important;
+  }
 }
-
 .owl-carousel-thinking .owl-dots .owl-dot span:hover {
-  background: unset !important;
+  background-image: linear-gradient(to right, #7496FF, #5DD7D0);
 }
-
-.owl-carousel-thinking .owl-dots .active span::before {
-  width: 20px !important;
-  border-radius: 5px;
-  z-index: 1;
-  transform: translateX(-5px);
+.owl-carousel-thinking .owl-dots .owl-dot.active span {
+  width: 17px !important;
+  background-image: linear-gradient(to right, #7496FF, #5DD7D0) !important;
+}
+@media (min-width: 576px) {
+  .owl-carousel-thinking .owl-dots .owl-dot.active span {
+    width: 20px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .owl-carousel-thinking .owl-dots .owl-dot.active span {
+    width: 25px !important;
+  }
 }
 
 .my-footer {
