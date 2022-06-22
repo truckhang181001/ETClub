@@ -3480,8 +3480,7 @@ h6 {
     margin-bottom: 60px;
   }
 }
-
-.item {
+.thinking .owl-carousel-thinking .item {
   background-color: #15123C;
   border: 3px solid #F5A623;
   border-radius: 10px;
@@ -3491,18 +3490,18 @@ h6 {
   position: relative;
 }
 @media only screen and (min-width: 642px) and (max-width: 1024px) {
-  .item {
+  .thinking .owl-carousel-thinking .item {
     max-width: 400px;
     height: 300px;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .item {
+  .thinking .owl-carousel-thinking .item {
     max-width: 500px;
     height: 320px;
   }
 }
-.item .thinking__desc {
+.thinking .owl-carousel-thinking .item .thinking__desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -3515,120 +3514,127 @@ h6 {
   text-overflow: ellipsis;
 }
 @media only screen and (min-width: 642px) and (max-width: 1024px) {
-  .item .thinking__desc {
+  .thinking .owl-carousel-thinking .item .thinking__desc {
     font-size: 18px;
     line-height: 30px;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .item .thinking__desc {
+  .thinking .owl-carousel-thinking .item .thinking__desc {
     font-size: 20px;
     line-height: 35px;
     margin: 51px 32px 19px 32px;
   }
 }
-.item .thinking__footer {
+.thinking .owl-carousel-thinking .item .thinking__footer {
   display: flex;
   bottom: 36px;
   left: 21px;
   position: absolute;
 }
 @media only screen and (min-width: 642px) and (max-width: 1024px) {
-  .item .thinking__footer {
+  .thinking .owl-carousel-thinking .item .thinking__footer {
     bottom: 33px;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .item .thinking__footer {
+  .thinking .owl-carousel-thinking .item .thinking__footer {
     bottom: 33px;
     left: 33px;
   }
 }
-
-.footer__avatar {
+.thinking .owl-carousel-thinking .item:hover {
+  box-shadow: 5px 5px 5px rgba(245, 166, 35, 0.4);
+  cursor: pointer;
+}
+.thinking .owl-carousel-thinking .footer__avatar {
   width: 66px;
+  height: 66px;
   margin-right: 24px;
 }
-.footer__avatar img {
+.thinking .owl-carousel-thinking .footer__avatar img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 50%;
 }
 @media only screen and (min-width: 642px) {
-  .footer__avatar {
+  .thinking .owl-carousel-thinking .footer__avatar {
     width: 80px;
+    height: 80px;
   }
 }
-
-.footer__info .info__name {
+.thinking .owl-carousel-thinking .footer__info .info__name {
   font-family: "K2D";
   font-weight: 500px;
   font-size: 18px;
   color: #F5A623;
 }
 @media only screen and (min-width: 642px) and (max-width: 1024px) {
-  .footer__info .info__name {
+  .thinking .owl-carousel-thinking .footer__info .info__name {
     font-size: 22px;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .footer__info .info__name {
+  .thinking .owl-carousel-thinking .footer__info .info__name {
     font-size: 24px;
   }
 }
-.footer__info .info__group {
+.thinking .owl-carousel-thinking .footer__info .info__group {
   font-family: "K2D";
   font-weight: 500px;
   font-size: 14px;
   color: #FFF;
 }
 @media only screen and (min-width: 642px) {
-  .footer__info .info__group {
+  .thinking .owl-carousel-thinking .footer__info .info__group {
     font-size: 18px;
   }
 }
-
-.quote {
+.thinking .owl-carousel-thinking .quote {
   width: 60px;
   position: absolute;
   top: -5px;
   left: -5px;
 }
-.quote img {
+.thinking .owl-carousel-thinking .quote img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-top-left-radius: 15px;
 }
 @media only screen and (min-width: 642px) and (max-width: 1024px) {
-  .quote {
+  .thinking .owl-carousel-thinking .quote {
     width: 70px;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .quote {
+  .thinking .owl-carousel-thinking .quote {
     width: 80px;
   }
 }
-
-.owl-carousel-thinking .owl-dots {
-  margin-top: 12px !important;
+.thinking .owl-carousel-thinking .owl-stage-outer {
+  padding-bottom: 20px;
+}
+.thinking .owl-carousel-thinking .owl-dots {
+  margin-top: 5px !important;
 }
 @media (min-width: 576px) {
-  .owl-carousel-thinking .owl-dots {
-    margin-top: 20px !important;
+  .thinking .owl-carousel-thinking .owl-dots {
+    margin-top: 10px !important;
   }
 }
 @media (min-width: 1200px) {
-  .owl-carousel-thinking .owl-dots {
-    margin-top: 30px !important;
+  .thinking .owl-carousel-thinking .owl-dots {
+    margin-top: 10px !important;
   }
 }
-.owl-carousel-thinking .owl-dots button.owl-dot:hover span {
+.thinking .owl-carousel-thinking .owl-dots button.owl-dot:hover span {
   background-image: linear-gradient(to right, #7496FF, #5DD7D0);
 }
-.owl-carousel-thinking .owl-dots .owl-dot span {
+.thinking .owl-carousel-thinking .owl-dots .owl-dot span {
   background: #3F3356 !important;
   border: 1px solid #7496FF;
   width: 7px !important;
@@ -3636,26 +3642,26 @@ h6 {
   margin: 5px 4px !important;
 }
 @media (min-width: 576px) {
-  .owl-carousel-thinking .owl-dots .owl-dot span {
+  .thinking .owl-carousel-thinking .owl-dots .owl-dot span {
     width: 10px !important;
     height: 10px !important;
     margin: 5px 7px !important;
   }
 }
-.owl-carousel-thinking .owl-dots .owl-dot span:hover {
+.thinking .owl-carousel-thinking .owl-dots .owl-dot span:hover {
   background-image: linear-gradient(to right, #7496FF, #5DD7D0);
 }
-.owl-carousel-thinking .owl-dots .owl-dot.active span {
+.thinking .owl-carousel-thinking .owl-dots .owl-dot.active span {
   width: 17px !important;
   background-image: linear-gradient(to right, #7496FF, #5DD7D0) !important;
 }
 @media (min-width: 576px) {
-  .owl-carousel-thinking .owl-dots .owl-dot.active span {
+  .thinking .owl-carousel-thinking .owl-dots .owl-dot.active span {
     width: 20px !important;
   }
 }
 @media (min-width: 1200px) {
-  .owl-carousel-thinking .owl-dots .owl-dot.active span {
+  .thinking .owl-carousel-thinking .owl-dots .owl-dot.active span {
     width: 25px !important;
   }
 }
