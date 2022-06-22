@@ -1,26 +1,34 @@
 .box-container_3 {
     margin: 0 auto;
-    width: 85%;
+    margin-top: 50px;
     
     @media only screen and (min-width: 992px) {
-        width: 78.5%;
         margin-top: 70px;
     }
 
     .cover-filter {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        
+        @media only screen and (min-width: 992px) {
+            justify-content: flex-end;
+        }
+
     }
 }
 
 .filter {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 58%;
-    padding: 15px 10px;
+    padding: 8px 10px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    width: 100%;
+    
+    @media only screen and (min-width: 992px) {
+        align-items: center;
+        padding: 15px 10px;
+    }
 
     .popular-cover {
         border-left: 1px solid #7496FF;
@@ -37,9 +45,15 @@
         background-image: -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
         background-image: -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
         background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
-        padding: 9px 25px;
+        background-color: #0E1643;
+        padding: 3px 12px;
         border-radius: 10px;
         cursor: pointer;
+        
+        @media only screen and (min-width: 992px) {
+            background-color: unset;
+            padding: 9px 25px;
+        }
 
         &:hover {
             transform: scale(0.95);
@@ -48,7 +62,7 @@
 
     .popular {
         font-family: 'K2D';
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 500;
         background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
         -webkit-background-clip: text;
@@ -57,6 +71,11 @@
         filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
         border-radius: 10px;
         
+        @media only screen and (min-width: 992px) {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
         &:hover {
             transform: scale(0.95);
         }
@@ -64,15 +83,21 @@
 
     .newest {
         font-family: 'K2D';
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 500;
         color: #000000;
         background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.27%);
         box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
-        padding: 9px 25px;
+        padding: 3px 12px;
         border-radius: 10px;
         cursor: pointer;
         
+        @media only screen and (min-width: 992px) {
+            font-size: 20px;
+            font-weight: 700;
+            padding: 9px 25px;
+        }
+
         &:hover {
             transform: scale(0.95);
         }
@@ -97,29 +122,40 @@
         background-image: -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
         background-image: -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
         background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
-        padding: 9px 25px;
+        background-color: #0E1643;
+        padding: 3px 12px;
         border-radius: 10px;
         z-index: 1;
         cursor: pointer;
         
+        @media only screen and (min-width: 992px) {
+            background-color: unset;
+            padding: 9px 25px;
+        }
+
         &:hover {
             transform: scale(0.95);
         }
 
         .drop-down-1 {
-            font-size: 20px;
+            font-size: 14px;
             margin-left: 5px;
-            margin-bottom: -5px;
+            margin-bottom: -3px;
             background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
+            
+            @media only screen and (min-width: 992px) {
+                font-size: 20px;
+            }
+
         }
         
         &__time {
             font-family: 'K2D';
-            font-size: 20px;
+            font-size: 14px;
             font-weight: 500;
             background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
             -webkit-background-clip: text;
@@ -128,6 +164,11 @@
             filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
             border-radius: 10px;
             
+            @media only screen and (min-width: 992px) {
+                font-size: 20px;
+                font-weight: 700;
+            }
+
             &:hover {
                 transform: scale(0.95);
             }
@@ -137,11 +178,15 @@
             display: none;
             position: absolute;
             left: 0px;
-            top: 60px;
+            top: 40px;
             z-index: 1;
             background: linear-gradient(90deg, rgba(116, 150, 255, 0.85) 0%, rgba(93, 215, 208, 0.85) 99.27%);
             box-shadow: 0px 0px 8px 2px rgba(161, 220, 255, 0.8);
             border-radius: 0px 0px 10px 10px;
+            
+            @media only screen and (min-width: 992px) {
+                top: 55px;
+            }
 
             &:hover {
                 z-index: 1;
@@ -156,17 +201,26 @@
             .year-cover {
                 position: relative;
                 display: flex;
-                padding: 6px 16px;
+                padding: 3px 12px;
                 margin: 6px;
                 border: 1px solid #0E1643;
                 border-radius: 10px;
+                
+                @media only screen and (min-width: 992px) {
+                    padding: 6px 16px;
+                }
             }
 
             .year {
                 font-family: 'K2D';
-                font-size: 20px;
+                font-size: 14px;
                 font-weight: 500;
                 color: #0E1643;
+                
+                @media only screen and (min-width: 992px) {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
             }
 
             .year-cover__option {
@@ -175,16 +229,21 @@
                 background-color: white;
                 width: 100%;
                 left: 0;
-                top: 50px;
+                top: 30px;
                 padding: 15px 15px;
                 border-radius: 10px;
 
                 div {
                     font-family: 'K2D';
-                    font-weight: 700;
-                    font-size: 20px;
+                    font-weight: 500;
+                    font-size: 14px;
                     color: #000000;
                     margin-bottom: 5px;
+                    
+                    @media only screen and (min-width: 992px) {
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
                 }
             }
             .year-cover__option.display {
@@ -194,17 +253,27 @@
             .month-cover {
                 position: relative;
                 display: flex;
-                padding: 6px 16px;
+                padding: 3px 12px;
                 margin: 6px;
                 border: 1px solid #0E1643;
                 border-radius: 10px;
+                
+                @media only screen and (min-width: 992px) {
+                    padding: 6px 16px;
+                }
             }
 
             .month {
                 font-family: 'K2D';
-                font-size: 20px;
+                font-size: 14px;
                 font-weight: 500;
                 color: #0E1643;
+
+                @media only screen and (min-width: 992px) {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+        
             }
             
             .month-cover__option {
@@ -213,16 +282,21 @@
                 background-color: white;
                 width: 50%;
                 left: 0;
-                top: 50px;
+                top: 30px;
                 padding: 15px 15px;
                 border-radius: 10px;
 
                 div {
                     font-family: 'K2D';
-                    font-weight: 700;
-                    font-size: 20px;
+                    font-weight: 500;
+                    font-size: 14px;
                     color: #000000;
                     margin-bottom: 5px;
+                    
+                    @media only screen and (min-width: 992px) {
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
                 }
             }
             .month-cover__option.display {
@@ -230,45 +304,65 @@
             }
 
             .drop-down-2 {
-                font-size: 20px;
-                margin-left: 25px;
+                font-size: 12px;
+                margin-left: 12px;
                 margin-top: 5px;
                 color: #0E1643;
+                
+                @media only screen and (min-width: 992px) {
+                    font-size: 20px;
+                }
             }
             
             .drop-down-3 {
-                font-size: 20px;
+                font-size: 14px;
                 margin-left: 8px;
                 margin-top: 5px;
                 color: #0E1643;
+                
+                @media only screen and (min-width: 992px) {
+                    font-size: 20px;
+                }
             }
         }
         
         &__option-apply {
             font-family: 'K2D';
-            font-size: 20px;
+            font-size: 14px;
             font-weight: 500;
             color: #0E1643;
             border: 1px solid #0E1643;
             border-radius: 10px;
-            padding: 6px 16px;
+            padding: 3px 12px;
             width: fit-content;
             margin: 6px auto;
             cursor: pointer;
+            
+            @media only screen and (min-width: 992px) {
+                font-size: 20px;
+                font-weight: 700;
+                padding: 6px 16px;
+            }
         }
     }
 
     .clear {
         font-family: 'K2D';
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 500;
         color: #3F3356;
         background: #f5a623;
         box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
-        padding: 9px 25px;
+        padding: 3px 12px;
         border-radius: 10px;
         cursor: pointer;
         
+        @media only screen and (min-width: 992px) {
+            font-size: 20px;
+            font-weight: 700;
+            padding: 9px 25px;
+        }
+
         &:hover {
             color: #F5A623;
             background: none;
@@ -279,37 +373,78 @@
     }
 }
 
-.cover-card {
+.body-3 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 70px!important;
+    
+    @media only screen and (min-width: 992px) {
+        display: block;
+    }
+}
+
+.cover-card {
+    flex-direction: column;
+    margin: 0!important;
+    
+    @media only screen and (min-width: 992px) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 60px!important;
+    }
 
     .card {
         text-decoration: none;
         display: flex;
         flex-direction: column;
-        width: 331px;
+        width: 182px;
         padding: 0;
         background: rgba(255, 255, 255, 0.1);
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 10px;
         cursor: pointer;
+        margin-top: 40px;
         
+        @media only screen and (min-width: 992px) {
+            width: 370px;
+            margin-top: 0;
+        }
+
         &:hover {
             box-shadow: 0px 0px 8px 2px rgba(161, 220, 255, 0.8);
             border-radius: 10px;
         }
 
         &-image {
-            width: 100%;
+            width: 182px;
+            height: 182px;
             object-fit: cover;
             border-radius: 10px 10px 0px 0px;
+            
+            @media only screen and (min-width: 992px) {
+                width: 370px;
+                height: 370px;
+            }
         }
 
         &-time {
             font-family: 'K2D';
-            font-weight: 500;
-            font-size: 18px;
+            font-weight: 700;
+            font-size: 12px;
             color: rgba(255, 255, 255, 0.7);
-            margin: 7px 0px 0px 20px;
+            margin: 7px 0px 0px 7px;
+            
+            @media only screen and (min-width: 992px) {
+                font-size: 18px;
+                margin: 7px 0px 0px 20px;
+            }
+        }
+
+        #card-calendar {
+            font-size: 12px;
+            
+            @media only screen and (min-width: 992px) {
+                font-size: 18px;
+            }
         }
 
         &-heading {
@@ -320,9 +455,15 @@
             -webkit-box-orient: vertical;
             font-family: 'K2D';
             font-weight: 500;
-            font-size: 24px;
+            font-size: 14px;
             color: #FFFFFF;
-            margin: 8px 18px 35px 20px;
+            margin: 7px;
+            
+            @media only screen and (min-width: 992px) {
+                font-weight: 700;
+                font-size: 24px;
+                margin: 8px 18px 35px 20px;
+            }
         }
     }
 }
@@ -347,11 +488,16 @@
     background-image: -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
     background-image: -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
     background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
-    padding: 9px 25px;
-    margin: 70px auto;
+    padding: 6px 16px;
+    margin: 20px auto;
     margin-bottom: 120px;
     border-radius: 10px;
     cursor: pointer;
+    
+    @media only screen and (min-width: 992px) {
+        padding: 9px 25px;
+        margin: 70px auto;
+    }
 
     &:hover {
         transform: scale(0.95);
@@ -364,7 +510,7 @@
 .more {
     font-family: 'K2D';
     font-weight: 500;
-    font-size: 32px;
+    font-size: 18px;
     background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -372,6 +518,10 @@
     filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
     border-radius: 10px;
     
+    @media only screen and (min-width: 992px) {
+        font-size: 32px;
+    }
+
     &:hover {
         transform: scale(0.95);
     }
