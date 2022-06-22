@@ -171,8 +171,8 @@
 </div>
 <div class="container-item">
     <div class="row item-main">
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4 img-avt">
+        <div class="col-lg-45 "></div>
+        <div class="col-lg-35 img-avt">
             <img class="img-avt-main " src="/img/Circle - L.png" alt="">
             <div class="frame-img-main">
                 <img src="/img/Frame 2170.png" alt="">
@@ -181,7 +181,7 @@
                 <img src="/img/Arrow 3.png" alt="">
             </div>
         </div>
-        <div class="col-lg-3 name-avt-main">
+        <div class="col-lg-34 name-avt-main">
             Trưởng ban <br>
             Nguyễn Thị Anh Thi
         </div>
@@ -192,8 +192,8 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
         <div class="col-3 avt-member-item text-center">
@@ -201,8 +201,8 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
         <div class="col-3 avt-member-item text-center">
@@ -210,8 +210,8 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
         <div class="col-3 avt-member-item text-center">
@@ -219,46 +219,8 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row category-member-item">
-        <div class="col-3 avt-member-item text-center">
-            <div class="frame-member-avt">
-                <img class="member-avt" src="/img/Circle - L.png" alt="">
-            </div>
-            <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
-            </div>
-        </div>
-        <div class="col-3 avt-member-item text-center">
-            <div class="frame-member-avt">
-                <img class="member-avt" src="/img/Circle - L.png" alt="">
-            </div>
-            <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
-            </div>
-        </div>
-        <div class="col-3 avt-member-item text-center">
-            <div class="frame-member-avt">
-                <img class="member-avt" src="/img/Circle - L.png" alt="">
-            </div>
-            <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
-            </div>
-        </div>
-        <div class="col-3 avt-member-item text-center">
-            <div class="frame-member-avt">
-                <img class="member-avt" src="/img/Circle - L.png" alt="">
-            </div>
-            <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
     </div>
@@ -268,8 +230,8 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
         <div class="col-3 avt-member-item text-center">
@@ -277,8 +239,8 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
         <div class="col-3 avt-member-item text-center">
@@ -286,8 +248,8 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
         <div class="col-3 avt-member-item text-center">
@@ -295,8 +257,46 @@
                 <img class="member-avt" src="/img/Circle - L.png" alt="">
             </div>
             <div class="name-member-item">
-                <h1>Thành viên <Br>
-                    Nguyen Van A</h1>
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row category-member-item">
+        <div class="col-3 avt-member-item text-center">
+            <div class="frame-member-avt">
+                <img class="member-avt" src="/img/Circle - L.png" alt="">
+            </div>
+            <div class="name-member-item">
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
+            </div>
+        </div>
+        <div class="col-3 avt-member-item text-center">
+            <div class="frame-member-avt">
+                <img class="member-avt" src="/img/Circle - L.png" alt="">
+            </div>
+            <div class="name-member-item">
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
+            </div>
+        </div>
+        <div class="col-3 avt-member-item text-center">
+            <div class="frame-member-avt">
+                <img class="member-avt" src="/img/Circle - L.png" alt="">
+            </div>
+            <div class="name-member-item">
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
+            </div>
+        </div>
+        <div class="col-3 avt-member-item text-center">
+            <div class="frame-member-avt">
+                <img class="member-avt" src="/img/Circle - L.png" alt="">
+            </div>
+            <div class="name-member-item">
+                <h3>Thành viên <Br>
+                    Nguyen Van A</h3>
             </div>
         </div>
     </div>

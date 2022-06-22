@@ -29,13 +29,13 @@ body {
   line-height: 40px;
   text-align: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 h6 {
   margin: 0;
   font-size: 16px;
-  background: -webkit-linear-gradient(#7496FF, #5DD7D0);
+  background: -webkit-linear-gradient(#7496ff, #5dd7d0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -137,7 +137,7 @@ h6 {
   -o-object-fit: cover;
      object-fit: cover;
   padding: 2px;
-  border: 2px solid #F5A623;
+  border: 2px solid #f5a623;
   border-radius: 50%;
 }
 .list-member-mobile .member-item-main .member-item__name-mobile {
@@ -169,7 +169,7 @@ h6 {
   -o-object-fit: cover;
      object-fit: cover;
   padding: 2px;
-  border: 2px solid #F5A623;
+  border: 2px solid #f5a623;
   border-radius: 50%;
 }
 .list-member-mobile .member-item-second .member-item__name-mobile {
@@ -202,7 +202,7 @@ h6 {
   -o-object-fit: cover;
      object-fit: cover;
   padding: 2px;
-  border: 2px solid #F5A623;
+  border: 2px solid #f5a623;
   border-radius: 50%;
 }
 .list-member-mobile .member-item .member-item__name-mobile {
@@ -226,7 +226,8 @@ h6 {
   display: none;
 }
 
-.container-content-introduce, .container-benefit {
+.container-content-introduce,
+.container-benefit {
   display: none !important;
 }
 
@@ -245,7 +246,7 @@ h6 {
   line-height: 28px;
   display: flex;
   align-items: center;
-  color: #F5A623;
+  color: #f5a623;
 }
 .task-of-clb__mobile ul {
   padding-left: 33.5px;
@@ -255,7 +256,7 @@ h6 {
   font-size: 16px;
   line-height: 30px;
   text-align: justify;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .task-of-clb__mobile .frame-task__mobile {
   position: absolute;
@@ -297,7 +298,7 @@ h6 {
   display: flex;
   align-items: center;
   text-align: justify;
-  color: #F5A623;
+  color: #f5a623;
 }
 .position-required__mobile ul {
   padding-left: 33.5px;
@@ -307,7 +308,7 @@ h6 {
   font-size: 16px;
   line-height: 30px;
   text-align: justify;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .position-required__mobile .frame-position__mobile {
   position: absolute;
@@ -341,7 +342,7 @@ h6 {
   display: flex;
   align-items: center;
   text-align: justify;
-  color: #F5A623;
+  color: #f5a623;
 }
 .container-benefit__mobile ul {
   padding-left: 33.5px;
@@ -351,7 +352,7 @@ h6 {
   font-size: 16px;
   line-height: 30px;
   text-align: justify;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .container-benefit__mobile .image-benefit__mobile {
   display: flex;
@@ -385,7 +386,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F5A623;
+  color: #f5a623;
 }
 
 .introduce-content {
@@ -399,7 +400,7 @@ h6 {
   display: flex;
   align-items: center;
   text-align: justify;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media (min-width: 1200px) {
@@ -423,23 +424,19 @@ h6 {
     display: none !important;
   }
 
-  .row {
-    max-width: 1298px;
-  }
-
   .title-hr {
-    width: calc(100% - 15px);
+    max-width: 1298px;
     margin: 0 auto !important;
   }
   .title-hr h1 {
     font-family: "K2D";
     font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
+    font-weight: 800;
+    font-size: 45px;
     line-height: 80px;
     text-align: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .term {
@@ -454,7 +451,7 @@ h6 {
     display: flex;
     border: solid 1px transparent;
     border-radius: 10px;
-    background-image: linear-gradient(#0E1643, #0E1643), radial-gradient(circle at top left, #7496FF, #5DD7D0);
+    background-image: linear-gradient(#0e1643, #0e1643), radial-gradient(circle at top left, #7496ff, #5dd7d0);
     background-origin: border-box;
     background-clip: content-box, border-box;
   }
@@ -462,17 +459,17 @@ h6 {
     padding: 5px;
     font-family: "K2D";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
-    line-height: 28px;
-    background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
+    line-height: 22px;
+    background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
   }
   .term .container-term i {
-    background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
+    background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -491,7 +488,7 @@ h6 {
     border: 10px solid;
     border-image-slice: 1;
     border-width: 1px;
-    border-image-source: linear-gradient(to left, #5DD7D0, #7496FF);
+    border-image-source: linear-gradient(to left, #5dd7d0, #7496ff);
     z-index: 999;
   }
   .term .term-category .term-item {
@@ -501,7 +498,7 @@ h6 {
     justify-content: center;
     border: solid 1px transparent;
     border-radius: 10px;
-    background-image: linear-gradient(#0E1643, #0E1643), radial-gradient(circle at top left, #7496FF, #5DD7D0);
+    background-image: linear-gradient(#0e1643, #0e1643), radial-gradient(circle at top left, #7496ff, #5dd7d0);
     background-origin: border-box;
     background-clip: content-box, border-box;
   }
@@ -512,103 +509,129 @@ h6 {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
+    background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
   }
   .term .term-category .term-item.active {
-    background-image: linear-gradient(#7496FF, #5DD7D0), radial-gradient(circle at top left, #7496FF, #5DD7D0);
+    background-image: linear-gradient(#7496ff, #5dd7d0), radial-gradient(circle at top left, #7496ff, #5dd7d0);
   }
   .term .term-category .term-item.active h2 {
-    background: -webkit-linear-gradient(#0E1643, #0E1643);
+    background: -webkit-linear-gradient(#0e1643, #0e1643);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .container-item {
-    max-width: 1298px;
+    max-width: 990px;
     margin: 0 auto;
     display: block;
   }
   .container-item .item-main {
     width: 100%;
   }
+  .container-item .item-main .col-lg-45 {
+    flex: 0 0 auto;
+    width: 39.666667%;
+  }
   .container-item .item-main .img-avt {
+    flex: 0 0 auto;
+    width: 29%;
     position: relative;
   }
   .container-item .item-main .img-avt .img-avt-main {
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .container-item .item-main .img-avt .frame-img-main {
+    width: 200px;
+    height: 200px;
     position: absolute;
-    top: -12%;
-    left: -5%;
+    top: -13%;
+    left: -4%;
+  }
+  .container-item .item-main .img-avt .frame-img-main img {
+    width: 228px;
+    height: 220px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .container-item .item-main .img-avt .arrow {
     position: absolute;
-    top: 30%;
-    left: 73%;
+    top: 29%;
+    left: 68%;
+  }
+  .container-item .item-main .img-avt .arrow img {
+    width: 100px;
+    height: 45px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .container-item .item-main .name-avt-main {
+    flex: 0 0 auto;
+    width: 31%;
+    padding: 0;
     font-family: "K2D";
     font-style: normal;
-    font-weight: 600;
-    padding-bottom: 76px;
     display: flex;
     align-items: center;
     text-align: center;
+    font-weight: 700;
     font-size: 32px;
-    line-height: 42px;
-    color: #FFFFFF;
+    line-height: 38px;
+    color: #ffffff;
   }
   .container-item .category-member-item {
     margin-top: 70px;
   }
   .container-item .category-member-item .avt-member-item .frame-member-avt .member-avt {
-    border: 1px solid #F5A623;
+    border: 1px solid #f5a623;
     border-radius: 50%;
     padding: 5px;
-    width: 260px;
-    height: 260px;
+    width: 164px;
+    height: 164px;
     -o-object-fit: contain;
        object-fit: contain;
   }
   .container-item .category-member-item .avt-member-item .name-member-item {
+    margin-top: 30px;
     font-family: "K2D";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 32px;
-    line-height: 42px;
-    color: #FFFFFF;
+    line-height: 38px;
+    color: #ffffff;
   }
   .container-item .category-member-item .avt-member-item .name-member-item h1 {
+    font-weight: 700;
     font-size: 32px;
-    line-height: 42px;
+    line-height: 38px;
   }
 
   .introduce-title {
+    max-width: 1298px !important;
     margin: 0 auto !important;
     margin-top: 130px !important;
   }
   .introduce-title h2 {
     font-family: "K2D";
     font-style: normal;
-    font-weight: 600;
-    font-size: 45px;
+    font-weight: 700;
+    font-size: 40px;
     line-height: 60px;
     /* or 133% */
     text-align: center;
     justify-content: center;
     /* Text/Heading 2 */
-    color: #F5A623;
+    color: #f5a623;
   }
 
   .introduce-content {
+    max-width: 1298px !important;
     margin: 0 auto !important;
     font-family: "K2D";
     font-style: normal;
@@ -617,10 +640,11 @@ h6 {
     line-height: 35px;
     /* or 175% */
     text-align: justify;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .container-content-introduce {
+    max-width: 1298px !important;
     margin: 70px auto 0 !important;
     display: flex !important;
   }
@@ -639,15 +663,15 @@ h6 {
     display: flex;
     align-items: center;
     /* Text/Heading 2 */
-    color: #F5A623;
+    color: #f5a623;
   }
   .container-content-introduce .task-of-clb ul {
     font-family: "K2D";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
   }
   .container-content-introduce .task-of-clb .frame-task {
     position: absolute;
@@ -665,23 +689,24 @@ h6 {
     font-weight: 600;
     font-size: 32px;
     line-height: 42px;
-    color: #F5A623;
+    color: #f5a623;
   }
   .container-content-introduce .position-required ul {
     font-family: "K2D";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
   }
   .container-content-introduce .position-required .frame-position {
     position: absolute;
-    top: -1%;
-    left: 3%;
+    top: -12%;
+    left: 2%;
   }
 
   .container-benefit {
+    max-width: 1298px !important;
     margin: 70px auto 0 !important;
     position: relative;
     display: flex !important;
@@ -699,22 +724,26 @@ h6 {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #F5A623;
+    color: #f5a623;
   }
   .container-benefit .container-benefit-content .benefit-content {
     font-family: "K2D";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: justify;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .container-benefit .frame-benefit {
     position: absolute;
     left: -19px;
+  }
+  .container-benefit .frame-benefit img {
+    width: 1286px;
+    height: 597px;
   }
 }
 .introduce {
@@ -724,7 +753,7 @@ h6 {
 }
 .introduce .introduce-title h2 {
   margin-top: 67px;
-  color: #F5A623;
+  color: #f5a623;
   justify-content: center;
   text-align: center;
   font-family: K2D;
@@ -798,7 +827,7 @@ h6 {
   width: 100%;
 }
 .container .container-task-clb-item .task-clb h3 {
-  color: #F5A623;
+  color: #f5a623;
   font-family: K2D;
   font-size: 20px;
   font-weight: 700;
@@ -820,7 +849,7 @@ h6 {
   }
 }
 .container .container-requirement-position-item .requirement-position h3 {
-  color: #F5A623;
+  color: #f5a623;
   font-family: K2D;
   font-size: 20px;
   font-weight: 700;
@@ -845,7 +874,7 @@ h6 {
   margin-top: 90px;
 }
 .container-benefit-mobile .benefit-title-mobile h3 {
-  color: #F5A623;
+  color: #f5a623;
   font-family: K2D;
   font-size: 20px;
   font-weight: 700;
@@ -872,6 +901,11 @@ h6 {
 .activity-title {
   margin: 0 auto !important;
 }
+@media (min-width: 1200px) {
+  .activity-title {
+    max-width: 1298px !important;
+  }
+}
 .activity-title h2 {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -885,7 +919,8 @@ h6 {
 }
 @media (min-width: 1200px) {
   .activity-title h2 {
-    font-size: 60px;
+    font-weight: 800;
+    font-size: 45px;
     line-height: 80px;
   }
 }
@@ -903,7 +938,7 @@ h6 {
 .end-content h1 {
   text-align: center;
   justify-content: center;
-  color: #F5A623;
+  color: #f5a623;
   font-family: K2D;
   font-size: 24px;
   font-weight: 700;
@@ -911,8 +946,8 @@ h6 {
 }
 @media (min-width: 1200px) {
   .end-content h1 {
-    font-weight: 600;
-    font-size: 45px;
+    font-weight: 700;
+    font-size: 40px;
     line-height: 60px;
   }
 }
@@ -921,6 +956,11 @@ h6 {
   width: calc(100% - 5px);
   margin: 0 auto !important;
   margin-top: 36px !important;
+}
+@media (min-width: 1200px) {
+  .category-member {
+    max-width: 1298px !important;
+  }
 }
 .category-member .member img,
 .category-member .old-member img,
@@ -945,7 +985,7 @@ h6 {
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  background: -webkit-linear-gradient(#8093FF, #66FFE5);
+  background: -webkit-linear-gradient(#8093ff, #66ffe5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1002,7 +1042,7 @@ h6 {
   margin-top: 60px !important;
   border: solid 1px transparent;
   border-radius: 10px;
-  background-image: linear-gradient(#0E1643, #0E1643), radial-gradient(circle at top left, #7496FF, #5DD7D0);
+  background-image: linear-gradient(#0e1643, #0e1643), radial-gradient(circle at top left, #7496ff, #5dd7d0);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -1012,7 +1052,7 @@ h6 {
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
-  background: -webkit-linear-gradient(#8093FF, #66FFE5);
+  background: -webkit-linear-gradient(#8093ff, #66ffe5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
