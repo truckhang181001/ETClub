@@ -3440,6 +3440,91 @@ h6 {
     padding: 9px 22px;
   }
 }
+.donor .donor-title {
+  font-family: K2D;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 40px 0 20px;
+}
+@media (min-width: 768px) {
+  .donor .donor-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 50px 0 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .donor .donor-title {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 70px 0 50px;
+  }
+}
+.donor .donor-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .donor .donor-logo {
+    width: 1100px;
+  }
+  .donor .donor-logo .donor-logo_1 {
+    order: 1;
+  }
+  .donor .donor-logo .donor-logo_2 {
+    order: 2;
+  }
+  .donor .donor-logo .donor-logo_3 {
+    order: 3;
+  }
+  .donor .donor-logo .donor-logo_4 {
+    order: 5;
+  }
+  .donor .donor-logo .donor-logo_5 {
+    order: 4;
+  }
+  .donor .donor-logo .donor-logo_6 {
+    order: 6;
+  }
+  .donor .donor-logo .donor-logo_7 {
+    order: 9;
+  }
+  .donor .donor-logo .donor-logo_8 {
+    order: 11;
+  }
+  .donor .donor-logo .donor-logo_9 {
+    order: 8;
+  }
+  .donor .donor-logo .donor-logo_10 {
+    order: 7;
+  }
+  .donor .donor-logo .donor-logo_11 {
+    order: 10;
+  }
+  .donor .donor-logo .donor-logo_12 {
+    order: 12;
+  }
+}
+.donor .donor-logo img {
+  height: 50px;
+  max-width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 10px;
+}
+@media (min-width: 1200px) {
+  .donor .donor-logo img {
+    height: 70px;
+    max-width: 150px;
+    margin: 25px;
+  }
+}
+
 .container {
   width: 1400px;
   margin: 0 auto;
