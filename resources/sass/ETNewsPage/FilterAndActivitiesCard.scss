@@ -1,7 +1,7 @@
 .box-container_3 {
     margin: 0 auto;
     width: 85%;
-    
+
     @media only screen and (min-width: 992px) {
         width: 78.5%;
         margin-top: 70px;
@@ -19,12 +19,17 @@
     align-items: center;
     width: 58%;
     padding: 15px 10px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(0, 0, 0, 0.1);
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.1)
+        ),
+        rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 
     .popular-cover {
-        border-left: 1px solid #7496FF;
-        border-right: 1px solid #5DD7D0;
+        border-left: 1px solid #7496ff;
+        border-right: 1px solid #5dd7d0;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -33,10 +38,18 @@
         -webkit-background-size: 100% 1px;
         -moz-background-size: 100% 1px;
         background-size: 100% 1px;
-        background-image: -webkit-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -webkit-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-        background-image: -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-        background-image: -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-        background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
+        background-image: -webkit-linear-gradient(
+                left,
+                #7496ff 0%,
+                #5dd7d0 99.81%
+            ),
+            -webkit-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+        background-image: -moz-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%),
+            -moz-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+        background-image: -o-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%),
+            -o-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+        background-image: linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%),
+            linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%);
         padding: 9px 25px;
         border-radius: 10px;
         cursor: pointer;
@@ -47,44 +60,44 @@
     }
 
     .popular {
-        font-family: 'K2D';
+        font-family: "K2D";
         font-size: 20px;
         font-weight: 500;
-        background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
+        background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.81%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
         border-radius: 10px;
-        
+
         &:hover {
             transform: scale(0.95);
         }
     }
 
     .newest {
-        font-family: 'K2D';
+        font-family: "K2D";
         font-size: 20px;
         font-weight: 500;
         color: #000000;
-        background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.27%);
+        background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.27%);
         box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
         padding: 9px 25px;
         border-radius: 10px;
         cursor: pointer;
-        
+
         &:hover {
             transform: scale(0.95);
         }
     }
-    
+
     .time-cover {
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-left: 1px solid #7496FF;
-        border-right: 1px solid #5DD7D0;
+        border-left: 1px solid #7496ff;
+        border-right: 1px solid #5dd7d0;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -93,15 +106,23 @@
         -webkit-background-size: 100% 1px;
         -moz-background-size: 100% 1px;
         background-size: 100% 1px;
-        background-image: -webkit-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -webkit-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-        background-image: -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-        background-image: -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-        background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
+        background-image: -webkit-linear-gradient(
+                left,
+                #7496ff 0%,
+                #5dd7d0 99.81%
+            ),
+            -webkit-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+        background-image: -moz-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%),
+            -moz-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+        background-image: -o-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%),
+            -o-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+        background-image: linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%),
+            linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%);
         padding: 9px 25px;
         border-radius: 10px;
         z-index: 1;
         cursor: pointer;
-        
+
         &:hover {
             transform: scale(0.95);
         }
@@ -110,24 +131,24 @@
             font-size: 20px;
             margin-left: 5px;
             margin-bottom: -5px;
-            background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
+            background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.81%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
         }
-        
+
         &__time {
-            font-family: 'K2D';
+            font-family: "K2D";
             font-size: 20px;
             font-weight: 500;
-            background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
+            background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.81%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
             border-radius: 10px;
-            
+
             &:hover {
                 transform: scale(0.95);
             }
@@ -139,7 +160,11 @@
             left: 0px;
             top: 60px;
             z-index: 1;
-            background: linear-gradient(90deg, rgba(116, 150, 255, 0.85) 0%, rgba(93, 215, 208, 0.85) 99.27%);
+            background: linear-gradient(
+                90deg,
+                rgba(116, 150, 255, 0.85) 0%,
+                rgba(93, 215, 208, 0.85) 99.27%
+            );
             box-shadow: 0px 0px 8px 2px rgba(161, 220, 255, 0.8);
             border-radius: 0px 0px 10px 10px;
 
@@ -147,7 +172,7 @@
                 z-index: 1;
             }
         }
-        
+
         &__option.display {
             display: block;
         }
@@ -158,15 +183,15 @@
                 display: flex;
                 padding: 6px 16px;
                 margin: 6px;
-                border: 1px solid #0E1643;
+                border: 1px solid #0e1643;
                 border-radius: 10px;
             }
 
             .year {
-                font-family: 'K2D';
+                font-family: "K2D";
                 font-size: 20px;
                 font-weight: 500;
-                color: #0E1643;
+                color: #0e1643;
             }
 
             .year-cover__option {
@@ -180,7 +205,7 @@
                 border-radius: 10px;
 
                 div {
-                    font-family: 'K2D';
+                    font-family: "K2D";
                     font-weight: 700;
                     font-size: 20px;
                     color: #000000;
@@ -190,23 +215,23 @@
             .year-cover__option.display {
                 display: block;
             }
-            
+
             .month-cover {
                 position: relative;
                 display: flex;
                 padding: 6px 16px;
                 margin: 6px;
-                border: 1px solid #0E1643;
+                border: 1px solid #0e1643;
                 border-radius: 10px;
             }
 
             .month {
-                font-family: 'K2D';
+                font-family: "K2D";
                 font-size: 20px;
                 font-weight: 500;
-                color: #0E1643;
+                color: #0e1643;
             }
-            
+
             .month-cover__option {
                 display: none;
                 position: absolute;
@@ -218,7 +243,7 @@
                 border-radius: 10px;
 
                 div {
-                    font-family: 'K2D';
+                    font-family: "K2D";
                     font-weight: 700;
                     font-size: 20px;
                     color: #000000;
@@ -233,23 +258,23 @@
                 font-size: 20px;
                 margin-left: 25px;
                 margin-top: 5px;
-                color: #0E1643;
+                color: #0e1643;
             }
-            
+
             .drop-down-3 {
                 font-size: 20px;
                 margin-left: 8px;
                 margin-top: 5px;
-                color: #0E1643;
+                color: #0e1643;
             }
         }
-        
+
         &__option-apply {
-            font-family: 'K2D';
+            font-family: "K2D";
             font-size: 20px;
             font-weight: 500;
-            color: #0E1643;
-            border: 1px solid #0E1643;
+            color: #0e1643;
+            border: 1px solid #0e1643;
             border-radius: 10px;
             padding: 6px 16px;
             width: fit-content;
@@ -259,20 +284,20 @@
     }
 
     .clear {
-        font-family: 'K2D';
+        font-family: "K2D";
         font-size: 20px;
         font-weight: 500;
-        color: #3F3356;
+        color: #3f3356;
         background: #f5a623;
         box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
         padding: 9px 25px;
         border-radius: 10px;
         cursor: pointer;
-        
+
         &:hover {
-            color: #F5A623;
+            color: #f5a623;
             background: none;
-            border: 1px solid #F5A623;
+            border: 1px solid #f5a623;
             box-shadow: 0px 0px 10px 2px rgba(245, 166, 35, 0.8);
             transform: scale(0.95);
         }
@@ -280,9 +305,6 @@
 }
 
 .row {
-    justify-content: space-between;
-    margin-top: 70px!important;
-
     .card {
         text-decoration: none;
         display: flex;
@@ -292,7 +314,7 @@
         background: rgba(255, 255, 255, 0.1);
         border-radius: 0px 0px 10px 10px;
         cursor: pointer;
-        
+
         &:hover {
             box-shadow: 0px 0px 8px 2px rgba(161, 220, 255, 0.8);
             border-radius: 10px;
@@ -305,7 +327,7 @@
         }
 
         &-time {
-            font-family: 'K2D';
+            font-family: "K2D";
             font-weight: 500;
             font-size: 18px;
             color: rgba(255, 255, 255, 0.7);
@@ -318,10 +340,10 @@
             text-overflow: ellipsis;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
-            font-family: 'K2D';
+            font-family: "K2D";
             font-weight: 500;
             font-size: 24px;
-            color: #FFFFFF;
+            color: #ffffff;
             margin: 8px 18px 35px 20px;
         }
     }
@@ -333,8 +355,8 @@
 
 .more-cover {
     width: fit-content;
-    border-left: 1px solid #7496FF;
-    border-right: 1px solid #5DD7D0;
+    border-left: 1px solid #7496ff;
+    border-right: 1px solid #5dd7d0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -343,10 +365,14 @@
     -webkit-background-size: 100% 1px;
     -moz-background-size: 100% 1px;
     background-size: 100% 1px;
-    background-image: -webkit-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -webkit-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-    background-image: -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -moz-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-    background-image: -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%), -o-linear-gradient(left, #7496FF 0%, #5DD7D0 99.81%);
-    background-image: linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%), linear-gradient(to right, #7496FF 0%, #5DD7D0 99.81%);
+    background-image: -webkit-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%),
+        -webkit-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+    background-image: -moz-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%),
+        -moz-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+    background-image: -o-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%),
+        -o-linear-gradient(left, #7496ff 0%, #5dd7d0 99.81%);
+    background-image: linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%),
+        linear-gradient(to right, #7496ff 0%, #5dd7d0 99.81%);
     padding: 9px 25px;
     margin: 70px auto;
     margin-bottom: 120px;
@@ -362,16 +388,16 @@
 }
 
 .more {
-    font-family: 'K2D';
+    font-family: "K2D";
     font-weight: 500;
     font-size: 32px;
-    background: linear-gradient(90deg, #7496FF 0%, #5DD7D0 99.81%);
+    background: linear-gradient(90deg, #7496ff 0%, #5dd7d0 99.81%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
     border-radius: 10px;
-    
+
     &:hover {
         transform: scale(0.95);
     }

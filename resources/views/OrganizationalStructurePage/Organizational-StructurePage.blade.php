@@ -146,7 +146,7 @@
                 </a> 
             </div>
             <div class="col-6 container__organizational-structure--item-image ">
-                <img src="./img/doingoai.png" alt="">
+                <img src="./img/chunhiem.png" alt="">
             </div>
             <div class="dayleft">
                 <img src="./img/dayleft.png" alt="">
@@ -154,7 +154,7 @@
         </div>
         <div class="row container__organizational-structure--item hr">
             <div class="col-6 container__organizational-structure--item-image ">
-                <img src="./img/nhansu.png" alt="">
+                <img src="./img/chunhiem.png" alt="">
             </div>
             <div class="col-6 container__organizational-structure--item-content" data-aos="fade-up"
             data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
@@ -187,7 +187,7 @@
                 </a> 
             </div>
             <div class="col-6 container__organizational-structure--item-image">
-                <img src="./img/sukien.png" alt="">
+                <img src="./img/chunhiem.png" alt="">
             </div>
             <div class="dayleft">
                 <img src="./img/dayleft.png" alt="">
@@ -195,7 +195,7 @@
         </div>
         <div class="row container__organizational-structure--item ec">
             <div class="col-6 container__organizational-structure--item-image">
-                <img src="./img/truyenthong.png" alt="">
+                <img src="./img/chunhiem.png" alt="">
             </div>
             <div class="col-6 container__organizational-structure--item-content" data-aos="fade-up"
             data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
@@ -229,7 +229,7 @@
                 </a> 
             </div>
             <div class="col-6 container__organizational-structure--item-image">
-                <img src="./img/media.png" alt="">
+                <img src="./img/chunhiem.png" alt="">
             </div>
             <div class="dayleft">
                 <img src="./img/dayleft.png" alt="">
@@ -237,7 +237,7 @@
         </div>
         <div class="row container__organizational-structure--item">
             <div class="col-6 container__organizational-structure--item-image">
-                <img src="./img/congnghe.png" alt="">
+                <img src="./img/chunhiem.png" alt="">
             </div>
             <div class="col-6 container__organizational-structure--item-content" data-aos="fade-up"
             data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
