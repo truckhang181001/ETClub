@@ -24,21 +24,29 @@
     border: 3px solid #F5A623;
     border-radius: 10px;
     max-width: 338px;
+    height:268px;
     margin: 0 auto;
     position:relative;
     @media only screen and (min-width: 642px) and (max-width: 1024px) {
         max-width: 400px;
+        height: 300px;
     }
     @media only screen and (min-width: 1025px) {
-        max-width: 500px;
+        max-width:500px;
+        height: 320px;
     }
     .thinking {
         &__desc {
             font-weight: 400;
             font-size: 16px;
             line-height: 25px;
-            margin: 36px 21px;
+            margin: 36px 21px 30px 21px;
             color: #fff;
+            display:-webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
             @media only screen and (min-width: 642px) and (max-width: 1024px) {
                 font-size: 18px;
                 line-height: 30px;
@@ -52,10 +60,15 @@
         }
         &__footer {
             display:flex;
-            margin-bottom: 36px;
-            margin-left: 22px;
+            bottom:36px;
+            left:21px;
+            position:absolute;
+            @media only screen and (min-width: 642px) and (max-width: 1024px) {
+                bottom:33px;
+            }
             @media only screen and (min-width: 1025px) {
-                margin-bottom: 33px;
+                bottom:33px;
+                left:33px;
             }
         }
     }

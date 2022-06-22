@@ -31,8 +31,7 @@
                     <img src="/img/Rectangle 2544.png" alt="">
                 </div>
                 <div class="thinking__desc">
-                    Bạn có quá nhiều deadline? <br> Hãy tham gia ET club, dù không bớt việc nhưng sẽ có người
-                    vừa khóc vừa chạy deadline cùng
+                    Bạn có quá nhiều deadline?
                 </div>
                 <div class="thinking__footer">
                     <div class="footer__avatar">
@@ -54,6 +53,8 @@
                 </div>
                 <div class="thinking__desc">
                     Bạn có quá nhiều deadline? <br> Hãy tham gia ET club, dù không bớt việc nhưng sẽ có người
+                    vừa khóc vừa chạy deadline cùng
+                    Hãy tham gia ET club, dù không bớt việc nhưng sẽ có người
                     vừa khóc vừa chạy deadline cùng
                 </div>
                 <div class="thinking__footer">
