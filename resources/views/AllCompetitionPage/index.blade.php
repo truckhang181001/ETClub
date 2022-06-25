@@ -25,5 +25,5 @@
         <div class="year_line"></div>
     </div>
     @include('AllCompetitionPage.Event')
-    @include('AllCompetitionPage.Responsive')
+    @include('AllCompetitionPage.Mobile')
 @endsection

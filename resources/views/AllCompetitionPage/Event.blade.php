@@ -2,12 +2,12 @@
     <div class="left">
         <div class="event_desc">
             <div class="event_name">
-                <p>global talents 2020 <p>
+                <p>global talents<p>
                 <p>Chuyển đổi số cho tương lai </p>
             </div>
             <div class="event_time">
                 <div>10/02/2020</div>
-                <div>24/05/2020</div>
+                <div>- 24/05/2020</div>
             </div>
         </div>
     </div>

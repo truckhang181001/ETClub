@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 .competition .left .competition_desc {
-  padding: 25px 22px;
+  padding: 25px 40px;
   border: 2px solid #A1DCFF;
   border-radius: 10px;
   display: flex;
@@ -30,22 +30,46 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .left .competition_desc {
+    padding: 18px 30px;
+  }
+}
 .competition .left .competition_desc .competition_status {
-  font-weight: 300;
-  font-size: 32px;
+  font-family: "K2D";
+  font-weight: 700;
+  font-size: 24px;
   color: #FFFFFF;
 }
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .left .competition_desc .competition_status {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
 .competition .left .competition_desc .competition_name {
-  font-weight: 600;
-  font-size: 38px;
+  font-family: "K2D";
+  font-weight: 700;
+  font-size: 32px;
   color: #FFFFFF;
   text-transform: uppercase;
   text-shadow: 0px 4px 25px #00FFF0;
 }
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .left .competition_desc .competition_name {
+    font-size: 28px;
+  }
+}
 .competition .left .competition_desc .competition_time {
-  font-weight: 300;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 24px;
   color: #FFFFFF;
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .left .competition_desc .competition_time {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 .competition .midle {
   width: 126px;
@@ -88,7 +112,6 @@ body {
 }
 
 .competition_title {
-  margin-top: 20px;
   margin-bottom: 45px;
   font-family: K2D;
   font-style: normal;
@@ -96,6 +119,22 @@ body {
   font-size: 45px;
   color: #FFFFFF;
   text-align: center;
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition_title {
+    font-size: 32px;
+    margin-bottom: 25px;
+    padding-top: 70px;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .competition_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 70px;
+    text-align: center;
+    padding-left: 30px;
+  }
 }
 
 .year_number {
@@ -108,10 +147,16 @@ body {
   align-items: center;
   font-family: K2D;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 45px;
   color: #FFFFFF;
   text-align: center;
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .year_number {
+    width: 120px;
+    font-size: 32px;
+  }
 }
 
 .year_line {
@@ -132,7 +177,7 @@ body {
   align-items: center;
 }
 .competition .left .event_desc {
-  max-width: 455px;
+  max-width: 400px;
   padding: 25px 22px;
   border: 2px solid #A1DCFF;
   border-radius: 10px;
@@ -141,20 +186,39 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .left .event_desc {
+    max-width: 340px;
+    padding: 18px 30px;
+  }
+}
 .competition .left .event_desc .event_name {
-  font-weight: 600;
-  font-size: 38px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
   color: #FFFFFF;
   text-transform: uppercase;
   text-shadow: 0px 4px 25px #00FFF0;
   text-align: center;
-  line-height: normal;
   margin-top: 10px;
 }
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .left .event_desc .event_name {
+    font-size: 28px;
+  }
+}
 .competition .left .event_desc .event_time {
+  font-family: "K2D";
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
+  line-height: 28px;
   color: #FFFFFF;
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .left .event_desc .event_time {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 .competition .midle {
   width: 126px;
@@ -246,7 +310,7 @@ body {
   align-items: center;
 }
 .competition .right .event-reverse_desc {
-  max-width: 455px;
+  max-width: 368px;
   padding: 25px 22px;
   border: 2px solid #A1DCFF;
   border-radius: 10px;
@@ -255,18 +319,39 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .right .event-reverse_desc {
+    max-width: 340px;
+    padding: 18px 30px;
+  }
+}
 .competition .right .event-reverse_desc .event-reverse_name {
+  font-family: "K2D";
   font-weight: 600;
-  font-size: 38px;
+  font-size: 32px;
   color: #FFFFFF;
   text-transform: uppercase;
   text-shadow: 0px 4px 25px #00FFF0;
   text-align: center;
+  line-height: 38px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .right .event-reverse_desc .event-reverse_name {
+    font-size: 28px;
+  }
 }
 .competition .right .event-reverse_desc .event-reverse_time {
+  font-family: "K2D";
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   color: #FFFFFF;
+  line-height: 28px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .competition .right .event-reverse_desc .event-reverse_time {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 .competition-mobile {
@@ -290,20 +375,6 @@ body {
     display: none;
   }
 
-  body {
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-color: #0e1643 !important;
-  }
-
-  .container {
-    width: 428px;
-    margin: 0 auto;
-  }
-
-  .competition {
-    height: 113px;
-  }
   .competition_line {
     position: absolute;
     width: 2px;
@@ -346,15 +417,6 @@ body {
   .competition_timeline {
     margin-top: 50px;
   }
-  .competition_title {
-    font-family: K2D;
-    font-weight: 700;
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
   .competition_year {
     margin-top: 10px;
     margin-left: 75px;
@@ -387,6 +449,13 @@ body {
     text-align: center;
     margin: 0 auto;
   }
+}
+@media only screen and (max-width: 800px) and (max-width: 800px) and (min-width: 600px) {
+  .competition_year-description {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 800px) {
   .competition_status {
     font-family: K2D;
     font-weight: 500;
@@ -394,6 +463,16 @@ body {
     color: white;
     margin-bottom: 5px;
   }
+}
+@media only screen and (max-width: 800px) and (max-width: 800px) and (min-width: 600px) {
+  .competition_status {
+    font-family: K2D;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+  }
+}
+@media screen and (max-width: 800px) {
   .competition_name {
     font-family: K2D;
     font-weight: bold;
@@ -403,6 +482,17 @@ body {
     text-shadow: 0px 4px 25px #00FFF0;
     margin-bottom: 5px;
   }
+}
+@media only screen and (max-width: 800px) and (max-width: 800px) and (min-width: 600px) {
+  .competition_name {
+    width: 300px;
+    font-family: K2D;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+  }
+}
+@media screen and (max-width: 800px) {
   .competition_time {
     font-family: K2D;
     font-weight: 500;
@@ -410,14 +500,33 @@ body {
     color: white;
     margin-bottom: 5px;
   }
+}
+@media only screen and (max-width: 800px) and (max-width: 800px) and (min-width: 600px) {
+  .competition_time {
+    font-family: K2D;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+  }
+}
+@media screen and (max-width: 800px) {
   .competition_picture {
     border: 2px solid #A1DCFF;
+    width: 300px;
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px 10px;
   }
   .competition_picture img {
     width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media only screen and (max-width: 800px) and (max-width: 800px) and (min-width: 600px) {
+  .competition_picture {
+    width: 371px;
   }
 }
 .title {

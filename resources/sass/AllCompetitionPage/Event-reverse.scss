@@ -47,7 +47,7 @@
         display:flex;
         align-items: center;
         .event-reverse_desc {
-            max-width:455px;
+            max-width:368px;
             padding:25px 22px;
             border: 2px solid #A1DCFF;
             border-radius: 10px;
@@ -55,18 +55,36 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
+            @media only screen and (max-width:1024px) and (min-width:800px)
+            {
+                max-width:340px;
+                padding: 18px 30px;
+            }
             .event-reverse_name {
+                font-family: 'K2D';
                 font-weight: 600;
-                font-size: 38px;
+                font-size: 32px;
                 color:$white;
                 text-transform: uppercase;
                 text-shadow: 0px 4px 25px #00FFF0;
                 text-align:center;
+                line-height: 38px;
+                @media only screen and (max-width:1024px) and (min-width:800px)
+                {
+                    font-size: 28px;
+                }
             }
             .event-reverse_time {
+                font-family: 'K2D';
                 font-weight: 700;
-                font-size: 32px;
+                font-size: 24px;
                 color:$white;
+                line-height: 28px;
+                @media only screen and (max-width:1024px) and (min-width:800px)
+                {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
             }
         }
     }

@@ -14,24 +14,15 @@
     .year_number {
         display:none;
     }
-    body {
-        margin: 0 auto;
-        box-sizing: border-box;
-        background-color: #0e1643 !important;
-    }
+
     @mixin word($f-family:K2D, $f-weight:700, $f-size:24px) {
         font-family: $f-family;
         font-weight:$f-weight;
         font-size:$f-size;
         color: white;
     }
-    .container {
-        width:428px;
-        margin: 0 auto;
-        // background-color:yellowgreen;
-    }
+    
     .competition {
-        height:113px;
         &_line {
             position:absolute;
             width:2px;
@@ -74,12 +65,6 @@
         &_timeline {
             margin-top: 50px;
         }
-        &_title {
-            @include word;
-            text-align: center;
-            padding-top:30px;
-            padding-bottom: 30px;
-        }
         &_year {
             margin-top: 10px;
             margin-left: 75px;
@@ -105,29 +90,53 @@
                 align-items: center;
                 text-align:center;
                 margin: 0 auto;
+                @media only screen and (max-width:800px) and (min-width:600px)
+                {
+                    margin-left: 40px;
+                }
             }
         }
         &_status {
             @include word(K2D,500,18px);
             margin-bottom: 5px;
+            @media only screen and (max-width:800px) and (min-width:600px)
+            {
+                @include word(K2D,600,22px)
+            }
         }
         &_name {
             @include word(K2D,bold,20px);
             text-transform: uppercase;
             text-shadow: 0px 4px 25px #00FFF0;
             margin-bottom: 5px;
+            @media only screen and (max-width:800px) and (min-width:600px)
+            {
+                width:300px;
+                @include word(K2D,600,24px)
+            }
         }
         &_time {
             @include word(K2D,500,18px);
             margin-bottom: 5px;
+            @media only screen and (max-width:800px) and (min-width:600px)
+            {
+                @include word(K2D,600,22px)
+            }
         }
         &_picture {
             border: 2px solid #A1DCFF;
+            width:300px;
             border-radius: 10px;
             margin-top: 10px;
             padding:10px 10px;
             img {
                 width:100%;
+                height:100%;
+                object-fit:cover;
+            }
+            @media only screen and (max-width:800px) and (min-width:600px)
+            {
+                width:371px;
             }
         }
     }

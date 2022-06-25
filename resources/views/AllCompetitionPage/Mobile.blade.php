@@ -56,7 +56,7 @@
                 </div>
                 <div class="competition_year-event">
                     <div class="competition_year-description">
-                        <div class="competition_name">global talents 2020 chuyển đổi số cho tương lai</div>
+                        <div class="competition_name">global talents chuyển đổi số cho tương lai</div>
                         <div class="competition_time">10/02/2020 - 24/05/2020</div>
                     </div>
                     <div class="competition_picture">

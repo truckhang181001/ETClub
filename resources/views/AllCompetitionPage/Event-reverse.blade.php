@@ -16,11 +16,11 @@
     <div class="right">
         <div class="event-reverse_desc">
             <div class="event-reverse_name">
-                <p>ecommerce exploring in the time of covid-19 <p>
+                <p>ecommerce<br>exploring in the time of covid-19 <p>
             </div>
             <div class="event-reverse_time">
                 <div>15/09/2021</div>
-                <div>15/10/2021</div>
+                <div>- 15/10/2021</div>
             </div>
         </div>   
     </div>
