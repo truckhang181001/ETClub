@@ -731,6 +731,13 @@ body {
 .container-navbar {
   margin: 40 auto !important;
 }
+@media (min-width: 576px) {
+  .container-navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 44px !important;
+  }
+}
 .cc-navbar {
   width: 100%;
   display: flex;
@@ -741,6 +748,8 @@ body {
 @media (min-width: 576px) {
   .cc-navbar {
     width: 430px !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {

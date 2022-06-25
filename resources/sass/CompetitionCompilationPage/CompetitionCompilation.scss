@@ -41,6 +41,9 @@
     margin: 40 auto !important;
     @media (min-width: 576px) {
         // width: calc(100% - 90px) !important;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 44px !important;
     }
     @media (min-width: 1300px) and (max-width: 1399px) {
         // width: calc(100% - 160px) !important;
@@ -63,6 +66,8 @@
     justify-content: space-around;
     @media (min-width: 576px) {
         width: 430px !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     @media (min-width: 1200px) {
         width: 518px !important;
