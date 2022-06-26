@@ -11,6 +11,39 @@ body {
   color: #FFFFFF;
 }
 
+.breadcrumb__tags {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "K2D";
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  width: 511px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .breadcrumb__tags {
+    display: none;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .breadcrumb__tags {
+    display: none;
+  }
+}
+
+.breadcrumb__tags::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 35px;
+  background-image: linear-gradient(90deg, #7496FF 0%, #5DD7D0 100%);
+}
+
 .competition {
   display: flex;
 }
@@ -124,14 +157,14 @@ body {
   .competition_title {
     font-size: 32px;
     margin-bottom: 25px;
-    padding-top: 70px;
+    padding-top: 90px;
   }
 }
 @media only screen and (max-width: 799px) {
   .competition_title {
     font-size: 24px;
     margin-bottom: 20px;
-    padding-top: 70px;
+    padding-top: 90px;
     text-align: center;
     padding-left: 30px;
   }

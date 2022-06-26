@@ -3,6 +3,7 @@
 @section('title','Các cuộc thi')
 
 @section('content')
+    @include('AllCompetitionPage.Page-breadcrumb')
     @include('AllCompetitionPage.tittle')
     <div class="competition_year">
         <div class="year_number">
