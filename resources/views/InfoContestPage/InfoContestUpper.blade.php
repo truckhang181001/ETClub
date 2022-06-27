@@ -1,6 +1,6 @@
 <div class="Contest__name">
     <h1>
-        CUỘC THI ECOMMERCE EXPLORING IN THE TIME OF COVID-19
+        CUỘC THI ECOMMERCE <br> EXPLORING IN THE TIME OF COVID-19
     </h1>
 </div>
 <div class="container__content--mobile">
@@ -60,7 +60,7 @@
         </h1>
     </div>
     <div class="row container__content-center">
-        <div class="col-lg-5 col-container__content">
+        <div class="col-lg-6 col-container__content">
             <div class="content__center">
                 <p>
                     Kiến thức luôn phải gắn liền với các vấn đề của thực tế. Trong năm 2019 - 2020 vừa qua,
@@ -73,32 +73,33 @@
                     Với đề tài ‘Đóng vai trò là một nhà quản trị một doanh nghiệp trong lĩnh vực Thương mại điện tử,
                     phân tích thách thức, cơ hội và khó khăn của doanh nghiệp trong thời gian Covid 19, qua đó đề ra
                     hướng ổn định và phát triển bền vững cho doanh nghiệp’. <br> <br>
+                    Với đề tài ‘Đóng vai trò là một nhà quản trị một doanh nghiệp trong lĩnh vực Thương mại điện tử,
+                    phân tích thách thức, cơ hội và khó khăn của doanh nghiệp trong thời gian Covid 19, qua đó đề ra
+                    hướng ổn định và phát triển bền vững cho doanh nghiệp’. <br> <br>
 
-                    Cuộc thi gồm 02 chặng gồm vòng trắc nghiệm & vòng nghiên cứu đề tài với hình thức Online đã mở ra
+                    <!-- Cuộc thi gồm 02 chặng gồm vòng trắc nghiệm & vòng nghiên cứu đề tài với hình thức Online đã mở ra
                     cơ hội cho các thí sinh tìm hiểu sâu về cách thức vận hành cũng như những cơ hội mới cho doanh
                     nghiệp
                     và phát triển tư duy, khả năng tìm kiếm, hoạch định chiến lược cho dự án phát triển cho doanh
                     nghiệp.
                     Chặng 01: Knowledge about Ecommerce (15/09 - 25/09)
-                    Chặng 02: Exploring Ecommerce (30/09 - 15/10) <br> <br>
+                    Chặng 02: Exploring Ecommerce (30/09 - 15/10) <br> <br> -->
 
                     Đến với cuộc thi, các bạn sinh viên chuyên ngành Ecommerce hoặc những bạn muốn khám phá lĩnh vực này
                     sẽ được trải nghiệm một sân chơi có kiến thức, có thách thức và điểm đích của sự chiến thắng. Qua
                     đó, nâng cao kỹ năng nghiên cứu, phân tích thông tin và phát triển tư duy cũng như giúp sinh viên tự
                     tin phát huy khả năng của bản thân mình.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="content__img">
-        <img src="./img/InfoContestPage/img2.png" alt="">
-        <div class="content__second">
-                <p> <Br> Trong tương lai, với định hướng phát triển lâu dài, Câu lạc bộ Công nghệ Kinh tế sẽ bám sát với xu
+                    <!-- <Br> <br> Trong tương lai, với định hướng phát triển lâu dài, Câu lạc bộ Công nghệ Kinh tế sẽ bám sát với xu
                     hướng
                     của thị trường để triển khai nhiều cuộc thi về lĩnh vực E-Commerce để tạo môi trường trải nghiệm mới
                     mẻ,
-                    bổ ích cho sinh viên đam mê về E-Commerce hoặc chính sinh viên chuyên ngành này.</p>
+                    bổ ích cho sinh viên đam mê về E-Commerce hoặc chính sinh viên chuyên ngành này. -->
+                </p>
             </div>
+        </div>
+        <div class="col-lg-6 content__img">
+        <img src="./img/InfoContestPage/img2.png" alt="">
+    </div>
     </div>
 </div>
 <div class="row container__contest-timeline">
