@@ -5,8 +5,8 @@
 
 @section('content')
 <div class="videos-page"> 
-  <div class="videos-page__container"> 
-    <div class="videos-page__tittle">
+  <div class="container"> 
+    <div class="videos-page__title">
       <p>Chuỗi hoạt động:</p>
       <p>nâng cao năng lực công nghệ cho sinh viên</p>
     </div>

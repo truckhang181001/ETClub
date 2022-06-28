@@ -3,7 +3,7 @@
         <img src="/string-video-page-image/image101.jpg" alt="">
     </div>
     <div class="videocard__desc">
-        <div class="videocard__desc-tittle">
+        <div class="videocard__desc-title">
             Topic 28: Dùng Chorme đã lâu liệu bạn đã biết đến các extension hay ho này hay chưa
         </div>
     </div>

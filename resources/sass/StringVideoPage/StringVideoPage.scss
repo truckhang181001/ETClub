@@ -1,166 +1,215 @@
 .videos-page {
     color:white;
-    font-family: K2D !important;
-    &__container {
-        width:100%;
-        margin:0 auto;
-    }
-    @media only screen and (min-width:500px) {
-        &__container {
-            width: 1300px;
-            margin: 0 auto;
-        }
-    }
-    &__tittle {
+    &__title {
         p {
-            text-transform: uppercase;
+            font-family: "K2D";
             font-size: 28px;
             font-weight: 700;
-            padding: 0 50px;
-            margin-bottom: 0;
+            text-transform: uppercase;
             text-align: center;
+            margin-bottom: 0;
         }
-        margin-bottom: 70px;
-    }
-    @media only screen and (min-width:500px) {
-        &__tittle {
+        padding-top:80px;
+        margin-bottom: 30px;
+        @media only screen and (min-width:801px) and (max-width:1024px) {
             p {
-                font-size: 45px;
-                font-weight: 600;
+                font-size: 32px;
+                font-weight: 700;
             }
+            margin-bottom: 50px;
         }
+        @media only screen and (min-width:1025px) {
+            p {
+            font-size: 45px;
+            font-weight: 800;
+        };
+            margin-bottom: 70px;
+        }
+        @media only screen and (min-width:1440px) {
+           padding-top:0px; }
     }
     &__hot-video {
-        margin-top: 70px;
+        margin-top: 30px;
         border-bottom: 5px solid #252B50;
+        @media only screen and (min-width:801px) and (max-width:1024px) {
+           margin-top: 50px;
+        }
+        @media only screen and (min-width:1025px) {
+          margin-top: 70px;
+        }
         .hot-video__name {
+            font-family: "K2D";
             font-size: 28px;
             font-weight:700;
             text-transform: uppercase;
             margin-bottom: 30px;
             text-align: center;
+            @media only screen and (min-width:801px) and (max-width:1024px) {
+                font-size: 32px;
+                text-align: left;
+             }
+             @media only screen and (min-width:1025px) {
+               font-size: 45px;
+               font-weight: 600;
+               margin-bottom: 60px;
+               text-align:left;
+             }
         }
         .hot-video__list {
             display:flex; 
             flex-direction: column;
             align-items: center;
-        }    
-    } 
-    @media only screen and (min-width:500px) {
-        &__hot-video {
-            .hot-video__name {
-                font-size: 45px;
-                font-weight:600;
-                margin-bottom: 61px;
-                text-align: left;
-            }
-            .hot-video__list {
+             @media only screen and (min-width:1025px) {
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
-                margin-bottom: 60px;
-            }
-        }
-    }
+             }
+        }    
+    } 
+   
     &__new-video {
-        margin-top: 70px;
+        margin-top: 30px;
         border-bottom: 5px solid #252B50;
+        @media only screen and (min-width:801px) and (max-width:1024px) {
+            margin-top: 50px;
+         }
+         @media only screen and (min-width:1025px) {
+           margin-top: 70px;
+         }
         .new-video__name {
+            font-family: "K2D";
             font-size: 28px;
             font-weight:700;
             text-transform: uppercase;
             margin-bottom: 30px;
             text-align: center;
+            @media only screen and (min-width:801px) and (max-width:1024px) {
+                font-size: 32px;
+                text-align: left;
+             }
+             @media only screen and (min-width:1025px) {
+               font-size: 45px;
+               font-weight: 600;
+               margin-bottom: 60px;
+               text-align:left;
+             }
         }
         .new-video__list {
             display:flex;
             flex-direction: column;
             align-items: center;
             margin-bottom: 0;
+             @media only screen and (min-width:1025px) {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+             }
         }
         .new-video__all {
-            border:none;
-            font-size:20px;
-            font-weight:500;
             background-color: #F5A623;
             padding:10px 24px;
+            border:none;
             border-radius:10px;
             display:block;
             margin: 0 auto 30px auto;
             outline:none;
             transition:0.3s;
+            @media only screen and (min-width:1024px) {
+                &:hover {
+                background-color: #0E1643;
+                box-shadow: 0px 0px 10px 2px #F5A623;
+                    a {
+                        color:#F5A623
+                    }
+                }
+                &:active {
+                    a {
+                        color:#0E1643;
+                    }
+                    background-color: #F5A623;
+                    box-shadow:none;
+                }
+            }
             a {
+                font-family: "K2D";
+                font-size:20px;
+                font-weight:500;
                 text-decoration: none;
                 color:#0E1643;
+                @media only screen and (min-width:1024px) {
+                    font-size: 32px;
+                }
             }
         } 
     }
-    @media only screen and (min-width:500px) {
-        &__new-video {
-            .new-video__name {
-                font-size: 45px;
-                font-weight:600;
-                margin-bottom: 61px;
-                text-align: left;
-            }
-            .new-video__list {
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 60px;
-            }
-            .new-video__all {
-                font-size: 32px;
-                margin-bottom:60px;
-            }
-            .new-video__all:hover {
-                background-color: #0E1643;
-                box-shadow: 0px 0px 10px 2px #F5A623;
-                a {
-                    color:#F5A623
-                }
-            }
-            .new-video__all:active {
-                a {
-                    color:#0E1643;
-                }
-                background-color: #F5A623;
-                box-shadow:none;
-            }
-        }
-    }
+    
     &__string {
-        margin-top: 60px;
+        margin-top: 30px;
         .string__head {
             display:flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 60px;
+            margin-bottom: 30px;
+            @media only screen and (min-width:801px) {
+                margin-bottom: 40px;
+             }
+             @media only screen and (min-width:1025px) {
+               margin-bottom: 60px;
+               flex-direction: row;
+               justify-content: space-between;
+             }
             .string__name {
+                font-family: 'K2D';
                 font-size: 28px;
                 font-weight:700;
                 text-transform: uppercase;
+                margin-bottom: 30px;
+                @media only screen and (min-width:801px) {
+                    font-size: 32px;
+                    text-align: left;
+                    margin-bottom: 30px;
+                 }
+                 @media only screen and (min-width:1025px) {
+                   font-size: 45px;
+                   font-weight: 600;
+                 }
             }
             .string__option {
-                padding:17px 26px;
+                padding:11px 26px;
                 background-color: #252B50;
                 border-radius:10px;
-                .new {
+                @media only screen and (min-width:1025px) {
+                    padding:15px 12px;
+                  }
+                .new,.popular {
+                    font-family: "K2D";
                     border:none;
                     border-radius:10px;
                     background-color:#F5A623;
-                    font-size:16px;
+                    font-size:14px;
                     font-weight:500;
                     padding: 6px 16px;
                     transition:0.3s;
+                    @media only screen and (min-width:801px) {
+                        font-size: 16px;
+                        font-weight: 700;
+                        padding:8px 20px;
+                      }
+                    @media only screen and (min-width:1025px) {
+                        font-size: 18px;
+                        font-weight: 700;
+                        padding:10px 24px;
+                      }
+                }
+                .new {
+                    margin-right: 23px;
+                    @media only screen and (min-width:1025px) {
+                        margin-right: 5px;
+                      }
                 }
                 .popular {
                     border: 1px solid #F5A623;
-                    border-radius:10px;
                     color:#F5A623;
-                    font-size:16px;
-                    font-weight:500;
-                    padding:6px 16px;
                     background-color: transparent;
                     transition:0.3s;
                 }
@@ -176,43 +225,23 @@
                 }
             }
         }
-        @media only screen and (min-width:500px) {
-            .string__head {
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                .string__name {
-                    font-size: 45px;
-                    font-weight:600;
-                    margin-bottom: 30px;
-                }
-                .string__option {
-                    padding:12px 15px;
-                    .new {
-                        margin-right: 15px;
-                        font-size:18px;
-                        font-weight: 600;
-                        padding:10px 24px;
-                    }
-                    .popular {
-                        font-size: 18px;
-                        font-weight: 600;
-                        padding: 10px 24px;
-                    }
-                }
-            }
-        }
+
         .string__list {
             display:flex;
             flex-direction: column;
             align-items: center;
         }
-        @media only screen and (min-width:500px) {
+        @media only screen and (min-width:1024px) {
             .string__list {
                 flex-direction: column;
                 flex-direction: row;
-                justify-content: space-between;
+                justify-content: space-around;
                 flex-wrap: wrap;
+            }
+        }
+        @media only screen and (min-width:1440px) {
+            .string__list {
+                justify-content: space-between;
             }
         }
     }
