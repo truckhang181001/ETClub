@@ -1,8 +1,8 @@
 // Color
-$background: #0E1643;
-$white: #FFFFFF;
-$yellow: #F5A623;
-$gradient: linear-gradient(90deg, #7496FF 0%, #5DD7D0 100%);
+$background: #0e1643;
+$white: #ffffff;
+$yellow: #f5a623;
+$gradient: linear-gradient(90deg, #7496ff 0%, #5dd7d0 100%);
 
 // Text Size
 // Desktop
@@ -17,11 +17,11 @@ $mobile_h3: 24px;
 $mobile_b1: 20px;
 $mobile_b2: 16px;
 
-@mixin h1_style{
+@mixin h1_style {
     font-family: K2D;
     letter-spacing: 0px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 0 !important;
     font-size: 24px !important;
     font-weight: 700 !important;
@@ -32,9 +32,9 @@ $mobile_b2: 16px;
         margin-top: 65px !important;
     }
     @media (min-width: 1200px) {
-        font-size: 60px !important;
         font-weight: 800 !important;
-        margin-top: 70px !important;
+        font-size: 45px !important;
+        line-height: 80px !important;
     }
 }
 
