@@ -143,10 +143,10 @@
                     “CUỘC THI ECOMMERCE IN THE TIME OF COVID 19" là sân chơi bổ ích, thú vị cho sinh viên.
                     Thông qua cuộc thi CLB Công nghệ kinh tế muốn mang đến các bạn những thông tin cũng như
                     những kiến thức về thương mại điện tử - một lĩnh vực được quan tâm rất nhiều trong suốt
-                    giai đoạn giãn cách xã hội. <br>
+                    giai đoạn giãn cách xã hội. <br> 
                     Trải qua hơn 1 tháng diễn ra, cuối cùng cuộc thi cũng khép lại cùng với sự hưởng ứng nhiệt tình của
                     các bạn
-                    sinh viên và những bài dự thi được đầu tư chỉn chu, kỹ càng.
+                    sinh viên và những bài dự thi được đầu tư chỉn chu, kỹ càng. <br>
                     Hãy cùng ET xem lại những khoảnh khắc đáng nhớ trong suốt quá trình diễn ra cuộc thi. Một lần nữa
                     cảm ơn các
                     bạn sinh viên đã rất tích cực tham gia và dành sự quan tâm cho cuộc thi.
