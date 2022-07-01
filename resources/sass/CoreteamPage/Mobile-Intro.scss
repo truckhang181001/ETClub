@@ -4,6 +4,7 @@
 }
 .intro {
     &__title {
+        font-family: "K2D";
         font-size: 24px;
         font-weight: 700;
         color:#F5A623;
@@ -11,6 +12,7 @@
     }
     &__decs {
         margin-top: 30px;
+        font-family: 'K2D';
         font-size: 20px;
         font-weight: 400;
         color: #ffffff;
@@ -25,6 +27,10 @@
     padding-right:33px;
     position: relative;
     &__title {
+        p {
+            margin-bottom: 0;
+            font-family: "K2D";
+        }
         font-size: 20px;
         font-weight: 700;
         color:#F5A623;
@@ -38,9 +44,8 @@
     }
     &__img {
         position:absolute;
-        top:0;
+        top:20px;
         width:100%;
-        height: fit-content;
         img {
             width:100%;
             height: 100%;

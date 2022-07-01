@@ -14,7 +14,7 @@
             </div>
             <div class="desk__mission">
             <ul class="desk__mission__title">
-                Công việc trong CLB
+                <p>Công việc trong CLB</p>
                 <li>Quản trị nhân sự và phân chia tổ chức</li>
                 <li>Phát triển và gắn kết nhân sự</li>
                 <li>Công tác hành chính (giấy tờ, kế hoạch,...)</li>

@@ -6,7 +6,7 @@
         <div class="header__time">
         <div class="time__card">
             <p>Nhiệm kỳ IV 2021 - 2022</p>
-            <i class="fa-thin fa-angle-down"></i>
+            <i class="fa fa-angle-down"></i>
         </div>    
         </div>
     </div>

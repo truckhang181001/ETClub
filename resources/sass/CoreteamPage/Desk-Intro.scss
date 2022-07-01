@@ -1,14 +1,16 @@
 @media screen and (min-width:1440px) {
     .desk__title {
+        font-size: 40px;
+        font-weight: 700;
         color:#F5A623;
-        font-weight: 600;
-        font-size: 45px;
         margin: 130px auto 0 auto;
         width:fit-content;
     }
     .desk__desc {
-        font-weight: 400;
+        font-family: "K2D";
         font-size: 20px;
+        font-weight: 400;
+        line-height: 35px;
         color:white;
         margin-top: 30px;
     }
@@ -25,21 +27,29 @@
             }
         }
         .desk__mission {
-            color:#F5A623;
-            font-weight: 600;
-            font-size: 32px;
-            margin-left: 165px;
             position:relative;
-            li {
-                font-weight: 400;
-                font-size: 20px;
-                color:white;
-            }
+            ul {
+                p {
+                    font-family: "K2D";
+                    font-weight: 600;
+                    font-size: 32px;
+                    color: #F5A623;
+                }
+                margin-left: 165px;
+                position:relative;
+                li {
+                    font-family: "K2D";
+                    font-weight: 400;
+                    font-size: 20px;
+                    color:white;
+                    margin-left: 40px;
+                }
+            }    
         }
     }
     .desk__image {
         position:absolute;
         top:-80px;
-        left:-30px;
+        left:125px;
     }
 }

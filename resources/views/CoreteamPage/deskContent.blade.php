@@ -7,8 +7,7 @@
             <img src="/img/Ellipse 187.svg" class="svg">
             <img src="/img/Arrow 3.png" class="arrow">
             <div class="info">
-                <div>Trưởng ban</div>
-                <div>Trúc Khang</div>
+                Trưởng ban <br> Trúc Khang
             </div>
         </div>
         <div class="desk__member">

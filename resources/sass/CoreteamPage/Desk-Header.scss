@@ -13,7 +13,8 @@
     }
     .header{
         &__title {
-            font-size: 60px;
+            font-family: "K2D";
+            font-size: 45px;
             font-weight: 700;
             text-align:center;
             color:white;
@@ -22,6 +23,7 @@
     .header__time {
         position:relative;
         .time__card{
+        p {font-family: "K2D";}
         width:13%;
         padding:6px 16px;
         border-radius: 10px;
