@@ -24,6 +24,13 @@ body {
   padding-top: 80px;
   margin-bottom: 30px;
 }
+@media only screen and (min-width: 800px) {
+  .bcn__name {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 50px;
+  }
+}
 
 .bcn__time {
   margin: 0 16px;
@@ -35,13 +42,27 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
+@media only screen and (min-width: 800px) {
+  .bcn__time {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
 .bcn__time div {
-  padding: 6px 16px;
-  margin-right: 10px;
+  padding: 8px 16px;
+  margin-right: 20px;
   border-radius: 10px;
   position: relative;
   border: solid 4px transparent;
   background: #0E1643;
+}
+@media only screen and (min-width: 800px) {
+  .bcn__time div {
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .bcn__time div::before {
   content: "";
@@ -65,15 +86,30 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (min-width: 800px) {
+  .bcn__time div p {
+    font-size: 18px;
+  }
+}
 
 .content {
   margin-top: 30px;
+}
+@media only screen and (min-width: 800px) {
+  .content {
+    margin-top: 50px;
+  }
 }
 
 .content-container {
   max-width: 500px;
   margin: 0 auto;
   position: relative;
+}
+@media only screen and (min-width: 800px) {
+  .content-container {
+    max-width: 800px;
+  }
 }
 
 .chairman {
@@ -87,12 +123,25 @@ body {
   border: 2px solid #F5A623;
   padding-top: 3px;
   margin-left: 3.5%;
+  z-index: 1;
+}
+@media only screen and (min-width: 800px) {
+  .chairman__img {
+    width: 150px;
+    height: 150px;
+  }
 }
 .chairman__img img {
   width: 80px;
   height: 80px;
   margin: auto auto;
   display: block;
+}
+@media only screen and (min-width: 800px) {
+  .chairman__img img {
+    width: 140px;
+    height: 140px;
+  }
 }
 .chairman__info {
   display: flex;
@@ -106,11 +155,21 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+@media only screen and (min-width: 800px) {
+  .chairman__info .position, .chairman__info .name {
+    font-size: 30px;
+  }
+}
 
 .member {
   margin-top: 30px;
   display: flex;
   align-items: center;
+}
+@media only screen and (min-width: 800px) {
+  .member {
+    margin-top: 50px;
+  }
 }
 .member__img {
   width: 90px;
@@ -120,11 +179,23 @@ body {
   padding-top: 3px;
   margin-left: 26.4%;
 }
+@media only screen and (min-width: 800px) {
+  .member__img {
+    width: 150px;
+    height: 150px;
+  }
+}
 .member__img img {
   width: 80px;
   height: 80px;
   margin: auto auto;
   display: block;
+}
+@media only screen and (min-width: 800px) {
+  .member__img img {
+    width: 140px;
+    height: 140px;
+  }
 }
 .member__info {
   display: flex;
@@ -139,16 +210,35 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+@media only screen and (min-width: 800px) {
+  .member__info .position, .member__info .name {
+    font-size: 28px;
+  }
+}
 
 .bar {
   position: absolute;
   margin-left: 12%;
   top: 90px;
 }
+@media only screen and (min-width: 800px) {
+  .bar {
+    height: 800px;
+    top: 120px;
+  }
+  .bar img {
+    height: 100%;
+  }
+}
 
 .intro__container {
   max-width: 500px;
   margin: 70px auto;
+}
+@media only screen and (min-width: 800px) {
+  .intro__container {
+    max-width: 1000px;
+  }
 }
 
 .intro__title {
@@ -157,6 +247,11 @@ body {
   font-weight: 700;
   color: #F5A623;
   text-align: center;
+}
+@media only screen and (min-width: 800px) {
+  .intro__title {
+    font-size: 30px;
+  }
 }
 .intro__decs {
   margin-top: 30px;
@@ -168,6 +263,11 @@ body {
   margin-left: 3.5%;
   margin-right: 3.5%;
 }
+@media only screen and (min-width: 800px) {
+  .intro__decs {
+    font-size: 24px;
+  }
+}
 
 .mission {
   margin-top: 60px;
@@ -175,14 +275,29 @@ body {
   padding-right: 33px;
   position: relative;
 }
+@media only screen and (min-width: 800px) {
+  .mission {
+    margin: 40px auto;
+  }
+}
 .mission__title {
   font-size: 20px;
   font-weight: 700;
   color: #F5A623;
 }
+@media only screen and (min-width: 800px) {
+  .mission__title {
+    padding-left: 500px;
+  }
+}
 .mission__title p {
   margin-bottom: 0;
   font-family: "K2D";
+}
+@media only screen and (min-width: 800px) {
+  .mission__title {
+    font-size: 24px;
+  }
 }
 .mission li {
   font-size: 16px;
@@ -191,10 +306,28 @@ body {
   line-height: 30px;
   margin-left: 12.38%;
 }
+@media only screen and (min-width: 800px) {
+  .mission li {
+    font-size: 20px;
+  }
+}
 .mission__img {
   position: absolute;
   top: 20px;
   width: 100%;
+}
+@media only screen and (min-width: 400px) {
+  .mission__img {
+    height: 340px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .mission__img {
+    width: 500px;
+    top: -30px;
+    left: 480px;
+    height: unset;
+  }
 }
 .mission__img img {
   width: 100%;
@@ -209,6 +342,13 @@ body {
 .robot img {
   display: block;
   margin: 0 auto;
+}
+@media only screen and (min-width: 800px) {
+  .robot {
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
 }
 
 .header__container, .desk__container, .desk__intro {
@@ -341,7 +481,7 @@ body {
     margin-left: 11.11%;
   }
   .desk__member .row .member__4 {
-    margin-left: 41.7%;
+    margin-right: -10.7%;
   }
   .desk__member .img {
     border: 3px solid #F5A623;

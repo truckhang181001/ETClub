@@ -18,9 +18,9 @@
             <div class="mission__img">
                 <img src="/img/Group 2296.png">
             </div>
-        </div>
-        <div class="robot">
-            <img src="/img/robot.png" alt="">
+            <div class="robot">
+                <img src="/img/robot.png" alt="">
+            </div>
         </div>
     </div>
 </div>
